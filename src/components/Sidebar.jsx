@@ -15,12 +15,10 @@ export default function Sidebar() {
                     <small className="py-3 text-secondary">
                         Full-Stack Web Developer
                     </small>
-                    <hr className="col-10 mx-auto"></hr>
-                    <div className="d-flex justify-content-around col-8 mx-auto align-items-center">
-                        <small className="fw-bold">Social Media:</small> 
-                        <a href="https://getbootstrap.com/docs/5.3/components/navbar/"  className="text-light fs-5"><FontAwesomeIcon icon={brands('facebook')}/></a>
-                        <a href="https://getbootstrap.com/docs/5.3/components/navbar/"  className="text-light fs-5"><FontAwesomeIcon icon={brands('github')}/></a>
-                        <a href="https://getbootstrap.com/docs/5.3/components/navbar/"  className="text-light fs-5"><FontAwesomeIcon icon={brands('linkedin')}/></a>
+                    <div className="d-flex justify-content-around col-4 mx-auto align-items-center pt-2">
+                        <a href="https://www.facebook.com/RiceSush"  className="text-light fs-5"><FontAwesomeIcon icon={brands('facebook')}/></a>
+                        <a href="https://github.com/ricesush"  className="text-light fs-5"><FontAwesomeIcon icon={brands('github')}/></a>
+                        <a href="https://www.linkedin.com/in/ejsan/"  className="text-light fs-5"><FontAwesomeIcon icon={brands('linkedin')}/></a>
                     </div>
                 </div>
                 <div className="text-light pt-5 p-3">
