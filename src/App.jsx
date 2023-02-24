@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './pages/Home';
 import Contact from "./pages/Contact";
 import Sidebar from './components/Sidebar'
-import Leftbar from './components/Leftbar'
+import Rightbar from './components/Rightbar'
 import { Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 
@@ -12,17 +12,17 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <React.Fragment>
-      <div className="container d-flex main ">
+      <div className="container d-flex main shadow p-0 ">
         <Sidebar/>
 
-        <section className="col-md-12 bg-secondary overflow my-3 shadow-lg">
+        <section className="col-md-12 overflow my-3 ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </section>
 
-        <Leftbar/>
+        <Rightbar/>
       </div>
 
     </React.Fragment>

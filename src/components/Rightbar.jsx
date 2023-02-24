@@ -3,9 +3,9 @@ import React from "react";
 export default function Leftbar() {
     return (
         <React.Fragment>
-            <div className='leftbar p-2'>
+            <div className='rightbar p-2'>
 
-                <div className=''>
+                <div className='sticky-top'>
                     hello
                 </div>
             </div>
