@@ -58,14 +58,12 @@ body {
 }
 
 .yellowText{
-  color: rgb(255, 187, 0);
+  color: #ffbb00;
 }
 
 /* main */
 
 .bg-img {
-  height: 100vh;
-  height: 100dvh;
   background: linear-gradient(
     to bottom,
     #eae0d500 0%,
@@ -88,43 +86,52 @@ body {
 
 /* text animation */
 
-.container-animation{
-
+.outer-headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.container-animation .text{
+.inner-headings{
+  border: 0px solid #ddd;
+  max-height: 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.outer-headings h1{
+  font-size: 42px;
+}
+
+.inner-headings span{
   position: relative;
+  color: #ffbb00;
+  animation: animation 10s ease infinite;
 }
 
-.container-animation .text .first-text{
-  /* text color */
-}
-
-.text.sec-text:before{
-
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-
-  /* bg */
-  background: url('/src/images/bg-img.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  border-left: 2px solid red;
-
-  animation: animate 4s steps(12) infinite;
-}
-
-@keyframes animate{
-  40%, 60%{
-    left: calc(100% + 4px);
+@keyframes animation{
+  0%, 100%{
+    top: 0;
   }
-  100%{
-    left: 0%;
+  20% {
+    top: 0;
+  }
+  25% {
+    top: -50px;
+  }
+  45% {
+    top: -50px;
+  }
+  50% {
+    top: -100px;
+  }
+  70% {
+    top: -100px;
+  }
+  75% {
+    top: -150px;
+  }
+  95% {
+    top: -150px;
   }
 }
