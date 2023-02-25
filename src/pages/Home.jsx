@@ -1,8 +1,13 @@
 import React from "react";
 import '../css/home.css'
 import ggNext from '../../src/images/ggnext.PNG'
+import tgh from '../../src/images/tgh.png'
 
 export default function Home() {
+    const projectInfo = (n) => {
+
+    }
+
     return (
         <React.Fragment>
             <div className="d-flex py-3 bg-img">
@@ -31,13 +36,13 @@ export default function Home() {
                         </div>
                     </section>
                     <div className="fs-5 text-light fw-bold m-2 mt-5 me-3">
-                        Recent Projects
+                        <span className="yellowText">Recent</span> Projects
                     </div>
                     <section className="d-flex m-2 me-3 project-height">
                         <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
-                            <img src={ggNext} alt="" className="img-size mt-3 box-shadow" />
+                            <img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" />
                             <div className="text-light pt-4 text-center">
-                                <div className="fs-5 title">
+                                <div className="fs-6 fw-bold title">
                                     Dream-Fields
                                 </div>
                                 <small className="opacity-50">
@@ -46,9 +51,9 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-lg-6 d-grid justify-content-center img-bg rounded-20 shadow m-1">
-                            <img src={ggNext} alt="" className="img-size mt-3" />
+                            <img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" />
                             <div className="text-light pt-4 text-center">
-                                <div className="fs-5 title">
+                                <div className="fs-6 fw-bold title">
                                     GG-Next
                                 </div>
                                 <small className="opacity-50">
@@ -59,9 +64,9 @@ export default function Home() {
                     </section>
                     <section className="d-flex m-2 me-3 project-height">
                         <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
-                            <img src={ggNext} alt="" className="img-size mt-3" />
+                            <img src={tgh} alt="" className="img-size mt-3 shadow-custom2" />
                             <div className="text-light pt-4 text-center">
-                                <div className="fs-5 title">
+                                <div className="fs-6 fw-bold title">
                                     The Greenhouse
                                 </div>
                                 <small className="opacity-50">
@@ -69,7 +74,9 @@ export default function Home() {
                                 </small>
                             </div>
                         </div>
-
+                        <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
+                            asdasd
+                        </div>
                     </section>
                 </div>
             </div>

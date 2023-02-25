@@ -34,7 +34,7 @@ body {
 }
 
 .img-shadow{
-  filter: drop-shadow(-8px 8px #ffbb0067);
+  filter: drop-shadow(-8px 8px #ff990067);
 
   /* From https://css.glass */
 backdrop-filter: blur(5px);
@@ -73,7 +73,7 @@ backdrop-filter: blur(5px);
 }
 
 .yellowText{
-  color: #ffbb00;
+  color: #ff9900;
 }
 
 /* main */
@@ -121,7 +121,7 @@ backdrop-filter: blur(5px);
 
 .inner-headings span{
   position: relative;
-  color: #ffbb00;
+  color: #ff9900;
   animation: animation 10s ease infinite;
 }
 
