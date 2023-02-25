@@ -38,6 +38,7 @@ export default function Home() {
                     <div className="fs-5 text-light fw-bold m-2 mt-5 me-3">
                         <span className="yellowText">Recent</span> Projects
                     </div>
+                    <hr className="text-light ms-2 mt-0"/>
                     <section className="d-flex m-2 me-3 project-height">
                         <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
                             <img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" />

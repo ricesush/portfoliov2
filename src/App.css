@@ -202,3 +202,12 @@ backdrop-filter: blur(5px);
   writing-mode: vertical-rl;
   text-orientation: sideways;
 }
+
+.socmed{
+  transition: .3s all ease-in-out !important;
+}
+
+.socmed:hover{
+  transition: .3s all ease-in-out !important;
+color:#ff9900;
+}
