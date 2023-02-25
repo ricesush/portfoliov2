@@ -1,0 +1,23 @@
+.img-size{
+    width: 40vh;
+    transition: 0.5s all ease-in-out;
+}
+
+.img-bg:hover img {
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+
+.title{
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+
+.img-bg:hover .title {
+    color: #ffbb00;
+    transition: 0.5s all ease-in-out;
+}
+
+.shadow-custom{
+    box-shadow: 2px 2px 5px white;
+}

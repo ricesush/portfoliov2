@@ -8,12 +8,12 @@ export default function Sidebar() {
         <React.Fragment>
             <section className="col-lg-2 section-left my-auto shadow-lg">
                 <div className="text-light text-center bg-gray py-4 shadow">
-                    <img src={myImage} width={100}></img>
-                    <div className="pt-3 fw-bold ">
+                    <img src={myImage} width={100} className="img-shadow"></img>
+                    <div className="pt-3 fw-bold">
                         Erick-John Santosidad
                     </div>
                     <div className="pb-3">
-                        <small className="text-secondary">Full-Stack Web Developer</small>
+                        <small className="yellowText opacity-75">Full-Stack Web Developer</small>
                     </div>
                     <div className="text-center">
                     <div className="d-flex justify-content-around col-4 mx-auto  align-items-center">
@@ -38,10 +38,10 @@ export default function Sidebar() {
                     </table>
                 </div>
 
-                <hr className="text-light mx-3" />
+                <hr className="text-light mx-3 shadow-custom" />
                 <div className="text-light pt-2 p-3 pb-0">
                     <div className="text-center">
-                        <small className="yellowText  fw-bold">
+                        <small className="yellowText opacity-75">
                             Front-End
                         </small>
                     </div>
@@ -57,7 +57,7 @@ export default function Sidebar() {
                         <FontAwesomeIcon icon={brands('figma')} />
                     </div>
                     <div className="mt-2 text-center">
-                        <small className="yellowText fw-bold ">
+                        <small className="yellowText opacity-75">
                             Back-End & Framework
                         </small>
                     </div>
@@ -66,10 +66,10 @@ export default function Sidebar() {
                         <FontAwesomeIcon icon={brands('laravel')} />
                     </div>
                 </div>
-                <hr className="text-light mx-3" />
+                <hr className="text-light mx-3 shadow-custom" />
                 <div className="text-light pt-2 p-3 pb-0">
                 <div className="text-center">
-                        <small className="yellowText  fw-bold">
+                        <small className="yellowText  opacity-75">
                             Work Preference
                         </small>
                     </div>

@@ -14,8 +14,7 @@ function App() {
     <React.Fragment>
       <div className="container d-flex main shadow p-0 ">
         <Sidebar/>
-
-        <section className="col-md-12 overflow my-3 ">
+        <section className="col-md-12 overflow my-3">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
