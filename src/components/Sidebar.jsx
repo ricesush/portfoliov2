@@ -6,8 +6,8 @@ import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/
 export default function Sidebar() {
     return (
         <React.Fragment>
-            <section className="col-lg-2 section-left my-auto shadow-lg">
-                <div className="text-light text-center bg-gray py-4 shadow">
+            <section className="col-lg-2 section-left my-auto shadow-custom2">
+                <div className="text-light text-center bg-gray py-4">
                     <img src={myImage} width={100} className="img-shadow"></img>
                     <div className="pt-3 fw-bold">
                         Erick-John Santosidad

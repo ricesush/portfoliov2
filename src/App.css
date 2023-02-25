@@ -63,7 +63,6 @@ backdrop-filter: blur(5px);
 .main:after {
   text-align: center;
   font-weight: bold;
-  content: "Created by Pixelartme";
   top: auto;
   bottom: 0;
 }
@@ -197,4 +196,9 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
+}
+
+.text-hello{
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
 }
