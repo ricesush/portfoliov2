@@ -41,7 +41,7 @@ export default function Home() {
                     <hr className="text-light ms-2 mt-0"/>
                     <section className="d-flex m-2 me-3 project-height">
                         <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
-                            <img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" />
+                            <a href="" target="blank"><img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" /></a> 
                             <div className="text-light pt-4 text-center">
                                 <div className="fs-6 fw-bold title">
                                     Dream-Fields
@@ -52,7 +52,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-lg-6 d-grid justify-content-center img-bg rounded-20 shadow m-1">
-                            <img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" />
+                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank"><img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" /></a>
                             <div className="text-light pt-4 text-center">
                                 <div className="fs-6 fw-bold title">
                                     GG-Next
@@ -65,7 +65,7 @@ export default function Home() {
                     </section>
                     <section className="d-flex m-2 me-3 project-height">
                         <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
-                            <img src={tgh} alt="" className="img-size mt-3 shadow-custom2" />
+                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank"><img src={tgh} alt="" className="img-size mt-3 shadow-custom2" /></a>
                             <div className="text-light pt-4 text-center">
                                 <div className="fs-6 fw-bold title">
                                     The Greenhouse
@@ -83,6 +83,4 @@ export default function Home() {
             </div>
         </React.Fragment>
     )
-
-
 }
