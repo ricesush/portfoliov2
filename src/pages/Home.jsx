@@ -21,7 +21,7 @@ export default function Home() {
                 <div className="col-9 ">
                     <section className="bg-banner m-2 me-3 p-5 text-light">
                         <div className="fs-3  ">
-                            Hi, I'm <span className="fw-bold">Erick</span> 
+                            Hi, I'm <span className="fw-bold">Erick</span>
                         </div>
                         <div className="outer-headings" >
                             <h1>
@@ -58,7 +58,45 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-
+                    <section className="row d-flex m-2 me-3 project-height">
+                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
+                            <div className="col-lg-3">
+                                <span className="yellowText">Contact </span>Details
+                            </div>
+                            <div className="col-lg-9">
+                                <hr className="text-light mt-0" />
+                            </div>
+                        </div>
+                        <div className="text-light p-5 pb-0 fw-lighter font-monospace">
+                            <div className="d-flex justify-content-between">
+                                <div className="col-lg-6">
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'location-dot', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span>  Quezon City, Philippines</small></div>
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'envelope', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> Pixelartme@gmail.com</small></div>
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'phone', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> +63999 551 4413</small></div>
+                                </div>
+                                <div className="col-lg-6">
+                                    <div className="opacity-50">
+                                        Quick Links:
+                                    </div>
+                                    <div className="d-flex justify-content-around col-lg-6 mx-auto  align-items-center">
+                                        <a href="https://github.com/ricesush" className="text-light fs-2" target="blank"><FontAwesomeIcon icon={brands('github')} className="socmed" /></a>
+                                        <a href="https://www.linkedin.com/in/ejsan/" className="text-light fs-2" target="blank"><FontAwesomeIcon icon={brands('linkedin')} className="socmed" /></a>
+                                        <a href="https://www.facebook.com/RiceSush" className="text-light fs-2" target="blank"><FontAwesomeIcon icon={brands('facebook')} className="socmed" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="pt-5 pb-3 opacity-50">
+                                Work preferences:
+                            </div>
+                            <div className="pt-3 d-flex justify-content-between">
+                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Full-time </div>
+                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Part-time</div>
+                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Freelance</div>
+                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Hybrid</div>
+                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Work from Home</div>
+                            </div>
+                        </div>
+                    </section>
                     <section className="row d-flex m-2 me-3 pb-3 project-height">
                         <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
                             <div className="col-lg-3">
@@ -87,7 +125,7 @@ export default function Home() {
                                     <FontAwesomeIcon icon={brands('laravel')} title="Laravel" className="fs-4" />
                                 </div>
                             </div>
-                            
+
                         </div>
                         <hr className="col-lg-11 text-light mx-5 my-4" />
                         <div className="d-flex justify-content-center img-bg rounded-20 shadow m-1">

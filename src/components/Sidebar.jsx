@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/buttons.css'
 import myImage from '../images/profilePic.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
@@ -23,22 +24,19 @@ export default function Sidebar() {
                         </div>
                     </div>
                 </div>
-                <div className="text-light px-4 pt-3">
-                    <table className="table table-borderless text-light">
-                        <tbody className=" ">
-                            <tr>
-                                <td className="yellowText"><FontAwesomeIcon icon={icon({ name: 'location-dot', style: 'solid' })} /></td>
-                                <td><small>Quezon City, Philippines</small> </td>
-                            </tr>
-                            <tr>
-                                <td className="yellowText"><FontAwesomeIcon icon={icon({ name: 'envelope', style: 'solid' })} /></td>
-                                <td> <small>Pixelartme@gmail.com</small> </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div className="d-flex">
+                    <div className="text-light col-lg-6 p-0 m-0">
+                        <div class="buttons">
+                            <button class="btn"><span></span><p data-start="good luck!" data-text="Download CV" data-title="Download CV"></p></button>
+                        </div>
+                    </div>
+                    <div className="text-light col-lg-6 p-0 m-0 ">
+                        <div class="buttons">
+                            <button class="btn"><span></span><p data-start="good luck!" data-text="Contact Me" data-title="Contact Me"></p></button>
+                        </div>
+                    </div>
                 </div>
-
-                <hr className="text-light mx-3 " />
+                <hr className="text-light mx-3 mt-0" />
                 <div className="text-light pt-0 p-3 pb-0">
                     <div className="text-center">
                         <small className="yellowText opacity-75">
