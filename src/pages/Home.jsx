@@ -4,6 +4,9 @@ import ggNext from '../../src/images/ggnext.PNG'
 import tgh from '../../src/images/tgh.png'
 import df from '../../src/images/DF.PNG'
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 export default function Home() {
     const projectInfo = (n) => {
 
@@ -36,14 +39,16 @@ export default function Home() {
                             An enthusiastic Web Developer with passion for programming and love for work.
                         </div>
                     </section>
-                    <div className="fs-5 text-light fw-bold m-2 mt-5 me-3 d-flex align-items-end">
-                        <div className="col-lg-2">
-                            <span className="yellowText">About</span> Me
+                    <section className="row d-flex m-2 me-3 project-height">
+                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
+                            <div className="col-lg-2">
+                                <span className="yellowText">About</span> Me
+                            </div>
+                            <div className="col-lg-10">
+                                <hr className="text-light mt-0" />
+                            </div>
                         </div>
-                        <div className="col-lg-10">
-                            <hr className="text-light mt-0" />
-                        </div>
-                    </div>
+                    </section>
 
                     <section className="row d-flex m-2 me-3 project-height">
                         <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
@@ -64,8 +69,13 @@ export default function Home() {
                                 <div>
                                     <small> Full-Stack Web Application</small>
                                 </div>
-                                <div className="fs-6 d-flex pt-5">
-                                    <small className="opacity-50">Tech Used: </small>
+                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('php')} title="PHP" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('laravel')} title="Laravel" className="fs-4"/>
                                 </div>
                             </div>
                         </div>
@@ -79,8 +89,12 @@ export default function Home() {
                                 <div>
                                     <small> API-driven Mini Web Application</small>
                                 </div>
-                                <div className="fs-6 d-flex pt-5">
-                                    <small className="opacity-50">Tech Used: </small>
+                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4"/>
                                 </div>
                             </div>
                         </div>
@@ -94,13 +108,14 @@ export default function Home() {
                                 <div>
                                     <small> Static, Multi-page Responsive Website</small>
                                 </div>
-                                <div className="fs-6 d-flex pt-5">
-                                    <small className="opacity-50">Tech Used: </small>
+                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4"/>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-6 d-grid  justify-content-center img-bg rounded-0 shadow m-1">
-                            asdasd
                         </div>
                     </section>
                 </div>
