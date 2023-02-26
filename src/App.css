@@ -6,8 +6,8 @@ body {
   font-family: monospace;
   height: 100vh;
   height: 100dvh;
-  /* background: url('/src/images/bgimage.webp'); */
-  background: #eae0d5;
+  background: url('https://www.teahub.io/photos/full/46-461082_gray-and-orange-background.jpg');
+  /* background: #eae0d5; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,11 @@ backdrop-filter: blur(5px);
   top: 0;
   width: 100%;
   height: 25px;
-  background: #eae0d5;
+  background: url('https://www.teahub.io/photos/full/46-461082_gray-and-orange-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   z-index: 1 !important;
 }
 
