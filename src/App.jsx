@@ -13,9 +13,9 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <React.Fragment>
-      
-      <div className="container p-0 me-auto d-flex main shadow-custom2 p-0 ">
       <Preloader/>
+      <div className="container p-0 me-auto d-flex main shadow-custom2 p-0 ">
+      
         <Sidebar />
         <section className="col-md-12 overflow my-3">
           <Routes>
@@ -26,7 +26,8 @@ function App() {
 
         <Rightbar />
       </div>
-
+      
+      
     </React.Fragment>
   );
 }
