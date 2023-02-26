@@ -15,10 +15,10 @@ export default function Home() {
     return (
         <React.Fragment>
             <div className="d-flex py-3 bg-img">
-                <div className="col-3">
+                <div className="col-lg-3 col-sm-1">
 
                 </div>
-                <div className="col-9 ">
+                <div className="col-lg-9 ms-md-2 ms-lg-0">
                     <section className="bg-banner m-2 me-3 p-5 text-light">
                         <div className="fs-3  ">
                             Hi, I'm <span className="fw-bold">Erick</span>
