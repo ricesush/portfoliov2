@@ -7,6 +7,7 @@ export default function Preloader() {
     const myTimeout = setTimeout(loader, 1500);
 
     function loader() {
+        
         document.getElementById("loader").setAttribute("class", "loader-hidden");
     }
 
