@@ -47,6 +47,7 @@ backdrop-filter: blur(5px);
   height: 95dvh !important;
   position: sticky;
   top: 25px;
+  right: 49px;
 }
 
 .main:before, .main:after {
