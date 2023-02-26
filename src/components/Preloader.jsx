@@ -8,7 +8,7 @@ export default function Preloader() {
 
     function loader() {
         
-        document.getElementById("loader").setAttribute("class", "loader-hidden");
+        document.getElementById("loader").setAttribute("class", "loader loader-hidden");
     }
 
     return (
