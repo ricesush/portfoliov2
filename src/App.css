@@ -8,6 +8,7 @@ body {
   height: 100dvh;
   background: url('/src/images/abstact-bg.webp');
   /* background: #eae0d5; */
+  /* From https://css.glass */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

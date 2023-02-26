@@ -20,8 +20,8 @@ export default function Home() {
                 </div>
                 <div className="col-9 ">
                     <section className="bg-banner m-2 me-3 p-5 text-light">
-                        <div className="fs-3 fw-bold ">
-                            Hi, I'm E-J
+                        <div className="fs-3  ">
+                            Hi, I'm <span className="fw-bold">Erick</span> 
                         </div>
                         <div className="outer-headings" >
                             <h1>
