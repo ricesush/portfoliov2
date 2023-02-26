@@ -13,7 +13,7 @@ export default function Preloader() {
 
     return (
         <React.Fragment>
-            <div className="loader" id="loader">
+            <div className="loader position-fixed" id="loader">
                 <div className="scanner text-center">
                     <div className="fw-bold">Erick-John Santosidad</div>
                     <span>SANTOSIDAD.</span>
