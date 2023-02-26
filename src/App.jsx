@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Home from './pages/Home';
 import Contact from "./pages/Contact";
+import Test from './components/test';
 import Sidebar from './components/Sidebar'
 import Rightbar from './components/Rightbar'
 import Preloader from './components/Preloader';
@@ -15,7 +16,8 @@ function App() {
     <React.Fragment>
       <Preloader/>
       <div className="container p-0 me-auto d-flex main shadow-custom2 p-0">
-        <Sidebar />
+        {/* <Sidebar /> */}
+        <Test/>
         <section className="col-md-12 overflow my-3">
           <Routes>
             <Route path="/" element={<Home />} />
