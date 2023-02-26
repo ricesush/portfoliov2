@@ -23,7 +23,7 @@ export default function Sidebar() {
                         </div>
                     </div>
                 </div>
-                <div className="text-light px-5 pt-3">
+                <div className="text-light px-4 pt-3">
                     <table className="table table-borderless text-light">
                         <tbody className=" ">
                             <tr>

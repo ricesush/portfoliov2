@@ -48,14 +48,17 @@ export default function Home() {
                                 <hr className="text-light mt-0" />
                             </div>
                         </div>
+                        <div className="text-light p-5 pb-0 fw-lighter font-monospace">
+                        An enthusiastic Web Developer with passion for programming and love for work. Proficient in an assortment of technologies, including HTML5, CSS3,  Javascript with React JS as the library, PHP using Laravel as it's framework, and MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
+                        </div>
                     </section>
 
                     <section className="row d-flex m-2 me-3 project-height">
                         <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
-                            <div className="col-lg-2">
+                            <div className="col-lg-3">
                                 <span className="yellowText">Recent</span> Projects
                             </div>
-                            <div className="col-lg-10">
+                            <div className="col-lg-9">
                                 <hr className="text-light mt-0" />
                             </div>
                         </div>
