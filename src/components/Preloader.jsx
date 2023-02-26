@@ -12,12 +12,12 @@ export default function Preloader() {
 
     return (
         <React.Fragment>
-            <div className="loader position-fixed" id="loader">
+            <section className="loader" id="loader">
                 <div className="scanner text-center">
                     <div className="fw-bold">Erick-John Santosidad</div>
                     <span>SANTOSIDAD.</span>
                 </div>
-            </div>
+            </section>
         </React.Fragment>
     )
 }

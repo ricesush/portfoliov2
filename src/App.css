@@ -51,7 +51,11 @@ backdrop-filter: blur(5px);
   position: sticky;
   z-index: 1 !important;
   top: 25px;
-  right: 49px;
+}
+
+.main{
+  position: relative;
+  z-index: 1 !important;
 }
 
 .main:before, .main:after {
