@@ -49,11 +49,17 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="text-light p-5 pb-0 fw-lighter font-monospace">
-                        An enthusiastic Web Developer with passion for programming and love for work. Proficient in an assortment of technologies, including HTML5, CSS3,  Javascript with React JS as the library, PHP using Laravel as it's framework, and MySQL. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
+                            <div>
+                                <div> <span className="opacity-50">Country:</span>  Philippines</div>
+                                <div><span className="opacity-50">Language:</span> English, Filipino</div>
+                            </div>
+                            <div className="pt-3">
+                                Hello, I'm <span className="yellowText">Erick-john Santosidad</span>, an enthusiastic Web Developer with passion for programming and love for work. Proficient in an assortment of technologies, including <span className="yellowText">HTML5</span>, <span className="yellowText">CSS3</span>, <span className="yellowText">Javascript</span>, <span className="yellowText">React.Js</span>, <span className="yellowText">PHP</span>, <span className="yellowText">Laravel</span>, and <span className="yellowText">MySQL</span>. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
+                            </div>
                         </div>
                     </section>
 
-                    <section className="row d-flex m-2 me-3 project-height">
+                    <section className="row d-flex m-2 me-3 pb-3 project-height">
                         <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
                             <div className="col-lg-3">
                                 <span className="yellowText">Recent</span> Projects
@@ -74,11 +80,11 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
-                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('php')} title="PHP" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('laravel')} title="Laravel" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('php')} title="PHP" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('laravel')} title="Laravel" className="fs-4" />
                                 </div>
                             </div>
                         </div>
@@ -94,10 +100,10 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
-                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4" />
                                 </div>
                             </div>
                         </div>
@@ -113,10 +119,10 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
-                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4"/>
-                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4"/>
+                                    <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
+                                    <FontAwesomeIcon icon={brands('js')} title="Javascript" className="fs-4" />
                                 </div>
                             </div>
                         </div>
