@@ -70,7 +70,7 @@ export default function Home() {
                         </div>
                         <div className="d-flex justify-content-center img-bg rounded-0 shadow m-1">
                             <a href="" target="blank" className="col-5"><img src={df} alt="" className="img-size mt-3 shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4">
+                            <div className="col-6 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">Dream-Fields</div>
                                     <div><small className="opacity-50">Real Estate Web App</small></div>
@@ -87,10 +87,12 @@ export default function Home() {
                                     <FontAwesomeIcon icon={brands('laravel')} title="Laravel" className="fs-4" />
                                 </div>
                             </div>
+                            
                         </div>
-                        <div className="d-flex justify-content-center img-bg rounded-20 shadow m-1 mt-3">
-                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank" className="col-5"><img src={ggNext} alt="" className="img-size mt-3 shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4">
+                        <hr className="col-lg-11 text-light mx-5 my-4" />
+                        <div className="d-flex justify-content-center img-bg rounded-20 shadow m-1">
+                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank" className="col-5"><img src={ggNext} alt="" className="img-size  shadow-custom2" /></a>
+                            <div className="col-6 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">GG-Next</div>
                                     <div><small className="opacity-50">Gaming Web App</small></div>
@@ -107,9 +109,10 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex  justify-content-center img-bg rounded-0 shadow m-1 mt-3">
-                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank" className="col-5"><img src={tgh} alt="" className="img-size mt-3 shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4">
+                        <hr className="col-lg-11 text-light mx-5 my-4" />
+                        <div className="d-flex  justify-content-center img-bg rounded-0 shadow m-1">
+                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank" className="col-5"><img src={tgh} alt="" className="img-size shadow-custom2" /></a>
+                            <div className="col-6 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">The Greenhouse </div>
                                     <div><small className="opacity-50">Agriculture Content</small></div>
