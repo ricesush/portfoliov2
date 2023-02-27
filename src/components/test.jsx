@@ -10,7 +10,7 @@ export default function Test() {
             <nav class="col-lg-2 col-md-1 navbar navbar-expand-lg position-fixed min-vh-100 d-grid align-items-start mt-lg-3 mt-md-1 bg-nav">
                 <div class="container p-0 m-0">
                     <button class="navbar-toggler btn-deco " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="position-absolute border-0 mt-4 m-0 p-0">Icon</span>
+                        <span class="position-absolute border-0 mt-4 m-0 p-0"><img src={myImage} width={50} className="img-shadow pt-3 ps-2"></img></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <section className="col-lg-10 col-md-10 section-left shadow-custom2">
@@ -31,12 +31,12 @@ export default function Test() {
                                 </div>
                             </div>
                             <div className="d-flex">
-                                <div className="text-light col-lg-6 p-0 m-0">
+                                <div className="text-light col-lg-6 col-md-6 p-0 m-0">
                                     <div class="buttons">
                                         <button class="btn"><span></span><p data-start="good luck!" data-text="Download CV" data-title="Download CV"></p></button>
                                     </div>
                                 </div>
-                                <div className="text-light col-lg-6 p-0 m-0 ">
+                                <div className="text-light col-lg-6 col-md-6 p-0 m-0 ">
                                     <div class="buttons">
                                         <button class="btn"><span></span><p data-start="good luck!" data-text="Contact Me" data-title="Contact Me"></p></button>
                                     </div>

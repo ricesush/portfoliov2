@@ -50,8 +50,8 @@ export default function Home() {
                         </div>
                         <div className="text-light p-5 pb-0 fw-lighter font-monospace">
                             <div>
-                                <div> <span className="opacity-50">Country:</span>  Philippines</div>
-                                <div><span className="opacity-50">Language:</span> English, Filipino</div>
+                                <div> <span className="text-secondary">Country:</span>  Philippines</div>
+                                <div><span className="text-secondary">Language:</span> English, Filipino</div>
                             </div>
                             <div className="pt-3 pt-md-5">
                                 Hello, I'm <span className="yellowText">Erick-john Santosidad</span>, an enthusiastic Web Developer with passion for programming and love for work. Proficient in an assortment of technologies, including <span className="yellowText">HTML5</span>, <span className="yellowText">CSS3</span>, <span className="yellowText">Javascript</span>, <span className="yellowText">React.Js</span>, <span className="yellowText">PHP</span>, <span className="yellowText">Laravel</span>, and <span className="yellowText">MySQL</span>. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
@@ -70,12 +70,12 @@ export default function Home() {
                         <div className="text-light p-5 pb-0 fw-lighter font-monospace">
                             <div className="d-flex justify-content-between">
                                 <div className="col-lg-6">
-                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'location-dot', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span>  Quezon City, Philippines</small></div>
-                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'envelope', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> Pixelartme@gmail.com</small></div>
-                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'phone', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> +63999 551 4413</small></div>
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'location-dot', style: 'solid' })} /><small className="text-light"><span className="text-secondary"> ....</span>  Quezon City, Philippines</small></div>
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'envelope', style: 'solid' })} /><small className="text-light"><span className="text-secondary"> ....</span> Pixelartme@gmail.com</small></div>
+                                    <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'phone', style: 'solid' })} /><small className="text-light"><span className="text-secondary"> ....</span> +63999 551 4413</small></div>
                                 </div>
                                 <div className="col-lg-6 col-md-5">
-                                    <div className="opacity-50">
+                                    <div className="text-secondary">
                                         Quick Links:
                                     </div>
                                     <div className="d-flex justify-content-around col-lg-6 mx-auto  align-items-center">
@@ -85,7 +85,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="pt-5 pb-3 opacity-50">
+                            <div className="pt-5 pb-3 text-secondary">
                                 Work preferences:
                             </div>
                             <div className="row pt-3 d-lg-flex justify-content-between">
@@ -111,13 +111,13 @@ export default function Home() {
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">Dream-Fields</div>
-                                    <div><small className="opacity-50">Real Estate Web App</small></div>
+                                    <div><small className="text-secondary">Real Estate Web App</small></div>
                                 </div>
                                 <div>
                                     <small> Full-Stack Web Application</small>
                                 </div>
                                 <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
-                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <small className="text-secondary">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
@@ -133,13 +133,13 @@ export default function Home() {
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">GG-Next</div>
-                                    <div><small className="opacity-50">Gaming Web App</small></div>
+                                    <div><small className="text-secondary">Gaming Web App</small></div>
                                 </div>
                                 <div>
                                     <small> API-driven Mini Web Application</small>
                                 </div>
                                 <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
-                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <small className="text-secondary">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
@@ -153,13 +153,13 @@ export default function Home() {
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">The Greenhouse </div>
-                                    <div><small className="opacity-50">Agriculture Content</small></div>
+                                    <div><small className="text-secondary">Agriculture Content</small></div>
                                 </div>
                                 <div>
                                     <small> Static, Multi-page Responsive Website</small>
                                 </div>
                                 <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
-                                    <small className="opacity-50 ">Tech Used: </small>
+                                    <small className="text-secondary">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('bootstrap')} title="Bootstrap5" className="fs-4" />
