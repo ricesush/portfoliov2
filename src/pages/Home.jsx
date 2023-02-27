@@ -40,11 +40,11 @@ export default function Home() {
                         </div>
                     </section>
                     <section className="row d-flex m-2 me-3 project-height">
-                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
+                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between">
                             <div className="col-lg-2">
                                 <span className="yellowText">About</span> Me
                             </div>
-                            <div className="col-lg-10">
+                            <div className="col-lg-10 col-md-9">
                                 <hr className="text-light mt-0" />
                             </div>
                         </div>
@@ -53,17 +53,17 @@ export default function Home() {
                                 <div> <span className="opacity-50">Country:</span>  Philippines</div>
                                 <div><span className="opacity-50">Language:</span> English, Filipino</div>
                             </div>
-                            <div className="pt-3">
+                            <div className="pt-3 pt-md-5">
                                 Hello, I'm <span className="yellowText">Erick-john Santosidad</span>, an enthusiastic Web Developer with passion for programming and love for work. Proficient in an assortment of technologies, including <span className="yellowText">HTML5</span>, <span className="yellowText">CSS3</span>, <span className="yellowText">Javascript</span>, <span className="yellowText">React.Js</span>, <span className="yellowText">PHP</span>, <span className="yellowText">Laravel</span>, and <span className="yellowText">MySQL</span>. Able to efficiently self-manage during independent projects, as well as collaborate in a team setting.
                             </div>
                         </div>
                     </section>
                     <section className="row d-flex m-2 me-3 project-height">
-                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
+                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between">
                             <div className="col-lg-3">
                                 <span className="yellowText">Contact </span>Details
                             </div>
-                            <div className="col-lg-9">
+                            <div className="col-lg-9 col-md-8">
                                 <hr className="text-light mt-0" />
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export default function Home() {
                                     <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'envelope', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> Pixelartme@gmail.com</small></div>
                                     <div className="yellowText"><FontAwesomeIcon icon={icon({ name: 'phone', style: 'solid' })} /><small className="text-light"><span className="opacity-50"> ....</span> +63999 551 4413</small></div>
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-md-5">
                                     <div className="opacity-50">
                                         Quick Links:
                                     </div>
@@ -88,27 +88,27 @@ export default function Home() {
                             <div className="pt-5 pb-3 opacity-50">
                                 Work preferences:
                             </div>
-                            <div className="pt-3 d-flex justify-content-between">
-                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Full-time </div>
-                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Part-time</div>
-                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Freelance</div>
-                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Hybrid</div>
-                                <div><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Work from Home</div>
+                            <div className="row pt-3 d-lg-flex justify-content-between">
+                                <div className="col-md-4 col-lg-2"><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Full-time </div>
+                                <div className="col-md-4 col-lg-2"><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Part-time</div>
+                                <div className="col-md-4 col-lg-2"><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Freelance</div>
+                                <div className="col-md-4 col-lg-2"><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Hybrid</div>
+                                <div className="col-md-4 col-lg-3"><FontAwesomeIcon icon={icon({ name: 'check', style: 'solid' })} className="yellowText" /> Work from Home</div>
                             </div>
                         </div>
                     </section>
                     <section className="row d-flex m-2 me-3 pb-3 project-height">
-                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end">
+                        <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between">
                             <div className="col-lg-3">
                                 <span className="yellowText">Recent</span> Projects
                             </div>
-                            <div className="col-lg-9">
+                            <div className="col-lg-9 col-md-8">
                                 <hr className="text-light mt-0" />
                             </div>
                         </div>
-                        <div className="d-flex justify-content-center img-bg rounded-0 shadow m-1">
-                            <a href="" target="blank" className="col-5"><img src={df} alt="" className="img-size mt-3 shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4 pe-0">
+                        <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
+                            <a href="" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={df} alt="" className="img-size mt-3 shadow-custom2" /></a>
+                            <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">Dream-Fields</div>
                                     <div><small className="opacity-50">Real Estate Web App</small></div>
@@ -116,7 +116,7 @@ export default function Home() {
                                 <div>
                                     <small> Full-Stack Web Application</small>
                                 </div>
-                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
@@ -128,9 +128,9 @@ export default function Home() {
 
                         </div>
                         <hr className="col-lg-11 text-light mx-5 my-4" />
-                        <div className="d-flex justify-content-center img-bg rounded-20 shadow m-1">
-                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank" className="col-5"><img src={ggNext} alt="" className="img-size  shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4 pe-0">
+                        <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
+                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={ggNext} alt="" className="img-size  shadow-custom2" /></a>
+                            <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">GG-Next</div>
                                     <div><small className="opacity-50">Gaming Web App</small></div>
@@ -138,7 +138,7 @@ export default function Home() {
                                 <div>
                                     <small> API-driven Mini Web Application</small>
                                 </div>
-                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
@@ -148,9 +148,9 @@ export default function Home() {
                             </div>
                         </div>
                         <hr className="col-lg-11 text-light mx-5 my-4" />
-                        <div className="d-flex  justify-content-center img-bg rounded-0 shadow m-1">
-                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank" className="col-5"><img src={tgh} alt="" className="img-size shadow-custom2" /></a>
-                            <div className="col-6 text-light mt-3 p-4 pe-0">
+                        <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
+                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={tgh} alt="" className="img-size shadow-custom2" /></a>
+                            <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">The Greenhouse </div>
                                     <div><small className="opacity-50">Agriculture Content</small></div>
@@ -158,7 +158,7 @@ export default function Home() {
                                 <div>
                                     <small> Static, Multi-page Responsive Website</small>
                                 </div>
-                                <div className="col-lg-9 fs-6 d-flex pt-5 justify-content-between">
+                                <div className="col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between">
                                     <small className="opacity-50 ">Tech Used: </small>
                                     <FontAwesomeIcon icon={brands('html5')} title="HTML5" className="fs-4" />
                                     <FontAwesomeIcon icon={brands('css3')} title="CSS3" className="fs-4" />
