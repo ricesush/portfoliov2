@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 
 
 function App() {
-  const myTimeout = setTimeout(loader, 1600);
+  const myTimeout = setTimeout(loader, 1700);
 
     function loader() {
         document.getElementById("hidden").removeAttribute("hidden");
@@ -21,8 +21,9 @@ function App() {
   return (
     <React.Fragment>
       <Preloader/>
+      <div hidden id='hidden'>
       <div className="container p-0 me-auto d-flex main shadow-custom2 p-0">
-        <div hidden id='hidden'>
+        
         {/* <Sidebar /> */}
         <Test/>
         <section className="col-md-12 overflow my-3">
