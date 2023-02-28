@@ -107,7 +107,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
-                            <a href="" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={df} alt="" className="img-size mt-3 shadow-custom2" /></a>
+                            <a href="/" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={df} alt="dream-fields" className="img-size mt-3 shadow-custom2" /></a>
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">Dream-Fields</div>
@@ -129,7 +129,7 @@ export default function Home() {
                         </div>
                         <hr className="col-lg-11 text-light mx-5 my-4" />
                         <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
-                            <a href="https://gg-next-neon.vercel.app/index.html" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={ggNext} alt="" className="img-size  shadow-custom2" /></a>
+                            <a href="https://gg-next-neon.vercel.app/" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={ggNext} alt="gg-next" className="img-size  shadow-custom2" /></a>
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">GG-Next</div>
@@ -149,7 +149,7 @@ export default function Home() {
                         </div>
                         <hr className="col-lg-11 text-light mx-5 my-4" />
                         <div className="row-md d-lg-flex justify-content-center img-bg rounded-0 shadow m-1">
-                            <a href="https://thegreenhouse.vercel.app/index.html#" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={tgh} alt="" className="img-size shadow-custom2" /></a>
+                            <a href="https://thegreenhouse.vercel.app/" target="blank" className="col-lg-5 col-md-12 d-flex justify-content-center"><img src={tgh} alt="the greenhouse" className="img-size shadow-custom2" /></a>
                             <div className="col-lg-6 col-md-11 text-light mt-3 p-4 pe-0">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <div className="fs-4 fw-bold title">The Greenhouse </div>

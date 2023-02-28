@@ -4,7 +4,7 @@ import myImage from '../images/profilePic.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 
-export default function Test() {
+export default function Leftbar() {
     return (
         <React.Fragment>
             <nav class="col-lg-2 col-md-1 navbar navbar-expand-lg position-fixed min-vh-100 d-grid align-items-start mt-lg-3 mt-md-1 bg-nav">
@@ -15,7 +15,7 @@ export default function Test() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <section className="col-lg-10 col-md-10 section-left shadow-custom2">
                             <div className="text-light text-center bg-gray py-4">
-                                <img src={myImage} width={100} className="img-shadow pt-3"></img>
+                                <img src={myImage} width={100} className="img-shadow pt-3" alt="profile picture"></img>
                                 <div className="pt-3 fw-bold">
                                     Erick-John Santosidad
                                 </div>
