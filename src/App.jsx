@@ -8,10 +8,8 @@ import Preloader from './components/Preloader';
 import { Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 
-
-
 function App() {
-  const myTimeout = setTimeout(loader, 1700);
+  const myTimeout = setTimeout(loader, 1505);
 
     function loader() {
         document.getElementById("hidden").removeAttribute("hidden");
@@ -22,8 +20,6 @@ function App() {
       <Preloader/>
       <div hidden id='hidden'>
       <div className="container p-0 me-auto d-flex main shadow-custom2 p-0">
-        
-        {/* <Sidebar /> */}
         <Leftbar/>
         <section className="col-md-12 overflow my-3">
           <Routes>
