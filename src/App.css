@@ -3,7 +3,7 @@
 :root{
   --clr-primary-400: #ff9900;
 
-
+  font-size: 16px;
   transition: 0.5s all ease-in-out !important;
   font-family: monospace;
 }
