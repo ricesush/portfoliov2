@@ -15,8 +15,8 @@ export default function Preloader() {
             <section className="loader" id="loader">
                 <div className="bg-glass p-5 rounded-1">
                 <div className="scanner text-center">
-                    
-                    <span>SANTOSIDAD.</span>
+                    <p><b>Erick-John Santosidad</b></p>
+                    <span>SANTOSIDAD.</span>    
                 </div>
 
                 </div>

@@ -29,7 +29,6 @@ function App() {
         <Rightbar />
       </div>
       </div>
-      Hello
     </React.Fragment>
   );
 }
