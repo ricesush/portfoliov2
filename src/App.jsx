@@ -8,18 +8,12 @@ import Preloader from './components/Preloader';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const myTimeout = setTimeout(loader, 1505);
-
-    function loader() {
-        document.getElementById("hidden").removeAttribute("hidden");
-    }
-
   return (
     <React.Fragment>
       <Preloader/>
       <div hidden id='hidden'>
-      <div className="container p-0 me-auto d-flex main shadow-custom2 p-0">
-        <Leftbar/>
+      <div className="custome-container p-0 me-auto d-flex main shadow-custom2 p-0">
+        {/* <Leftbar/> */}
         <section className="col-md-12 overflow my-3">
           <Routes>
             <Route path="/" element={<Home />} />

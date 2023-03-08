@@ -2,10 +2,10 @@ import React from "react";
 
 export default function HeaderSection() {
     return (
-        <header className="bg-accent m-2 me-3 p-5 text-light">
-            <div className="fs-3  ">
+        <header className="bg-accent p-5 text-light">
+            <h3>
                 Hi, I'm <span className="fw-bold">Erick</span>
-            </div>
+            </h3>
             <div className="outer-headings" >
                 <h1>
                     <div className="inner-headings">

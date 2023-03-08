@@ -43,6 +43,36 @@ svg {
   display: block;
 }
 
+h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h5{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+h6{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 /* @media (prefers-reduced-motion: reduce) {
   html:focus-within {

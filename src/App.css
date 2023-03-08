@@ -33,11 +33,14 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.rightbar {
-  background: #1f1f1f;
-  margin-top: 1.55rem;
-  position: sticky !important;
-  z-index: 1 !important;
+.rightbar{
+  position: fixed !important;
+  right: 0;
+  top: auto;
+  bottom: auto;
+  display: grid;
+  text-align: center;
+  top: 20%;
 }
 
 .bg-nav {
@@ -91,90 +94,7 @@ body {
   color: #ff9900;
 }
 
-/* main */
-
-.bg-img {
-  background: linear-gradient(to bottom,
-      #25252500 0%,
-      #252525c0 25%,
-      #252525 40%,
-      #252525 100%), url('/src/images/bg-img.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.bg-accent {
-  background: url('/src/images/bg-img.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 /* text animation */
-
-.outer-headings {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.inner-headings {
-  border: 0px solid #ddd;
-  max-height: 50px;
-  text-transform: uppercase;
-  overflow: hidden;
-
-}
-
-.outer-headings h1 {
-  font-size: 42px;
-}
-
-.inner-headings span {
-  position: relative;
-  color: #ff9900;
-  animation: animation 10s ease infinite;
-}
-
-@keyframes animation {
-
-  0%,
-  100% {
-    top: 0;
-  }
-
-  20% {
-    top: 0;
-  }
-
-  25% {
-    top: -50px;
-  }
-
-  45% {
-    top: -50px;
-  }
-
-  50% {
-    top: -100px;
-  }
-
-  70% {
-    top: -100px;
-  }
-
-  75% {
-    top: -150px;
-  }
-
-  95% {
-    top: -150px;
-  }
-}
-
 
 /* projects */
 .project-height {
@@ -222,10 +142,14 @@ body {
 }
 
 .socmed {
+  color: white;
+  font-size: 3rem;
+  margin: .3em;
   transition: .3s all ease-in-out !important;
 }
 
 .socmed:hover {
   transition: .3s all ease-in-out !important;
-  color: #ff9900;
+  font-size: 3.5em;
+  margin: .19em;
 }
