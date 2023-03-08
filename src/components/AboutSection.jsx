@@ -1,20 +1,17 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-
 export default function AboutSection() {
     return (
         <section className="row d-flex m-2 me-3 project-height">
-            <div className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between">
-                <div className="col-lg-2">
+            <header className="col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between">
+                <h2 className="col-lg-2">
                     <span className="yellowText">About</span> Me
-                </div>
+                </h2>
                 <div className="col-lg-10 col-md-9">
                     <hr className="text-light mt-0" />
                 </div>
-            </div>
-            <div className="text-light p-5 pb-0 fw-lighter font-monospace">
+            </header>
+            <div className="text-light p-5 pb-0 fw-lighter">
                 <div>
                     <div> <span className="text-secondary">Country:</span>  Philippines</div>
                     <div><span className="text-secondary">Language:</span> English, Filipino</div>

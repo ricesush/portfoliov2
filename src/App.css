@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
-:root{
+:root {
   --clr-primary-400: #ff9900;
-
   font-size: 16px;
   transition: 0.5s all ease-in-out !important;
-  font-family: monospace;
 }
 
 body {
-  padding: 0;
-  margin: 0;
   font-family: monospace;
-  height: 100vh;
-  height: 100dvh;
   background: url('/src/images/abstact-bg.webp');
-  /* background: #eae0d5; */
-  /* From https://css.glass */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,23 +16,9 @@ body {
   transition: 0.5s all ease-in-out !important;
 }
 
-#hidden{
-  transition: 0.5s all ease-in-out !important;
-}
-
-
-
-.navbar-custom{
-  background: rgba(0, 0, 0, 0.562);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-
 /* Home */
 
-.section-left{
+.section-left {
   background: #1f1f1f;
   height: 95vh;
   height: 95dvh !important;
@@ -49,44 +27,41 @@ body {
   z-index: 2 !important;
 }
 
-.img-shadow{
+.img-shadow {
   filter: drop-shadow(-8px 8px #ff990067);
-
-  /* From https://css.glass */
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
-.rightbar{
+.rightbar {
   background: #1f1f1f;
-  height: 95vh;
-  height: 95dvh !important;
-  position: sticky;
+  margin-top: 1.55rem;
+  position: sticky !important;
   z-index: 1 !important;
-  top: 25px;
 }
 
-.bg-nav{
+.bg-nav {
   background: #1f1f1f;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
 }
 
-.navbar:focus{
+.navbar:focus {
   border: none;
   border-color: transparent;
 }
 
-.btn-deco:focus{
+.btn-deco:focus {
   border-color: transparent !important;
   box-shadow: none;
 }
 
-.main{
+.main {
   position: relative;
   z-index: 0 !important;
 }
 
-.main:before, .main:after {
+.main:before,
+.main:after {
   content: '';
   position: fixed;
   left: 0;
@@ -108,31 +83,29 @@ backdrop-filter: blur(5px);
   bottom: 0;
 }
 
-.bg-gray{
+.bg-gray {
   background: #22333b;
 }
 
-.yellowText{
+.yellowText {
   color: #ff9900;
 }
 
 /* main */
 
 .bg-img {
-  background: linear-gradient(
-    to bottom,
-    #25252500 0%,
-    #252525c0 25%,
-    #252525 40%,
-    #252525 100%
-  ), url('/src/images/bg-img.webp');
+  background: linear-gradient(to bottom,
+      #25252500 0%,
+      #252525c0 25%,
+      #252525 40%,
+      #252525 100%), url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.bg-banner{
+.bg-accent {
   background: url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;
@@ -142,13 +115,13 @@ backdrop-filter: blur(5px);
 
 /* text animation */
 
-.outer-headings{
+.outer-headings {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.inner-headings{
+.inner-headings {
   border: 0px solid #ddd;
   max-height: 50px;
   text-transform: uppercase;
@@ -156,38 +129,47 @@ backdrop-filter: blur(5px);
 
 }
 
-.outer-headings h1{
+.outer-headings h1 {
   font-size: 42px;
 }
 
-.inner-headings span{
+.inner-headings span {
   position: relative;
   color: #ff9900;
   animation: animation 10s ease infinite;
 }
 
-@keyframes animation{
-  0%, 100%{
+@keyframes animation {
+
+  0%,
+  100% {
     top: 0;
   }
+
   20% {
     top: 0;
   }
+
   25% {
     top: -50px;
   }
+
   45% {
     top: -50px;
   }
+
   50% {
     top: -100px;
   }
+
   70% {
     top: -100px;
   }
+
   75% {
     top: -150px;
   }
+
   95% {
     top: -150px;
   }
@@ -195,61 +177,55 @@ backdrop-filter: blur(5px);
 
 
 /* projects */
-.project-height{
+.project-height {
 
- overflow: hidden;
+  overflow: hidden;
 }
 
-.bg-1{
-  background: linear-gradient(
-    to right,
-    #1f1f1fc5 0%,
-    #1f1f1fc5 100%
-  ), url('/src/images/bg-img.webp');
+.bg-1 {
+  background: linear-gradient(to right,
+      #1f1f1fc5 0%,
+      #1f1f1fc5 100%), url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-2{
-  background:linear-gradient(
-    to right,
-    #1f1f1fc5 0%,
-    #1f1f1fc5 100%
-  ),  url('/src/images/ggnext.PNG');
+.bg-2 {
+  background: linear-gradient(to right,
+      #1f1f1fc5 0%,
+      #1f1f1fc5 100%), url('/src/images/ggnext.PNG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-3{
+.bg-3 {
   height: 100%;
-  background: linear-gradient(
-    to right,
-    #1f1f1fc5 0%,
-    #1f1f1fc5 100%
-  ),  url('/src/images/tgh.png');
+  background: linear-gradient(to right,
+      #1f1f1fc5 0%,
+      #1f1f1fc5 100%), url('/src/images/tgh.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   /* From https://css.glass */
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
-.text-hello{
+.text-hello {
   writing-mode: vertical-rl;
   text-orientation: sideways;
 }
 
-.socmed{
+.socmed {
   transition: .3s all ease-in-out !important;
 }
 
-.socmed:hover{
+.socmed:hover {
   transition: .3s all ease-in-out !important;
-color:#ff9900;
+  color: #ff9900;
 }

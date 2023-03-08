@@ -6,7 +6,6 @@ import Leftbar from './components/Leftbar';
 import Rightbar from './components/Rightbar'
 import Preloader from './components/Preloader';
 import { Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar';
 
 function App() {
   const myTimeout = setTimeout(loader, 1505);
