@@ -48,9 +48,13 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.781);
 }
 
-.navbar:focus {
-  border: none;
-  border-color: transparent;
+/* Navbar */
+
+.navBar {
+  position: sticky;
+  z-index: 1;
+  display: flex;
+  padding: auto;
 }
 
 .btn-deco:focus {
