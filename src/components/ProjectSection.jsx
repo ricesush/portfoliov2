@@ -14,14 +14,11 @@ import {
 
 const ProjectSection = () => {
   return (
-    <section className='d-flex pb-3 bg-img'>
-      <header className='col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between'>
-        <h2 className='col-lg-3'>
+    <section className='bg-img'>
+      <header className='col-lg-12 text-light d-flex'>
+        <h2 className=''>
           <span className='yellowText'>Recent</span> Projects
         </h2>
-        <div className='col-lg-9 col-md-8'>
-          <hr className='text-light mt-0' />
-        </div>
       </header>
       <Projects
         projectTitle='Dream-Fields'
@@ -73,6 +70,7 @@ const ProjectSection = () => {
           className='fs-4'
         />
       </Projects>
+      <hr className='col-lg-11 text-light mx-5 my-4' />
       <Projects
         projectTitle='The Greenhouse'
         category='Agriculture Content'

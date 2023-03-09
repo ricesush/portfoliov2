@@ -101,15 +101,16 @@
       #252525 40%,
       #252525 100%
     ),
-    url("/src/images/bg-img.webp");
+    url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding: 4rem;
 }
 
 .bg-accent {
-  background: url("/src/images/bg-img.webp");
+  background: url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -5,7 +5,7 @@ import HeaderSection from '../components/HeaderSection';
 
 const Home = () => {
   return (
-    <div className='d-flex bg-img'>
+    <div className='d-flex'>
       <div className='col-lg-12'>
         <HeaderSection />
         <AboutSection />

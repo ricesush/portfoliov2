@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className='row d-flex m-2 me-3 project-height'>
+    <section className='bg-img'>
       <header className='col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between'>
         <h2 className='col-lg-2'>
           <span className='yellowText'>About</span> Me
