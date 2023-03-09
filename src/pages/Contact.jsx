@@ -1,9 +1,7 @@
-import React from "react";
+import Test from '../components/Test';
 
-export default function Projects(){
-    return(
-        <React.Fragment>
-            This is contacts
-        </React.Fragment>
-    )
-}
+const Contact = () => {
+  return <Test />;
+};
+
+export default Contact;
