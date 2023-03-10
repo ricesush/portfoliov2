@@ -8,7 +8,7 @@ import {
 
 const Leftbar = () => {
   return (
-    <div className='rightBarContainer'>
+    <div className=''>
       <section className='rightbar'>
         <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
           <FontAwesomeIcon icon={brands('linkedin')} className='socmed ' />

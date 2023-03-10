@@ -9,22 +9,6 @@ const Home = () => {
       <div className='col-lg-12'>
         <HeaderSection />
         <AboutSection />
-        <AboutSection />
-
-        <AboutSection />
-        <AboutSection />
-
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
-
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
-        <AboutSection />
       </div>
     </div>
   );

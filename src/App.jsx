@@ -42,7 +42,7 @@ function App() {
       <Preloader />
       <div hidden id='hidden'>
         <div className='custome-container main'>
-          {/* <Leftbar/> */}
+          {/* <Leftbar /> */}
           <RouterProvider router={router} />
           <Rightbar />
         </div>
@@ -63,17 +63,6 @@ const Root = () => {
           <Link to='/projects'>Projects</Link>
           <Link to='/contact'>Contact</Link>
           <Link to='/learnjs'>LearnJS</Link>
-        </section>
-        <section className='navIcons'>
-          <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-            <FontAwesomeIcon icon={brands('linkedin')} />
-          </a>
-          <a href='https://github.com/ricesush' target='blank'>
-            <FontAwesomeIcon icon={brands('github')} />
-          </a>
-          <a href='https://www.facebook.com/RiceSush' target='blank'>
-            <FontAwesomeIcon icon={brands('facebook')} />
-          </a>
         </section>
       </nav>
       <section>

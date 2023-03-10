@@ -110,6 +110,7 @@
 }
 
 .bg-accent {
+  display: flex;
   background: url('/src/images/bg-img.webp');
   background-position: center;
   background-repeat: no-repeat;

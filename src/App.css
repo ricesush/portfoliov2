@@ -27,15 +27,30 @@ body {
   z-index: 2 !important;
 }
 
-.img-shadow {
+.imgContainer {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  background-color: #22333b;
+  width: 20%;
+  min-width: 11rem;
+}
+
+.imgItem {
+  margin: 2rem auto;
+  width: 7rem;
   filter: drop-shadow(-8px 8px #ff990067);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
 
+.headerSectionContainer {
+  margin: auto 0;
+}
+
 .rightbar {
   position: fixed !important;
-  right: 0;
+  right: 1em;
   top: auto;
   bottom: auto;
   display: grid;
