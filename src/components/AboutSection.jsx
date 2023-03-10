@@ -22,13 +22,13 @@ const AboutSection = () => {
           Hello, I'm <span className='yellowText'>Erick-john Santosidad</span>,
           an enthusiastic Web Developer with passion for programming and love
           for work. Proficient in an assortment of technologies, including
-          <span className='yellowText'>HTML5</span>,
-          <span className='yellowText'>CSS3</span>,
-          <span className='yellowText'>Javascript</span>,
-          <span className='yellowText'>React.Js</span>,
-          <span className='yellowText'>PHP</span>,
-          <span className='yellowText'>Laravel</span>, and
-          <span className='yellowText'>MySQL</span>. Able to efficiently
+          <span className='yellowText'> HTML5</span>,
+          <span className='yellowText'> CSS3</span>,
+          <span className='yellowText'> Javascript</span>,
+          <span className='yellowText'> React.Js</span>,
+          <span className='yellowText'> PHP</span>,
+          <span className='yellowText'> Laravel</span>, and
+          <span className='yellowText'> MySQL</span>. Able to efficiently
           self-manage during independent projects, as well as collaborate in a
           team setting.
         </div>

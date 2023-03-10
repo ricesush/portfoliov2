@@ -4,6 +4,7 @@ import React from 'react';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Learnjs from './pages/Learnjs';
 import Leftbar from './components/Leftbar';
 import Rightbar from './components/Rightbar';
 import Preloader from './components/Preloader';
@@ -31,6 +32,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/learnjs' element={<Learnjs />} />
       </Route>
     )
   );
@@ -39,7 +41,7 @@ function App() {
     <React.Fragment>
       <Preloader />
       <div hidden id='hidden'>
-        <div className='custome-container main shadow-custom2'>
+        <div className='custome-container main'>
           {/* <Leftbar/> */}
           <RouterProvider router={router} />
           <Rightbar />
@@ -52,11 +54,17 @@ function App() {
 const Root = () => {
   return (
     <>
-      <nav className='navBar'>
-        <Link to='/'>Home</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/contact'>Contact</Link>
-        <div>
+      <nav className='navBar sticky-top'>
+        <Link to='/'>
+          <b>E-J ESAN.</b>
+        </Link>
+        <section className='navLink'>
+          <Link to='/'>Home</Link>
+          <Link to='/projects'>Projects</Link>
+          <Link to='/contact'>Contact</Link>
+          <Link to='/learnjs'>LearnJS</Link>
+        </section>
+        <section className='navIcons'>
           <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
             <FontAwesomeIcon icon={brands('linkedin')} />
           </a>
@@ -66,7 +74,7 @@ const Root = () => {
           <a href='https://www.facebook.com/RiceSush' target='blank'>
             <FontAwesomeIcon icon={brands('facebook')} />
           </a>
-        </div>
+        </section>
       </nav>
       <section>
         <Outlet />
