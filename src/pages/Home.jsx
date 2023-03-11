@@ -2,6 +2,7 @@ import '../css/home.css';
 
 import AboutSection from '../components/AboutSection';
 import HeaderSection from '../components/HeaderSection';
+import TechStack from '../components/TechStack';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <div className='col-lg-12'>
         <HeaderSection />
         <AboutSection />
+        <TechStack />
       </div>
     </div>
   );
