@@ -11,11 +11,11 @@ const Projects = (props) => {
         <img
           src={props.imgSrc}
           alt={props.projectTitle}
-          className='img-size mt-3 shadow-custom2'
+          className='mt-3 shadow-custom2'
         />
       </a>
       <div className='col-lg-6 col-md-11 mt-3 p-4 pe-0'>
-        <header className='d-flex align-items-center justify-content-between'>
+        <header className='d-md-flex align-items-center justify-content-between'>
           <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
           <p className='text-secondary'>{props.category}</p>
         </header>
