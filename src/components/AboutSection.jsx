@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className='col-lg-6 m-1 border rounded-4'>
+    <section className='col-lg-6 m-1 rounded-4 shadow'>
       <div className='p-5 fw-lighter'>
         <div>
           <div>

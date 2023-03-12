@@ -14,7 +14,7 @@ const LeftBarHeader = () => {
       <img
         src={myImage}
         width={100}
-        className='img-shadow pt-3'
+        className='pt-3'
         alt='profile picture'
       ></img>
       <h5 className='pt-3 fw-bold'>Erick-John Santosidad</h5>

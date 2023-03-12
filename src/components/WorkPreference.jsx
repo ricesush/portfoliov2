@@ -8,12 +8,12 @@ import {
 
 const WorkPreference = () => {
   return (
-    <section className='col-lg-6 m-1 border rounded-4'>
+    <section className='col-lg-6 m-1 rounded-4 shadow'>
       <div className='p-5'>
         <h2 className='text-center'>
           <span className='yellowText'>Work</span> Preference
         </h2>
-        <div className='fs-1 p-5 pt-2 d-flex'>
+        <div className='fs-1 p-5 pt-3 d-flex'>
           <div className='fs-6'>
             <FontAwesomeIcon
               icon={icon({ name: 'check', style: 'solid' })}

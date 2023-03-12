@@ -17,16 +17,18 @@ const Footer = () => {
           >
             E-J ESAN.
           </a>
-          <span className='mb-3 mb-md-0 text-muted'>© 2022 Company, Inc</span>
+        </div>
+        <div className='mb-3 mb-md-0 text-muted'>
+          Created by <small className='fw-bold'>PIXELARTME</small>
         </div>
 
         <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
-          <li className='ms-3'>
+          <li className='fs-3'>
             <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
               <FontAwesomeIcon icon={brands('linkedin')} className='socmed ' />
             </a>
           </li>
-          <li className='ms-3'>
+          <li className='mx-1 fs-3'>
             <a href='https://github.com/ricesush' target='blank'>
               <FontAwesomeIcon
                 icon={brands('github')}
@@ -34,7 +36,7 @@ const Footer = () => {
               />
             </a>
           </li>
-          <li className='ms-3'>
+          <li className='fs-3'>
             <a href='https://www.facebook.com/RiceSush' target='blank'>
               <FontAwesomeIcon icon={brands('facebook')} className='socmed' />
             </a>

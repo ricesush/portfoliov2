@@ -14,7 +14,7 @@ const Home = () => {
           <AboutSection />
           <TechStack />
         </section>
-        <section className='d-lg-flex pt-5'>
+        <section className='d-lg-flex pt-lg-5'>
           <WorkPreference />
         </section>
       </div>
