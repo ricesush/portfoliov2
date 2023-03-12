@@ -30,19 +30,19 @@ const ProjectSection = () => {
         <FontAwesomeIcon
           icon={brands('html5')}
           title='HTML5'
-          className='fs-4'
+          className='fs-3'
         />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-4' />
+        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
           icon={brands('bootstrap')}
           title='Bootstrap5'
-          className='fs-4'
+          className='fs-3'
         />
-        <FontAwesomeIcon icon={brands('php')} title='PHP' className='fs-4' />
+        <FontAwesomeIcon icon={brands('php')} title='PHP' className='fs-3' />
         <FontAwesomeIcon
           icon={brands('laravel')}
           title='Laravel'
-          className='fs-4'
+          className='fs-3'
         />
       </Projects>
       <hr className='col-lg-11 mx-5 my-4' />
@@ -56,18 +56,18 @@ const ProjectSection = () => {
         <FontAwesomeIcon
           icon={brands('html5')}
           title='HTML5'
-          className='fs-4'
+          className='fs-3'
         />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-4' />
+        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
           icon={brands('bootstrap')}
           title='Bootstrap5'
-          className='fs-4'
+          className='fs-3'
         />
         <FontAwesomeIcon
           icon={brands('js')}
           title='Javascript'
-          className='fs-4'
+          className='fs-3'
         />
       </Projects>
       <hr className='col-lg-11 mx-5 my-4' />
@@ -81,18 +81,18 @@ const ProjectSection = () => {
         <FontAwesomeIcon
           icon={brands('html5')}
           title='HTML5'
-          className='fs-4'
+          className='fs-3'
         />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-4' />
+        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
           icon={brands('bootstrap')}
           title='Bootstrap5'
-          className='fs-4'
+          className='fs-3'
         />
         <FontAwesomeIcon
           icon={brands('js')}
           title='Javascript'
-          className='fs-4'
+          className='fs-3'
         />
       </Projects>
       <hr className='col-lg-11 mx-5 my-4' />

@@ -21,6 +21,7 @@ import {
   createRoutesFromElements,
   Route,
   Link,
+  NavLink,
   Outlet,
   RouterProvider,
 } from 'react-router-dom';
@@ -71,11 +72,11 @@ const Root = () => {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <ul className='navbar-nav mx-auto mb-2 mb-lg-0'>
+            <ul className='navbar-nav mx-auto mb-2 mb-lg-0 fw-bold'>
               <li className='nav-item'>
-                <Link to='/' className='nav-link active'>
+                <NavLink to='/' className='nav-link'>
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className='nav-item dropdown'>
                 <a
@@ -122,14 +123,14 @@ const Root = () => {
                 </ul>
               </li>
               <li className='nav-item'>
-                <Link to='/contact' className='nav-link'>
+                <NavLink to='/contact' className='nav-link'>
                   Contact
-                </Link>
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <Link to='/learnjs' className='nav-link'>
+                <NavLink to='/learnjs' className='nav-link'>
                   Practice
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <section className='fs-3'>
