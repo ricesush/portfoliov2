@@ -6,7 +6,6 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Learnjs from './pages/Learnjs';
 import Leftbar from './components/Leftbar';
-import Rightbar from './components/Rightbar';
 import Preloader from './components/Preloader';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,7 +44,6 @@ function App() {
         <div className='container'>
           {/* <Leftbar /> */}
           <RouterProvider router={router} />
-          {/* <Rightbar /> */}
         </div>
       </div>
     </React.Fragment>
@@ -58,7 +56,7 @@ const Root = () => {
       <nav className='navbar navbar-expand-lg'>
         <div className='container'>
           <Link to='/' className='navbar-brand fw-bold'>
-            E-J ESAN
+            E-J ESAN.
           </Link>
           <button
             className='navbar-toggler'

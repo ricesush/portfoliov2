@@ -3,12 +3,11 @@ import '../css/buttons.css';
 
 const HeaderSection = () => {
   return (
-    <div className='d-flex mt-5'>
-      <div className='ms-auto'>
-        <img src={myImage} className='img-size'></img>
+    <div className='d-md-flex mt-5'>
+      <div className='ms-md-auto'>
+        <img src={myImage} className='img-size mx-auto'></img>
       </div>
-
-      <div className='align-middle my-auto me-auto ps-5'>
+      <div className='align-middle my-auto me-auto ps-md-5 text-center text-md-start'>
         <h5 className='fw-bold fs-1'>Erick-John Santosidad</h5>
         <p className='yellowText fw-bold'>Full-Stack Developer</p>
         <div>
