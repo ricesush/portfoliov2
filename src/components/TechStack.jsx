@@ -8,21 +8,20 @@ import {
 
 const TechStack = () => {
   return (
-    <section className='bg-img'>
-      <header className='col-lg-12 fs-5 text-light fw-bold mt-5 d-flex align-items-end justify-content-between'>
-        <h2 className='col-lg-2'>
+    <section className='col-lg-6 col-md-12 bg-img border'>
+      <header className='fs-5 fw-bold'>
+        <h2 className='text-center'>
           <span className='yellowText'>Tech</span> Stack
         </h2>
-        <div className='col-lg-10 col-md-9'>
-          <hr className='text-light mt-0' />
-        </div>
       </header>
-      <div className='text-light p-5 pb-0 fw-lighter'>
-        <div className='fs-1 d-flex justify-content-around'>
+      <div className=''>
+        <div className='fs-1 d-flex justify-content-around py-5 ps-0 pe-0'>
           <FontAwesomeIcon icon={brands('html5')} title='HTML5' />
           <FontAwesomeIcon icon={brands('css3')} title='CSS3' />
           <FontAwesomeIcon icon={brands('bootstrap')} />
           <FontAwesomeIcon icon={brands('js')} />
+        </div>
+        <div className='fs-1 d-flex justify-content-around p-3 ps-0 pe-0'>
           <FontAwesomeIcon icon={brands('react')} />
           <FontAwesomeIcon icon={brands('figma')} />
           <FontAwesomeIcon icon={brands('php')} />

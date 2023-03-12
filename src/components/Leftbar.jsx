@@ -17,9 +17,9 @@ const Leftbar = () => {
           <section className='col-lg-10 col-md-10 section-left shadow-custom2'>
             <LeftBarHeader />
             <LeftBarButtons />
-            <hr className='text-light mx-3 mt-0' />
+            <hr className='mx-3 mt-0' />
             <TechStack />
-            <hr className='text-light mx-3' />
+            <hr className='mx-3' />
             <WorkPreference />
           </section>
         </div>

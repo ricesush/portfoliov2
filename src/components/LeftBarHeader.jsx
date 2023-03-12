@@ -10,7 +10,7 @@ import {
 
 const LeftBarHeader = () => {
   return (
-    <header className='text-light text-center bg-gray py-4'>
+    <header className='text-center bg-gray py-4'>
       <img
         src={myImage}
         width={100}
@@ -27,21 +27,17 @@ const LeftBarHeader = () => {
         <div className='d-flex justify-content-around col-4 mx-auto  align-items-center'>
           <a
             href='https://www.facebook.com/RiceSush'
-            className='text-light fs-5 '
+            className='fs-5 '
             target='blank'
           >
             <FontAwesomeIcon icon={brands('facebook')} className='socmed' />
           </a>
-          <a
-            href='https://github.com/ricesush'
-            className='text-light fs-5'
-            target='blank'
-          >
+          <a href='https://github.com/ricesush' className='fs-5' target='blank'>
             <FontAwesomeIcon icon={brands('github')} className='socmed' />
           </a>
           <a
             href='https://www.linkedin.com/in/ejsan/'
-            className='text-light fs-5'
+            className='fs-5'
             target='blank'
           >
             <FontAwesomeIcon icon={brands('linkedin')} className='socmed' />

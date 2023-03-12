@@ -8,7 +8,7 @@ import {
 
 const WorkPreference = () => {
   return (
-    <section className='text-light pt-2 p-3 pb-0'>
+    <section className='pt-2 p-3 pb-0'>
       <div className='text-center'>
         <small className='yellowText  opacity-75'>Work Preference</small>
       </div>

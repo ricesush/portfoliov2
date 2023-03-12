@@ -15,7 +15,7 @@ import {
 const ProjectSection = () => {
   return (
     <section className='bg-img'>
-      <header className='col-lg-12 text-light d-flex'>
+      <header className='col-lg-12 d-flex'>
         <h2 className=''>
           <span className='yellowText'>Recent</span> Projects
         </h2>
@@ -45,7 +45,7 @@ const ProjectSection = () => {
           className='fs-4'
         />
       </Projects>
-      <hr className='col-lg-11 text-light mx-5 my-4' />
+      <hr className='col-lg-11 mx-5 my-4' />
       <Projects
         projectTitle='GG-Next'
         category='Gaming Web App'
@@ -70,7 +70,7 @@ const ProjectSection = () => {
           className='fs-4'
         />
       </Projects>
-      <hr className='col-lg-11 text-light mx-5 my-4' />
+      <hr className='col-lg-11 mx-5 my-4' />
       <Projects
         projectTitle='The Greenhouse'
         category='Agriculture Content'
@@ -95,7 +95,7 @@ const ProjectSection = () => {
           className='fs-4'
         />
       </Projects>
-      <hr className='col-lg-11 text-light mx-5 my-4' />
+      <hr className='col-lg-11 mx-5 my-4' />
     </section>
   );
 };

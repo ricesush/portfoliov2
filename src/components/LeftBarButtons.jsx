@@ -1,7 +1,7 @@
 const LeftBarButtons = () => {
   return (
     <section className='d-flex'>
-      <div className='text-light col-lg-6 col-md-6 p-0 m-0'>
+      <div className='col-lg-6 col-md-6 p-0 m-0'>
         <div className='buttons'>
           <button className='btn'>
             <span></span>
@@ -13,7 +13,7 @@ const LeftBarButtons = () => {
           </button>
         </div>
       </div>
-      <div className='text-light col-lg-6 col-md-6 p-0 m-0 '>
+      <div className='col-lg-6 col-md-6 p-0 m-0 '>
         <div className='buttons'>
           <button className='btn'>
             <span></span>

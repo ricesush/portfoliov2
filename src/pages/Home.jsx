@@ -6,11 +6,13 @@ import TechStack from '../components/TechStack';
 
 const Home = () => {
   return (
-    <div className='d-flex'>
-      <div className='col-lg-12'>
+    <div>
+      <div>
         <HeaderSection />
-        <AboutSection />
-        <TechStack />
+        {/* <AboutSection />
+        <section className=''>
+          <TechStack />
+        </section> */}
       </div>
     </div>
   );
