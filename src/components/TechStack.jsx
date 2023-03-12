@@ -8,7 +8,7 @@ import {
 
 const TechStack = () => {
   return (
-    <section className='col-lg-6 border p-5'>
+    <section className='col-lg-6 m-1 border p-5 rounded-4'>
       <header className='fs-5 fw-bold'>
         <h2 className='text-center'>
           <span className='yellowText'>Tech</span> Stack
