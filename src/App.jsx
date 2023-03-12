@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Learnjs from './pages/Learnjs';
 import Leftbar from './components/Leftbar';
 import Preloader from './components/Preloader';
+import Footer from './components/Footer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -45,6 +46,7 @@ function App() {
           {/* <Leftbar /> */}
           <RouterProvider router={router} />
         </div>
+        <Footer />
       </div>
     </React.Fragment>
   );
