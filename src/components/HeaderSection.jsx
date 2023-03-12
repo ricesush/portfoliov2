@@ -8,7 +8,7 @@ const HeaderSection = () => {
         <img src={myImage} className='img-size mx-auto'></img>
       </div>
       <div className='align-middle my-auto me-auto ps-md-5 text-center text-md-start'>
-        <h5 className='fw-bold fs-1'>Erick-John Santosidad</h5>
+        <h5 className='fw-bold fs-1 pt-lg-0 pt-sm-3'>Erick-John Santosidad</h5>
         <p className='yellowText fw-bold'>Full-Stack Developer</p>
         <div>
           An enthusiastic Web Developer with passion for programming and love
