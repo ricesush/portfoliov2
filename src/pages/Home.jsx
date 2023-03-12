@@ -9,10 +9,11 @@ const Home = () => {
     <div>
       <div>
         <HeaderSection />
-        {/* <AboutSection />
-        <section className=''>
+
+        <section className='d-lg-flex pt-5'>
+          <AboutSection />
           <TechStack />
-        </section> */}
+        </section>
       </div>
     </div>
   );
