@@ -20,7 +20,7 @@ const Projects = (props) => {
           <p className='text-secondary'>{props.category}</p>
         </header>
         <h6>{props.shortDescription}</h6>
-        <section className='col-lg-9 col-md-8 fs-6 d-flex pt-5 justify-content-between'>
+        <section className='col-lg-9 col-md-8 fs-6 d-lg-flex d-md-flex text-center text-md-start pt-5 justify-content-between'>
           <h6 className='text-secondary'>Tech Used: </h6>
           {props.children}
         </section>

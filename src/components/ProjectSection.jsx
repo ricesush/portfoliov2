@@ -15,8 +15,8 @@ import {
 const ProjectSection = () => {
   return (
     <section className='bg-img'>
-      <header className='col-lg-12 d-flex'>
-        <h2 className=''>
+      <header className='col-lg-12 '>
+        <h2 className='text-center fs-1 py-lg-5 my-3'>
           <span className='yellowText'>Recent</span> Projects
         </h2>
       </header>
