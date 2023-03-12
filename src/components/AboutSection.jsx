@@ -1,7 +1,7 @@
 const AboutSection = () => {
   return (
     <section className='border'>
-      <div className='p-5 pt-0 pb-0 fw-lighter'>
+      <div className='p-5 fw-lighter'>
         <div>
           <div>
             <span className='text-secondary'>Country:</span> Philippines

@@ -8,14 +8,14 @@ import {
 
 const TechStack = () => {
   return (
-    <section className='col-lg-6 border'>
+    <section className='col-lg-6 border p-5'>
       <header className='fs-5 fw-bold'>
         <h2 className='text-center'>
           <span className='yellowText'>Tech</span> Stack
         </h2>
       </header>
       <div className=''>
-        <div className='fs-1 d-flex justify-content-around py-5 ps-0 pe-0'>
+        <div className='fs-1 d-flex justify-content-around py-3 ps-0 pe-0'>
           <FontAwesomeIcon icon={brands('html5')} title='HTML5' />
           <FontAwesomeIcon icon={brands('css3')} title='CSS3' />
           <FontAwesomeIcon icon={brands('bootstrap')} />
