@@ -30,7 +30,12 @@ const HeaderSection = () => {
           An enthusiastic Web Developer with passion for programming and love
           for work.
         </div>
-        <button type='button' className='btn btn-outline-secondary mt-3'>
+        <a
+          type='button'
+          className='btn btn-outline-secondary mt-3'
+          target='_blank'
+          href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
+        >
           <small>
             <span>Download CV </span>
             <FontAwesomeIcon
@@ -40,7 +45,7 @@ const HeaderSection = () => {
               })}
             />
           </small>
-        </button>
+        </a>
       </div>
     </div>
   );
