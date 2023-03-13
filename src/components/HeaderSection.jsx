@@ -32,7 +32,7 @@ const HeaderSection = () => {
         </div>
         <a
           type='button'
-          className='btn btn-outline-secondary mt-3'
+          className='btn custom-btn mt-3'
           target='_blank'
           href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
         >

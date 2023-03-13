@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react';
 
+import Preloader from './components/Preloader';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
+import ProjectInfo from './components/ProjectInfo';
 import Learnjs from './pages/Learnjs';
-import Leftbar from './components/Leftbar';
-import Preloader from './components/Preloader';
 import Footer from './components/Footer';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -32,6 +32,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/learnjs' element={<Learnjs />} />
+        <Route path='/projectinfo' element={<ProjectInfo />} />
       </Route>
     )
   );
@@ -41,7 +42,6 @@ function App() {
       <Preloader />
       <div hidden id='hidden'>
         <div className='container'>
-          {/* <Leftbar /> */}
           <RouterProvider router={router} />
         </div>
         <Footer />
@@ -120,9 +120,9 @@ const Root = () => {
                   </li>
                 </ul>
               </li>
-              <li class='nav-item dropdown'>
+              <li className='nav-item dropdown'>
                 <a
-                  class='nav-link dropdown-toggle'
+                  className='nav-link dropdown-toggle'
                   href='#'
                   role='button'
                   data-bs-toggle='dropdown'
@@ -130,14 +130,14 @@ const Root = () => {
                 >
                   Contact
                 </a>
-                <ul class='dropdown-menu'>
+                <ul className='dropdown-menu'>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#'>
                       Pixelartme@gmail.com
                     </a>
                   </li>
                   <li>
-                    <a class='dropdown-item' href='#'>
+                    <a className='dropdown-item' href='#'>
                       +63999-551-4413
                     </a>
                   </li>

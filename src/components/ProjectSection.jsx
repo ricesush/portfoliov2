@@ -2,7 +2,7 @@ import ggNext from '../../src/images/ggnext.PNG';
 import tgh from '../../src/images/tgh.png';
 import df from '../../src/images/DF.PNG';
 
-import Projects from '../components/ProjectContent';
+import Project from '../components/ProjectContent';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -20,11 +20,11 @@ const ProjectSection = () => {
           <span className='yellowText'>Recent</span> Projects
         </h2>
       </header>
-      <Projects
+      <Project
         projectTitle='Dream-Fields'
         category='Real Estate Web App'
         shortDescription='Full-Stack Web Application'
-        href='/'
+        href='#'
         imgSrc={df}
       >
         <FontAwesomeIcon
@@ -44,9 +44,9 @@ const ProjectSection = () => {
           title='Laravel'
           className='fs-3'
         />
-      </Projects>
+      </Project>
       <hr className='col-lg-11 mx-5 my-4' />
-      <Projects
+      <Project
         projectTitle='GG-Next'
         category='Gaming Web App'
         shortDescription='API-driven Mini Web Application'
@@ -69,9 +69,9 @@ const ProjectSection = () => {
           title='Javascript'
           className='fs-3'
         />
-      </Projects>
+      </Project>
       <hr className='col-lg-11 mx-5 my-4' />
-      <Projects
+      <Project
         projectTitle='The Greenhouse'
         category='Agriculture Content'
         shortDescription='Static, Multi-page Responsive Website'
@@ -94,7 +94,7 @@ const ProjectSection = () => {
           title='Javascript'
           className='fs-3'
         />
-      </Projects>
+      </Project>
     </section>
   );
 };

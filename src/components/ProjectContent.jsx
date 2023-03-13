@@ -6,8 +6,9 @@ import {
   brands,
   icon,
 } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { Link } from 'react-router-dom';
 
-const Projects = (props) => {
+const Project = (props) => {
   return (
     <section className='row-md d-lg-flex justify-content-center img-bg rounded-0 m-1'>
       <a
@@ -28,9 +29,9 @@ const Projects = (props) => {
             <p className='text-secondary'>{props.category}</p>
           </header>
           <h6>{props.shortDescription}</h6>
-          <a href='#'>
+          <Link to={props.href} target='blank' id={props.id}>
             <small>
-              <span>See more details </span>
+              <span>Go to website </span>
               <FontAwesomeIcon
                 icon={icon({
                   name: 'arrow-right-from-bracket',
@@ -38,7 +39,7 @@ const Projects = (props) => {
                 })}
               />
             </small>
-          </a>
+          </Link>
         </section>
         <section className='col-lg-9 col-md-8 d-lg-flex d-md-flex text-center text-md-start  mt-md-5 mt-3 mb-0 pb-0'>
           <small className='text-secondary fw-bold'>Tech Used: </small>
@@ -51,4 +52,4 @@ const Projects = (props) => {
   );
 };
 
-export default Projects;
+export default Project;

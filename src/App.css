@@ -16,10 +16,21 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Button */
+.custom-btn {
+  transition: 0.3s all;
+  border-color: #d75f56;
+}
+
 /* General Hover */
 .socmed:hover,
 .nav-link:hover {
   color: var(--clr-primary-400);
+}
+
+.custom-btn:hover {
+  color: white;
+  background-color: var(--clr-primary-400);
 }
 
 /* navbar */
