@@ -2,7 +2,6 @@ import './App.css';
 import React from 'react';
 
 import Home from './pages/Home';
-import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Learnjs from './pages/Learnjs';
 import Leftbar from './components/Leftbar';
@@ -32,7 +31,6 @@ function App() {
       <Route path='/' element={<Root />}>
         <Route index element={<Home />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
         <Route path='/learnjs' element={<Learnjs />} />
       </Route>
     )
@@ -72,7 +70,7 @@ const Root = () => {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <ul className='navbar-nav mx-auto mb-2 mb-lg-0 fw-bold'>
+            <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold'>
               <li className='nav-item'>
                 <NavLink to='/' className='nav-link'>
                   Home
@@ -123,9 +121,9 @@ const Root = () => {
                 </ul>
               </li>
               <li className='nav-item'>
-                <NavLink to='/contact' className='nav-link'>
+                <a href='#' className='nav-link'>
                   Contact
-                </NavLink>
+                </a>
               </li>
               <li className='nav-item'>
                 <NavLink to='/learnjs' className='nav-link'>
@@ -133,23 +131,6 @@ const Root = () => {
                 </NavLink>
               </li>
             </ul>
-            <section className='fs-3'>
-              <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-                <FontAwesomeIcon
-                  icon={brands('linkedin')}
-                  className='socmed '
-                />
-              </a>
-              <a href='https://github.com/ricesush' target='blank'>
-                <FontAwesomeIcon
-                  icon={brands('github')}
-                  className='socmed mx-3'
-                />
-              </a>
-              <a href='https://www.facebook.com/RiceSush' target='blank'>
-                <FontAwesomeIcon icon={brands('facebook')} className='socmed' />
-              </a>
-            </section>
           </div>
         </div>
       </nav>
