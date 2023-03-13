@@ -120,10 +120,28 @@ const Root = () => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item'>
-                <a href='#' className='nav-link'>
+              <li class='nav-item dropdown'>
+                <a
+                  class='nav-link dropdown-toggle'
+                  href='#'
+                  role='button'
+                  data-bs-toggle='dropdown'
+                  aria-expanded='false'
+                >
                   Contact
                 </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a class='dropdown-item' href='#'>
+                      Pixelartme@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a class='dropdown-item' href='#'>
+                      +63999-551-4413
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li className='nav-item'>
                 <NavLink to='/learnjs' className='nav-link'>
