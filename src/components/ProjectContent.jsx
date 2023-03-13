@@ -1,4 +1,11 @@
 import '../css/home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  solid,
+  regular,
+  brands,
+  icon,
+} from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const Projects = (props) => {
   return (
@@ -21,6 +28,17 @@ const Projects = (props) => {
             <p className='text-secondary'>{props.category}</p>
           </header>
           <h6>{props.shortDescription}</h6>
+          <a href='#'>
+            <small>
+              <span>See more details </span>
+              <FontAwesomeIcon
+                icon={icon({
+                  name: 'arrow-right-from-bracket',
+                  style: 'solid',
+                })}
+              />
+            </small>
+          </a>
         </section>
         <section className='col-lg-9 col-md-8  d-lg-flex d-md-flex text-center text-md-start justify-content-between mt-auto'>
           <h6 className='text-secondary'>Tech Used: </h6>

@@ -95,7 +95,6 @@ const ProjectSection = () => {
           className='fs-3'
         />
       </Projects>
-      <hr className='col-lg-11 mx-5 my-4' />
     </section>
   );
 };
