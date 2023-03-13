@@ -13,7 +13,7 @@ const WorkPreference = () => {
         <h2 className='text-center'>
           <span className='yellowText'>Work</span> Preference
         </h2>
-        <div className='fs-1 p-5 pt-3 d-flex'>
+        <div className='fs-1 p-5 pt-3 d-md-flex'>
           <div className='fs-6'>
             <FontAwesomeIcon
               icon={icon({ name: 'check', style: 'solid' })}
