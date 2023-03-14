@@ -9,6 +9,9 @@ const Learnjs = () => {
           <b>Mini tasks, best practices, some tutorials and more..</b>
         </p>
       </header>
+      <section className='text-center'>
+        <div>Coming Soon...</div>
+      </section>
     </>
   );
 };

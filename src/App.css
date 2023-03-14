@@ -53,3 +53,14 @@ body {
 }
 
 /* footer */
+
+/* general misc */
+
+a > small > span:hover {
+  transition: 0.3s all;
+  padding-right: 0.3rem;
+}
+
+.border-top {
+  border-color: var(--clr-primary-400) !important;
+}

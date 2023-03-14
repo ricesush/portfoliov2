@@ -26,6 +26,7 @@ const ProjectSection = () => {
         shortDescription='Full-Stack Web Application'
         href='#'
         imgSrc={df}
+        repository='https://github.com/ricesush/dream-fields'
       >
         <FontAwesomeIcon
           icon={brands('html5')}
@@ -52,6 +53,7 @@ const ProjectSection = () => {
         shortDescription='API-driven Mini Web Application'
         href='https://gg-next-neon.vercel.app/'
         imgSrc={ggNext}
+        repository='https://github.com/DavidQuebengco/project-2'
       >
         <FontAwesomeIcon
           icon={brands('html5')}
@@ -77,6 +79,7 @@ const ProjectSection = () => {
         shortDescription='Static, Multi-page Responsive Website'
         href='https://thegreenhouse.vercel.app/'
         imgSrc={tgh}
+        repository='https://github.com/ricesush/Hydroponics'
       >
         <FontAwesomeIcon
           icon={brands('html5')}

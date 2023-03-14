@@ -40,6 +40,18 @@ const Project = (props) => {
               />
             </small>
           </Link>
+          <br />
+          <Link to={props.repository} target='blank' id={props.id}>
+            <small>
+              <span>Check Repository </span>
+              <FontAwesomeIcon
+                icon={icon({
+                  name: 'arrow-right-from-bracket',
+                  style: 'solid',
+                })}
+              />
+            </small>
+          </Link>
         </section>
         <section className='col-lg-9 col-md-8 d-lg-flex d-md-flex text-center text-md-start  mt-md-5 mt-3 mb-0 pb-0'>
           <small className='text-secondary fw-bold'>Tech Used: </small>

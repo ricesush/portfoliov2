@@ -5,6 +5,8 @@ import HeaderSection from '../components/HeaderSection';
 import TechStack from '../components/TechStack';
 import WorkPreference from '../components/WorkPreference';
 import Contact from '../components/Contact';
+import { Milestone } from '../components/Milestone';
+import { Cetrification } from '../components/Certificates';
 
 const Home = () => {
   return (
@@ -18,6 +20,10 @@ const Home = () => {
         <section className='d-lg-flex pt-lg-5'>
           <TechStack />
           <WorkPreference />
+        </section>
+        <section className='d-lg-flex pt-lg-5'>
+          <Cetrification />
+          <Milestone />
         </section>
       </div>
     </div>
