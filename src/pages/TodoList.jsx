@@ -1,17 +1,7 @@
 import { useState } from 'react';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
-import { Link } from 'react-router-dom';
+import { Task } from '../components/Task';
 
 const TodoList = () => {
-  let key = 0;
-
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState('');
 
@@ -45,23 +35,12 @@ const TodoList = () => {
       </div>
       <div className='list'>
         {todoList.map((task) => {
-          key++;
           return (
-            <div className='d-flex align-items-center' key={key}>
-              {task.taskName}
-              <button
-                type='button'
-                className='btn bg-transparent border-0 ps-1'
-                onClick={() => deleteTask(task.id)}
-              >
-                <FontAwesomeIcon
-                  icon={icon({
-                    name: 'trash-can',
-                    style: 'solid',
-                  })}
-                />
-              </button>
-            </div>
+            <Task
+              id={task.id}
+              taskName={task.taskName}
+              deleteTask={deleteTask}
+            />
           );
         })}
       </div>
