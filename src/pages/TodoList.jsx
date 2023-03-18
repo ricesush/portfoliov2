@@ -10,6 +10,8 @@ import {
 import { Link } from 'react-router-dom';
 
 const TodoList = () => {
+  let key = 0;
+
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState('');
 
@@ -18,15 +20,17 @@ const TodoList = () => {
   };
 
   const addTask = () => {
-    setTodoList([...todoList, newTask]);
+    const task = {
+      id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
+      taskName: newTask,
+    };
+    setTodoList([...todoList, task]);
   };
 
-  const deleteTask = (task) => {
-    const newTodoList = todoList.filter((taskFilter) => {
-      return taskFilter !== task;
-    });
-    setTodoList(newTodoList);
+  const deleteTask = (id) => {
+    setTodoList(todoList.filter((task) => task.id !== id));
   };
+
   return (
     <>
       <div className='addTask col-4 d-flex'>
@@ -41,13 +45,14 @@ const TodoList = () => {
       </div>
       <div className='list'>
         {todoList.map((task) => {
+          key++;
           return (
-            <div className='d-flex align-items-center'>
-              {task}
+            <div className='d-flex align-items-center' key={key}>
+              {task.taskName}
               <button
                 type='button'
                 className='btn bg-transparent border-0 ps-1'
-                onClick={() => deleteTask(task)}
+                onClick={() => deleteTask(task.id)}
               >
                 <FontAwesomeIcon
                   icon={icon({
