@@ -21,22 +21,29 @@ const TodoList = () => {
     setTodoList(todoList.filter((task) => task.id !== id));
   };
 
+  let key = 0;
+
   return (
-    <>
-      <div className='addTask col-4 d-flex'>
-        <input className='form-control col-auto' onChange={handleChange} />
+    <section className='col-8 mx-auto rounded shadow-sm'>
+      <div className='addTask d-md-flex'>
+        <input
+          className='form-control rounded-0 rounded-start'
+          onChange={handleChange}
+        />
         <button
           type='submit'
-          className='btn btn-primary col-auto'
+          className='btn btn-primary col-auto rounded-0 rounded-end'
           onClick={addTask}
         >
           Add Task
         </button>
       </div>
-      <div className='list'>
+      <div className='list p-3'>
         {todoList.map((task) => {
+          key++;
           return (
             <Task
+              key={key}
               id={task.id}
               taskName={task.taskName}
               deleteTask={deleteTask}
@@ -44,7 +51,7 @@ const TodoList = () => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
 
