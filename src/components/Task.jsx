@@ -11,21 +11,45 @@ export const Task = (props) => {
   return (
     <div
       className='d-flex align-items-center justify-content-between border-bottom'
-      key={props.key}
+      key={props.keys}
     >
-      {props.taskName}
-      <button
-        type='button'
-        className='btn bg-transparent border-0 ps-1'
-        onClick={() => props.deleteTask(props.id)}
+      <div
+        className='fw-bold'
+        style={{ color: props.completed ? 'green' : 'black' }}
       >
-        <FontAwesomeIcon
-          icon={icon({
-            name: 'trash-can',
-            style: 'solid',
-          })}
-        />
-      </button>
+        {props.taskName}
+      </div>
+      <div className='d-flex'>
+        <div className='d-flex align-items-center'>
+          <input
+            className='form-check-input'
+            type='checkbox'
+            value=''
+            id={props.id + props.taskName}
+            onChange={() => {
+              props.completedTask(props.id);
+            }}
+          />
+          <label
+            className='form-check-label ps-1'
+            htmlFor={props.id + props.taskName}
+          >
+            Mark as done
+          </label>
+        </div>
+        <button
+          type='button'
+          className='btn bg-transparent border-0 ps-3'
+          onClick={() => props.deleteTask(props.id)}
+        >
+          <FontAwesomeIcon
+            icon={icon({
+              name: 'trash-can',
+              style: 'solid',
+            })}
+          />
+        </button>
+      </div>
     </div>
   );
 };

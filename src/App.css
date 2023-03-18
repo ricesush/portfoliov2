@@ -64,3 +64,7 @@ a > small > span:hover {
 .border-top {
   border-color: var(--clr-primary-400) !important;
 }
+
+.checked {
+  color: red !important;
+}
