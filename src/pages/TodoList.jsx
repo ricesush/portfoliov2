@@ -4,9 +4,9 @@ const TodoList = () => {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState('');
 
-  const handleChange = (event) => {};
-  setNewTask(event.target.value);
-
+  const handleChange = (event) => {
+    setNewTask(event.target.value);
+  };
   return (
     <>
       <div className='addTask col-4 d-flex'>
@@ -15,7 +15,7 @@ const TodoList = () => {
           Add Task
         </button>
       </div>
-      <div className='list'></div>
+      <div className='list'>{newTask}</div>
     </>
   );
 };
