@@ -54,21 +54,31 @@ const TodoList = () => {
           Add Task
         </button>
       </div>
-      <div className='list p-3'>
-        {todoList.map((task) => {
-          keys++;
-          return (
-            <Task
-              key={keys}
-              id={task.id}
-              completed={task.completed}
-              taskName={task.taskName}
-              deleteTask={deleteTask}
-              completedTask={completedTask}
-            />
-          );
-        })}
-      </div>
+
+      <table className='table list  table-striped table-hover'>
+        <thead>
+          <tr className='fw-bold'>
+            <th scope='col'>Completed</th>
+            <th scope='col'>Todo List</th>
+            <th scope='col'>Options</th>
+          </tr>
+        </thead>
+        <tbody>
+          {todoList.map((task) => {
+            keys++;
+            return (
+              <Task
+                key={keys}
+                id={task.id}
+                completed={task.completed}
+                taskName={task.taskName}
+                deleteTask={deleteTask}
+                completedTask={completedTask}
+              />
+            );
+          })}
+        </tbody>
+      </table>
     </section>
   );
 };
