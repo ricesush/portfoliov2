@@ -1,30 +1,54 @@
-export const GameApi = () => {
-  const PokeData = async () => {
-    /*fetching data from Pokemon API
-you'll need async to invoke await keyword
-Functions running in parallel with other functions are called asynchronous
-Async functions return a promise*/
+import { useEffect, useState } from 'react';
+import Axios from 'axios';
 
-    try {
-      /*declaring url variable with the endpoint as it's value
-    await will wait for the settlement from fetch(url) which can be either fulfilled or rejected
-    converting the res data to json using json()
-    both fetch and json returns a promise and needs await keyword*/
-      const endpoint = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1500';
-      const response = await fetch(endpoint);
-      const data = await response.json();
-      return data;
-    } catch (err) {
-      // will handle rejection or any error while fetching the data from the endpoint
-      console.error(err);
-    }
+export const GameApi = () => {
+  const [pokemons, setPokemon] = useState([]);
+  const [pokemonName, setPokemonName] = useState('');
+
+  const fetchPokemons = () => {
+    Axios.get('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1500').then(
+      (res) => {
+        setPokemon(res.data.results);
+      }
+    );
   };
-  //invoking the function. Since PokeData() is an async function and returns a promise, we need to use .then to get the actual json response
-  //passing the data as an argument to then()
-  PokeData();
+  useEffect(() => {
+    fetchPokemons();
+  }, []);
+
+  const handleChange = (event) => {
+    console.log(event.target.value);
+    setPokemonName(event.target.value);
+  };
+
+  const searchPokemonName = () => {
+    pokemons.map((pokemon) => {
+      if (pokemon.name === pokemonName) {
+        return pokemonName;
+      } else {
+        return console.log('hello');
+      }
+    });
+  };
+
   return (
-    <section className='text-center'>
-      <div>Pokemon Names</div>
+    <section className='text-center p-5'>
+      <div className='d-md-flex text-center col-md-4 pb-3'>
+        <input className='form-control rounded-1' onChange={handleChange} />
+      </div>
+
+      {pokemons.map((pokemon) => {
+        if (pokemon.name === pokemonName) {
+          return (
+            <button className='btn btn-outline-warning text-dark'>
+              <div>{pokemon.name}</div>
+            </button>
+          );
+        } else {
+          return <div></div>;
+        }
+      })}
+
       <div id='pokemonContent'></div>
     </section>
   );
