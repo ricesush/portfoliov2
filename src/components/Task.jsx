@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export const Task = (props) => {
   return (
     <tr>
-      <th className=''>
+      <th className='text-center pt-2'>
         <input
           className='form-check-input '
           type='checkbox'
@@ -22,10 +22,10 @@ export const Task = (props) => {
         />
       </th>
       <td>{props.taskName}</td>
-      <td>
+      <td className='text-center'>
         <button
           type='button'
-          className='btn bg-transparent border-0'
+          className='btn bg-transparent border-0 '
           onClick={() => props.deleteTask(props.id)}
         >
           <FontAwesomeIcon

@@ -55,12 +55,18 @@ const TodoList = () => {
         </button>
       </div>
 
-      <table className='table list  table-striped table-hover'>
+      <table className='table list table-sm table-striped table-hover'>
         <thead>
           <tr className='fw-bold'>
-            <th scope='col'>Completed</th>
-            <th scope='col'>Todo List</th>
-            <th scope='col'>Options</th>
+            <th scope='col' className='col-md-2 text-center '>
+              Completed
+            </th>
+            <th scope='col' className='col-auto'>
+              Todo List
+            </th>
+            <th scope='col' className='col-md-2 text-center'>
+              Options
+            </th>
           </tr>
         </thead>
         <tbody>
