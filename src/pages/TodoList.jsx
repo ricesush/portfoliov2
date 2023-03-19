@@ -40,15 +40,15 @@ const TodoList = () => {
   };
 
   return (
-    <section className='col-8 mx-auto rounded shadow-sm'>
-      <div className='addTask d-md-flex'>
+    <section className='col-8 mx-auto rounded py-5'>
+      <div className='addTask d-md-flex text-center'>
         <input
           className='form-control rounded-0 rounded-start'
           onChange={handleChange}
         />
         <button
           type='submit'
-          className='btn btn-primary col-auto rounded-0 rounded-end'
+          className='btn btn-primary col-auto rounded-0 rounded-end text-center'
           onClick={addTask}
         >
           Add Task
@@ -64,7 +64,7 @@ const TodoList = () => {
             <th scope='col' className='col-auto'>
               Todo List
             </th>
-            <th scope='col' className='col-md-2 text-center'>
+            <th scope='col' className='col-md-2 text-center buttons'>
               Options
             </th>
           </tr>

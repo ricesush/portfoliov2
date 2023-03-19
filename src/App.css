@@ -65,6 +65,6 @@ a > small > span:hover {
   border-color: var(--clr-primary-400) !important;
 }
 
-[checked='true'] {
-  background-color: rgba(0, 148, 0, 0.274);
+.bg-accent {
+  background-color: var(--clr-primary-400);
 }

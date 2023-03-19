@@ -11,7 +11,10 @@ const Learnjs = () => {
           <b>Mini tasks, best practices, some tutorials and more..</b>
         </p>
       </header>
-      <section className=''>
+      <section className='shadow'>
+        <div className='position-absolute bg-accent text-light fw-bold px-3 py-2 rounded rounded-top-0 rounded-start-0 '>
+          Todo-List
+        </div>
         <TodoList />
       </section>
     </>
