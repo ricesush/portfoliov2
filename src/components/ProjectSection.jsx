@@ -1,6 +1,6 @@
-import ggNext from '../../src/images/ggnext.png';
-import tgh from '../../src/images/tgh.png';
-import df from '../../src/images/DF.png';
+import ggNext from '../images/ggnext.png';
+import tgh from '../images/tgh.png';
+import df from '../images/DF.png';
 
 import Project from './ProjectContent';
 
