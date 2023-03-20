@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Task } from '../components/Task';
+import { Task } from './Task';
 
 const TodoList = () => {
   let keys = 0;

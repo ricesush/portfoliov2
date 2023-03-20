@@ -1,20 +1,22 @@
-import ggNext from '../../src/images/ggnext.PNG';
+import ggNext from '../../src/images/ggnext.png';
 import tgh from '../../src/images/tgh.png';
-import df from '../../src/images/DF.PNG';
+import df from '../../src/images/DF.png';
 
-import Project from '../components/ProjectContent';
+import Project from './ProjectContent';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
+  faBootstrap,
+  faCss3,
+  faHtml5,
+  faJs,
+  faLaravel,
+  faPhp,
+} from '@fortawesome/free-brands-svg-icons';
 
 const ProjectSection = () => {
   return (
-    <section className='bg-img'>
+    <section className='container'>
       <header className='col-lg-12 '>
         <h2 className='text-center fs-1 py-lg-5 my-3'>
           <span className='yellowText'>Recent</span> Projects
@@ -28,23 +30,15 @@ const ProjectSection = () => {
         imgSrc={df}
         repository='https://github.com/ricesush/dream-fields'
       >
+        <FontAwesomeIcon icon={faHtml5} title='HTML5' className='fs-3' />
+        <FontAwesomeIcon icon={faCss3} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
-          icon={brands('html5')}
-          title='HTML5'
-          className='fs-3'
-        />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
-        <FontAwesomeIcon
-          icon={brands('bootstrap')}
+          icon={faBootstrap}
           title='Bootstrap5'
           className='fs-3'
         />
-        <FontAwesomeIcon icon={brands('php')} title='PHP' className='fs-3' />
-        <FontAwesomeIcon
-          icon={brands('laravel')}
-          title='Laravel'
-          className='fs-3'
-        />
+        <FontAwesomeIcon icon={faPhp} title='PHP' className='fs-3' />
+        <FontAwesomeIcon icon={faLaravel} title='Laravel' className='fs-3' />
       </Project>
       <hr className='col-lg-11 mx-5 my-4' />
       <Project
@@ -55,22 +49,14 @@ const ProjectSection = () => {
         imgSrc={ggNext}
         repository='https://github.com/DavidQuebengco/project-2'
       >
+        <FontAwesomeIcon icon={faHtml5} title='HTML5' className='fs-3' />
+        <FontAwesomeIcon icon={faCss3} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
-          icon={brands('html5')}
-          title='HTML5'
-          className='fs-3'
-        />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
-        <FontAwesomeIcon
-          icon={brands('bootstrap')}
+          icon={faBootstrap}
           title='Bootstrap5'
           className='fs-3'
         />
-        <FontAwesomeIcon
-          icon={brands('js')}
-          title='Javascript'
-          className='fs-3'
-        />
+        <FontAwesomeIcon icon={faJs} title='Javascript' className='fs-3' />
       </Project>
       <hr className='col-lg-11 mx-5 my-4' />
       <Project
@@ -81,33 +67,17 @@ const ProjectSection = () => {
         imgSrc={tgh}
         repository='https://github.com/ricesush/Hydroponics'
       >
+        <FontAwesomeIcon icon={faHtml5} title='HTML5' className='fs-3' />
+        <FontAwesomeIcon icon={faCss3} title='CSS3' className='fs-3' />
         <FontAwesomeIcon
-          icon={brands('html5')}
-          title='HTML5'
-          className='fs-3'
-        />
-        <FontAwesomeIcon icon={brands('css3')} title='CSS3' className='fs-3' />
-        <FontAwesomeIcon
-          icon={brands('bootstrap')}
+          icon={faBootstrap}
           title='Bootstrap5'
           className='fs-3'
         />
-        <FontAwesomeIcon
-          icon={brands('js')}
-          title='Javascript'
-          className='fs-3'
-        />
+        <FontAwesomeIcon icon={faJs} title='Javascript' className='fs-3' />
       </Project>
     </section>
   );
 };
 
 export default ProjectSection;
-
-const book = [
-  {
-    author: 'this is author',
-    title: 'this is title',
-  },
-  { author: 'This is the Author', title: 'This is the title' },
-];

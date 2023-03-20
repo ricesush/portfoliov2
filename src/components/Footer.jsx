@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {} from '@fortawesome/free-solid-svg-icons';
 import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className='container'>
       <footer className='d-flex flex-wrap justify-content-between align-items-center pt-3 my-4 border-top'>
@@ -25,20 +25,17 @@ const Footer = () => {
         <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
           <li className='fs-3'>
             <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-              <FontAwesomeIcon icon={brands('linkedin')} className='socmed ' />
+              <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
             </a>
           </li>
           <li className='mx-1 fs-3'>
             <a href='https://github.com/ricesush' target='blank'>
-              <FontAwesomeIcon
-                icon={brands('github')}
-                className='socmed mx-3'
-              />
+              <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
             </a>
           </li>
           <li className='fs-3'>
             <a href='https://www.facebook.com/RiceSush' target='blank'>
-              <FontAwesomeIcon icon={brands('facebook')} className='socmed' />
+              <FontAwesomeIcon icon={faFacebook} className='socmed' />
             </a>
           </li>
         </ul>
@@ -46,4 +43,3 @@ const Footer = () => {
     </div>
   );
 };
-export default Footer;

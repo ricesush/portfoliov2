@@ -1,35 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
+import { faComment, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const AboutSection = () => {
   return (
-    <section className='col-lg-6 m-1 rounded-4 shadow'>
+    <section className='col-lg-6 rounded-1'>
       <div className='p-5 fw-lighter'>
         <div>
           <div>
-            <FontAwesomeIcon
-              icon={icon({
-                name: 'location-dot',
-                style: 'solid',
-              })}
-              className='yellowText'
-            />
+            <FontAwesomeIcon icon={faLocationDot} className='yellowText' />
             <span className='text-secondary'> Location: </span>
             <span className='fw-bold'>Quezon City, Philippines </span>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={icon({
-                name: 'comment',
-                style: 'solid',
-              })}
-              className='yellowText'
-            />
+            <FontAwesomeIcon icon={faComment} className='yellowText' />
             <span className='text-secondary'> Language: </span>
             <span className='fw-bold'>English, Filipino</span>
           </div>

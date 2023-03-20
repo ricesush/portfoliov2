@@ -1,10 +1,10 @@
 import { GameApi } from './GameApi';
 import TodoList from './TodoList';
 
-const Learnjs = () => {
+export const Learnjs = () => {
   return (
-    <>
-      <header className='col-lg-12 py-lg-5 my-3'>
+    <div className='container'>
+      <header className='col-lg-12 py-lg-5 my-3 '>
         <h2 className='text-center fs-1 '>
           <span className='yellowText'>Javascript</span> Notes
         </h2>
@@ -24,7 +24,6 @@ const Learnjs = () => {
         </div>
         <GameApi />
       </section>
-    </>
+    </div>
   );
 };
-export default Learnjs;

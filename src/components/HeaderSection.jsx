@@ -1,13 +1,7 @@
 import myImage from '../images/profilePic.png';
-import '../css/buttons.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
+import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const HeaderSection = () => {
   return (
@@ -18,12 +12,7 @@ const HeaderSection = () => {
       <div className='align-middle my-auto me-auto ps-md-5 text-center text-md-start'>
         <h5 className='fw-bold fs-1 pt-lg-0 pt-sm-3'>Erick-John Santosidad</h5>
         <p className='yellowText fw-bold'>
-          <FontAwesomeIcon
-            icon={icon({
-              name: 'laptop-code',
-              style: 'solid',
-            })}
-          />
+          <FontAwesomeIcon icon={faLaptopCode} />
           <span> Jr. Full-Stack Developer</span>
         </p>
         <div>
@@ -38,12 +27,7 @@ const HeaderSection = () => {
         >
           <small>
             <span>Download CV </span>
-            <FontAwesomeIcon
-              icon={icon({
-                name: 'download',
-                style: 'solid',
-              })}
-            />
+            <FontAwesomeIcon icon={faDownload} />
           </small>
         </a>
       </div>

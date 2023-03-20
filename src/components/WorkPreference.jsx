@@ -1,49 +1,24 @@
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const WorkPreference = () => {
   return (
-    <section className='col-lg-6 m-1 rounded-4 shadow'>
+    <section className='rounded-1'>
       <div className='p-5'>
         <h2 className='text-center'>
           <span className='yellowText'>Work</span> Preference
         </h2>
-        <div className='fs-1 p-5 pt-3 d-md-flex'>
+        <div className='fs-1 pt-3 d-md-flex'>
           <div className='fs-6'>
-            <FontAwesomeIcon
-              icon={icon({ name: 'check', style: 'solid' })}
-              className='yellowText pe-2'
-            />
+            <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />
             Full-time <br />
-            <FontAwesomeIcon
-              icon={icon({ name: 'check', style: 'solid' })}
-              className='yellowText pe-2'
-            />
-            Part-time
-          </div>
-          <div className='fs-6 mx-auto'>
-            <FontAwesomeIcon
-              icon={icon({ name: 'check', style: 'solid' })}
-              className='yellowText pe-2'
-            />
-            Freelance
-          </div>
-          <div className='fs-6'>
-            <FontAwesomeIcon
-              icon={icon({ name: 'check', style: 'solid' })}
-              className='yellowText pe-2'
-            />
-            Hybrid
-            <br />
-            <FontAwesomeIcon
-              icon={icon({ name: 'check', style: 'solid' })}
-              className='yellowText pe-2'
-            />
+            <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />
+            Part-time <br />
+            <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />
+            Freelance <br />
+            <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />
+            Hybrid <br />
+            <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />
             Work from Home
           </div>
         </div>

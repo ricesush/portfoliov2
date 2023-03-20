@@ -1,29 +1,23 @@
-import '../css/home.css';
+import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from '@fortawesome/fontawesome-svg-core/import.macro';
 import { Link } from 'react-router-dom';
 
 const Project = (props) => {
   return (
-    <section className='row-md d-lg-flex justify-content-center img-bg rounded-0 m-1'>
+    <section className='row-md d-lg-flex justify-content-center rounded-0 m-1'>
       <a
         href={props.href}
         target='blank'
-        className='col-lg-5 col-md-12 d-flex justify-content-center'
+        className='col-lg-6 col-md-12 d-flex justify-content-center'
       >
         <img
           src={props.imgSrc}
           alt={props.projectTitle}
-          className='mt-3 shadow-custom2'
+          className='mt-3 shadow-custom2 img-items'
         />
       </a>
-      <div className='col-lg-6 col-md-11 mt-3 p-4  d-grid'>
-        <section className='my-auto'>
+      <div className='col-lg-5 col-md-12 mt-3 p-4 d-grid '>
+        <section className='my-auto '>
           <header className='d-md-flex align-items-center justify-content-between'>
             <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
             <p className='text-secondary'>{props.category}</p>
@@ -32,24 +26,14 @@ const Project = (props) => {
           <Link to={props.href} target='blank' id={props.id}>
             <small>
               <span>Go to website </span>
-              <FontAwesomeIcon
-                icon={icon({
-                  name: 'arrow-right-from-bracket',
-                  style: 'solid',
-                })}
-              />
+              <FontAwesomeIcon icon={faArrowRightFromBracket} />
             </small>
           </Link>
           <br />
           <Link to={props.repository} target='blank' id={props.id}>
             <small>
               <span>Check Repository </span>
-              <FontAwesomeIcon
-                icon={icon({
-                  name: 'arrow-right-from-bracket',
-                  style: 'solid',
-                })}
-              />
+              <FontAwesomeIcon icon={faArrowRightFromBracket} />
             </small>
           </Link>
         </section>

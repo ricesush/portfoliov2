@@ -48,6 +48,11 @@ body {
   height: auto;
 }
 
+.img-items {
+  width: 35rem;
+  height: auto;
+}
+
 .active {
   color: red !important;
 }

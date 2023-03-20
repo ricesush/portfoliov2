@@ -1,4 +1,4 @@
-import ProjectSection from '../components/ProjectSection';
+import ProjectSection from '../js/ProjectSection';
 
 const Projects = () => {
   return <ProjectSection />;
