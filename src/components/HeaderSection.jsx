@@ -1,4 +1,4 @@
-import myImage from '../images/profilePic.png';
+import myImage from '../assets/profilePic.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
