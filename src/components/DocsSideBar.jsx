@@ -2,9 +2,21 @@ import { Link } from 'react-router-dom';
 
 export const DocsSideBar = () => {
   return (
-    <div className='col-3 border'>
-      <div>Articles</div>
-      <Link>Sample Link</Link>
-    </div>
+    <table className='table table-dark'>
+      <thead>
+        <tr>
+          <th scope='col' className='fw-bold'>
+            Articles
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope='row'>
+            <Link>Sample Link</Link>
+          </th>
+        </tr>
+      </tbody>
+    </table>
   );
 };
