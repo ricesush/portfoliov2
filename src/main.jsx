@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import RootLayout from './routes/RootLayout';
 import App from './App';
 import ProjectSection from './components/ProjectSection';
-import { Learnjs } from './components/Learnjs';
+import { Docs } from './components/Learnjs';
 
 import './index.css';
 import './App.css';
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <App /> },
       { path: '/projects', element: <ProjectSection /> },
-      { path: '/learnjs', element: <Learnjs /> },
+      { path: '/Docs', element: <Docs /> },
     ],
   },
 ]);

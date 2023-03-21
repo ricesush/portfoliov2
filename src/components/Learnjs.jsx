@@ -1,7 +1,7 @@
 import { GameApi } from './GameApi';
 import TodoList from './TodoList';
 
-export const Learnjs = () => {
+export const Docs = () => {
   return (
     <div className='container'>
       <header className='col-lg-12 py-lg-5 my-3 '>
