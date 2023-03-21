@@ -20,19 +20,19 @@ const TechStack = () => {
       </header>
       <div className=''>
         <div className='fs-1 d-flex justify-content-around pt-4 ps-0 pe-0'>
-          <divc className='d-grid '>
+          <div className='d-grid '>
             <FontAwesomeIcon icon={faHtml5} title='HTML5' className='mx-auto' />
             <label htmlFor='' className='fs-6 text-center'>
               HTML5
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon icon={faCss3} title='CSS3' className='mx-auto' />
             <label htmlFor='' className='fs-6 text-center'>
               CSS3
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon
               icon={faBootstrap}
               title='Bootstrap'
@@ -41,8 +41,8 @@ const TechStack = () => {
             <label htmlFor='' className='fs-6 text-center'>
               Bootstrap
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon
               icon={faJs}
               title='Javascript'
@@ -51,28 +51,28 @@ const TechStack = () => {
             <label htmlFor='' className='fs-6 text-center'>
               Javascript
             </label>
-          </divc>
+          </div>
         </div>
         <div className='fs-1 d-flex justify-content-around mt-4 ps-0 pe-0'>
-          <divc className='d-grid '>
+          <div className='d-grid '>
             <FontAwesomeIcon icon={faReact} title='React' className='mx-auto' />
             <label htmlFor='' className='fs-6 text-center'>
               React
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon icon={faFigma} title='Figma' className='mx-auto' />
             <label htmlFor='' className='fs-6 text-center'>
               Figma
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon icon={faPhp} title='PHP' className='mx-auto' />
             <label htmlFor='' className='fs-6 text-center'>
               PHP
             </label>
-          </divc>
-          <divc className='d-grid '>
+          </div>
+          <div className='d-grid '>
             <FontAwesomeIcon
               icon={faLaravel}
               title='Laravel'
@@ -81,7 +81,7 @@ const TechStack = () => {
             <label htmlFor='' className='fs-6 text-center'>
               Laravel
             </label>
-          </divc>
+          </div>
         </div>
       </div>
     </section>
