@@ -1,6 +1,6 @@
-import ggNext from '../images/ggnext.png';
-import tgh from '../images/tgh.png';
-import df from '../images/DF.png';
+import ggNext from '../assets/ggnext.png';
+import tgh from '../assets/tgh.png';
+import df from '../assets/DF.png';
 
 import Project from './ProjectContent';
 
@@ -42,7 +42,7 @@ const ProjectSection = () => {
       </Project>
       <hr className='col-lg-11 mx-5 my-4' />
       <Project
-        projectTitle='GG-Next'
+        projectTitle='GG-Next '
         category='Gaming Web App'
         shortDescription='API-driven Mini Web Application'
         href='https://gg-next-neon.vercel.app/'
