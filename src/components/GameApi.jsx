@@ -21,6 +21,8 @@ export const GameApi = () => {
     setPokemonName(event.target.value);
   };
 
+  let key = 0;
+
   return (
     <section className='text-center p-5'>
       <div className='d-md-flex text-center col-md-4 pb-3'>
@@ -33,14 +35,16 @@ export const GameApi = () => {
 
       {pokemons.map((pokemon) => {
         if (pokemon.name === pokemonName?.toLocaleLowerCase()) {
-          console.log(pokemon);
           return (
-            <button className='btn btn-outline-warning text-dark'>
+            <button
+              className='btn btn-outline-warning text-dark'
+              key={pokemon.name}
+            >
               <div>{pokemon.name}</div>
             </button>
           );
         } else {
-          return <div></div>;
+          return <div key={pokemon.name}></div>;
         }
       })}
 
