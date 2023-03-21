@@ -95,7 +95,7 @@ export const NavBar = () => {
               </li>
               <li className='nav-item'>
                 <NavLink to='/docs' className='nav-link'>
-                  Practice
+                  Docs
                 </NavLink>
               </li>
             </ul>

@@ -1,22 +1,13 @@
 import { Link } from 'react-router-dom';
+import { ExternalLinksTable } from './ExternalLinksTable';
+import { ResourcesTable } from './ResourcesTable';
 
 export const DocsSideBar = () => {
   return (
-    <table className='table table-dark'>
-      <thead>
-        <tr>
-          <th scope='col' className='fw-bold'>
-            Articles
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope='row'>
-            <Link>Sample Link</Link>
-          </th>
-        </tr>
-      </tbody>
-    </table>
+    <div className='p-3'>
+      <ExternalLinksTable />
+      <hr className='text-light' />
+      <ResourcesTable />
+    </div>
   );
 };

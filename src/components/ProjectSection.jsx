@@ -1,6 +1,6 @@
-import ggNext from '../assets/ggnext.png';
-import tgh from '../assets/tgh.png';
-import df from '../assets/DF.png';
+import ggNext from '../assets/ggnext.webp';
+import tgh from '../assets/tgh.webp';
+import df from '../assets/DF.webp';
 
 import Project from './ProjectContent';
 
