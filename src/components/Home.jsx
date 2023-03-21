@@ -13,7 +13,7 @@ export const Home = () => {
       <HeaderSection />
       <section className='d-lg-flex pt-5 justify-content-around'>
         <AboutSection />
-        <div className='d-flex border col-lg-6'>
+        <div className='d-lg-flex p-5  border col-lg-6'>
           <Contact />
           <WorkPreference />
         </div>
