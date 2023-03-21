@@ -49,7 +49,7 @@ const TechStack = () => {
               className='mx-auto'
             />
             <label htmlFor='' className='fs-6 text-center'>
-              Bootstrap
+              Javascript
             </label>
           </divc>
         </div>
