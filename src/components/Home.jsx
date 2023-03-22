@@ -6,10 +6,11 @@ import WorkPreference from './WorkPreference';
 
 import { Milestone } from './Milestone';
 import { Cetrification } from './Certificates';
+import Preloader from './Preloader';
 
 export const Home = () => {
   return (
-    <>
+    <div>
       <section className='border-bottom py-5 shadow headerSection'>
         <HeaderSection />
       </section>
@@ -27,6 +28,6 @@ export const Home = () => {
       <section className='d-lg-flex'>
         <Milestone />
       </section>
-    </>
+    </div>
   );
 };
