@@ -40,7 +40,7 @@ const TodoList = () => {
   };
 
   return (
-    <section className='col-8 mx-auto rounded py-5'>
+    <section className='col-8 mx-auto rounded'>
       <div className='addTask d-md-flex text-center'>
         <input
           className='form-control rounded-0 rounded-start'
