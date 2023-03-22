@@ -16,7 +16,7 @@ export const Home = () => {
       </section>
       <section className='d-lg-flex pt-5 justify-content-around container'>
         <AboutSection />
-        <div className='d-lg-flex col-lg-6'>
+        <div className='d-lg-flex col-lg-6 shadow'>
           <Contact />
           <WorkPreference />
         </div>
