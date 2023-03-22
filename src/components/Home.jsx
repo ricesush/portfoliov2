@@ -13,14 +13,14 @@ export const Home = () => {
       <section className='border-bottom py-5 shadow'>
         <HeaderSection />
       </section>
-      <section className='d-lg-flex pt-5 justify-content-around'>
+      <section className='d-lg-flex pt-5 justify-content-around container'>
         <AboutSection />
         <div className='d-lg-flex p-5  border col-lg-6'>
           <Contact />
           <WorkPreference />
         </div>
       </section>
-      <section className='d-lg-flex'>
+      <section className='d-lg-flex container'>
         <TechStack />
         <Cetrification />
       </section>
