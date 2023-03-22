@@ -24,7 +24,7 @@ export const GameApi = () => {
   let key = 0;
 
   return (
-    <section className='text-center p-5'>
+    <section className='text-center px-5'>
       <div className='d-md-flex text-center col-md-4 pb-3'>
         <input
           className='form-control rounded-1'

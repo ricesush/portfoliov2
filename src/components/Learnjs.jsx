@@ -12,7 +12,7 @@ export const Docs = () => {
           <span className='yellowText'>Javascript</span> Notes
         </h2>
         <p className='text-center'>
-          <b>Mini tasks, best practices, some tutorials and more..</b>
+          <b>Things that keep the ball rolling..</b>
         </p>
       </header>
       <section className='d-flex'>
