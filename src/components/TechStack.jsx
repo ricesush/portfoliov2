@@ -18,7 +18,7 @@ const TechStack = () => {
           <span className=''>Tech</span> Stack
         </h2>
       </header>
-      <div className='mt-5'>
+      <div className='my-5'>
         <div className='fs-1 d-flex justify-content-around pt-4 ps-0 pe-0'>
           <div className='d-grid '>
             <FontAwesomeIcon icon={faHtml5} title='HTML5' className='mx-auto' />

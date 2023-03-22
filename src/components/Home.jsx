@@ -16,12 +16,12 @@ export const Home = () => {
       </section>
       <section className='d-lg-flex pt-5 justify-content-around container'>
         <AboutSection />
-        <div className='d-lg-flex col-lg-6 shadow'>
+        <div className='d-md-flex col-lg-6 shadow'>
           <Contact />
           <WorkPreference />
         </div>
       </section>
-      <section className='d-lg-flex container'>
+      <section className='d-lg-flex container pt-5 pt-lg-0'>
         <TechStack />
         <Cetrification />
       </section>

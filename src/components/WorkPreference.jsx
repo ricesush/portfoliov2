@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const WorkPreference = () => {
   return (
-    <section className='col-lg-6 rounded-1 mt-lg-0 border homeSections'>
+    <section className='col-md-6 rounded-1 mt-lg-0 border homeSections'>
       <header className='fs-5 fw-bold position-absolute px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
         <h2 className='text-center text-light'>
           <span>Work</span> Preference
