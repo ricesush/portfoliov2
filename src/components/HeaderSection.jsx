@@ -5,7 +5,7 @@ import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 const HeaderSection = () => {
   return (
-    <div className='d-md-flex mt-5 '>
+    <div className='d-md-flex mt-5 container'>
       <div className='ms-md-auto p-lg-0 ps-md-5'>
         <img src={myImage} className='img-size mx-auto'></img>
       </div>

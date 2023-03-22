@@ -9,8 +9,10 @@ import { Cetrification } from './Certificates';
 
 export const Home = () => {
   return (
-    <div>
-      <HeaderSection />
+    <>
+      <section className='border-bottom py-5 shadow'>
+        <HeaderSection />
+      </section>
       <section className='d-lg-flex pt-5 justify-content-around'>
         <AboutSection />
         <div className='d-lg-flex p-5  border col-lg-6'>
@@ -25,6 +27,6 @@ export const Home = () => {
       <section className='d-lg-flex'>
         <Milestone />
       </section>
-    </div>
+    </>
   );
 };
