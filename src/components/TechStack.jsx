@@ -12,13 +12,13 @@ import {
 
 const TechStack = () => {
   return (
-    <section className='col-lg-6 py-4 border'>
-      <header className='fs-5 fw-bold'>
-        <h2 className='text-center'>
-          <span className='yellowText'>Tech</span> Stack
+    <section className='col-lg-6  border'>
+      <header className='fs-5 fw-bold position-absolute px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
+        <h2 className='text-center text-light'>
+          <span className=''>Tech</span> Stack
         </h2>
       </header>
-      <div className=''>
+      <div className='mt-5'>
         <div className='fs-1 d-flex justify-content-around pt-4 ps-0 pe-0'>
           <div className='d-grid '>
             <FontAwesomeIcon icon={faHtml5} title='HTML5' className='mx-auto' />

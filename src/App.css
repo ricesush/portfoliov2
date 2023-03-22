@@ -3,6 +3,7 @@
 :root {
   --clr-primary-400: #d75f56;
   --clr-neutral-400: #000000;
+  --clr-accent-400: #212529;
   font-size: 16px;
   transition: 0.5s all ease-in-out !important;
 }
@@ -85,4 +86,8 @@ a > small > span:hover {
     #212529 85%,
     #212529 100%
   ) !important;
+}
+
+.bg-accent {
+  background-color: var(--clr-accent-400);
 }
