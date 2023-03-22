@@ -90,4 +90,10 @@ a > small > span:hover {
 
 .bg-accent {
   background-color: var(--clr-accent-400);
+  transition: 0.3s all;
+}
+
+.homeSections:hover > .bg-accent {
+  background-color: var(--clr-primary-400);
+  transition: 0.3s all;
 }

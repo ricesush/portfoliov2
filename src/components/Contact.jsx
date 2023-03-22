@@ -8,13 +8,13 @@ import { faEnvelope, faSquarePhone } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
-    <section className='col-lg-6 rounded-1 px-3'>
-      <header className='fs-5 fw-bold'>
-        <h2>
-          <span className='yellowText'>Contact</span> Details
+    <section className='col-lg-6 rounded-1 border homeSections'>
+      <header className='fs-5 fw-bold position-absolute px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
+        <h2 className='text-center text-light'>
+          <span>Contact</span> Details
         </h2>
       </header>
-      <div className='pt-4 text-sm-start text-center '>
+      <div className='pt-4 text-sm-start text-center p-5 mt-5'>
         <div className='justify-content-around'>
           <div>
             <FontAwesomeIcon icon={faEnvelope} />
