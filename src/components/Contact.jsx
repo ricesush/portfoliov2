@@ -25,18 +25,6 @@ const Contact = () => {
             <span>+63999-551-4413</span>{' '}
           </div>
         </div>
-        <div className='fs-4 pt-sm-0 mt-5'>
-          <div className='fs-6'>Quick Links:</div>
-          <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-            <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
-          </a>
-          <a href='https://github.com/ricesush' target='blank'>
-            <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
-          </a>
-          <a href='https://www.facebook.com/RiceSush' target='blank'>
-            <FontAwesomeIcon icon={faFacebook} className='socmed' />
-          </a>
-        </div>
       </div>
     </section>
   );

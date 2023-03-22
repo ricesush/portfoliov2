@@ -3,10 +3,16 @@ import myImage from '../assets/profilePic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
+
 const HeaderSection = () => {
   return (
-    <div className='d-md-flex my-5 container'>
-      <div className='ms-md-auto p-lg-0 ps-md-5'>
+    <div className='d-md-flex my-5 container '>
+      <div className='ms-md-auto p-lg-0 ps-md-5 '>
         <img src={myImage} className='img-size mx-auto'></img>
       </div>
       <div className='align-middle my-auto me-auto ps-md-5 text-center text-md-start'>
@@ -30,6 +36,19 @@ const HeaderSection = () => {
             <FontAwesomeIcon icon={faDownload} />
           </small>
         </a>
+        <div className='fs-2 pt-sm-0 mt-5'>
+          <small className='fs-6 fw-bold'>Find me at:</small>
+          <br />
+          <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
+            <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
+          </a>
+          <a href='https://github.com/ricesush' target='blank'>
+            <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
+          </a>
+          <a href='https://www.facebook.com/RiceSush' target='blank'>
+            <FontAwesomeIcon icon={faFacebook} className='socmed' />
+          </a>
+        </div>
       </div>
     </div>
   );

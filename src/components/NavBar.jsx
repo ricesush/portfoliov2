@@ -3,9 +3,9 @@ import { Link, NavLink } from 'react-router-dom';
 export const NavBar = () => {
   return (
     <>
-      <nav className='navbar navbar-expand-lg'>
+      <nav className='navbar navbar-expand-lg bg-dark '>
         <div className='container'>
-          <Link to='/' className='navbar-brand fw-bold'>
+          <Link to='/' className='navbar-brand fw-bold text-light'>
             E-J ESAN.
           </Link>
           <button
@@ -19,16 +19,19 @@ export const NavBar = () => {
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-            <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold'>
+          <div
+            className='collapse navbar-collapse '
+            id='navbarSupportedContent'
+          >
+            <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold '>
               <li className='nav-item'>
-                <NavLink to='/' className='nav-link'>
+                <NavLink to='/' className='nav-link text-light'>
                   Home
                 </NavLink>
               </li>
-              <li className='nav-item dropdown'>
+              <li className='nav-item dropdown '>
                 <a
-                  className='nav-link dropdown-toggle'
+                  className='nav-link dropdown-toggle text-light'
                   href='#'
                   role='button'
                   data-bs-toggle='dropdown'
@@ -38,9 +41,9 @@ export const NavBar = () => {
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
-                    <Link to='/projects' className='dropdown-item'>
+                    <NavLink to='/projects' className='dropdown-item'>
                       View All
-                    </Link>
+                    </NavLink>
                   </li>
                   <li>
                     <hr className='dropdown-divider' />
@@ -72,7 +75,7 @@ export const NavBar = () => {
               </li>
               <li className='nav-item dropdown'>
                 <a
-                  className='nav-link dropdown-toggle'
+                  className='nav-link dropdown-toggle text-light'
                   href='#'
                   role='button'
                   data-bs-toggle='dropdown'
@@ -94,7 +97,7 @@ export const NavBar = () => {
                 </ul>
               </li>
               <li className='nav-item'>
-                <NavLink to='/docs' className='nav-link'>
+                <NavLink to='/docs' className='nav-link text-light'>
                   Docs
                 </NavLink>
               </li>

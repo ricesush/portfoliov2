@@ -25,7 +25,8 @@ body {
 /* General Hover */
 .socmed:hover,
 .nav-link:hover {
-  color: var(--clr-primary-400);
+  transition: 0.3s all ease-in-out !important;
+  color: var(--clr-primary-400) !important;
 }
 
 .custom-btn:hover {
@@ -54,7 +55,7 @@ body {
 }
 
 .active {
-  color: red !important;
+  color: var(--clr-primary-400) !important;
 }
 
 /* footer */
@@ -72,4 +73,16 @@ a > small > span:hover {
 
 .bg-accent {
   background-color: var(--clr-primary-400);
+}
+
+.headerSection {
+  background: linear-gradient(
+    to bottom right,
+    #212529 0%,
+    #212529 31%,
+    #21252900 31%,
+    #21252900 85%,
+    #212529 85%,
+    #212529 100%
+  ) !important;
 }

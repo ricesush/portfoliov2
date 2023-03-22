@@ -10,7 +10,7 @@ import { Cetrification } from './Certificates';
 export const Home = () => {
   return (
     <>
-      <section className='border-bottom py-5 shadow'>
+      <section className='border-bottom py-5 shadow headerSection'>
         <HeaderSection />
       </section>
       <section className='d-lg-flex pt-5 justify-content-around container'>
