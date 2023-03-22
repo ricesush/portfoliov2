@@ -1,6 +1,6 @@
 export const MiniAppSection = (props) => {
   return (
-    <section className='shadow border'>
+    <section className='shadow border homeSections'>
       <div className='position-absolute bg-accent text-light fw-bold px-3 py-2 rounded rounded-top-0 rounded-start-0 '>
         {props.title}
       </div>

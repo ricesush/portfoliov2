@@ -32,7 +32,7 @@ const HeaderSection = () => {
           href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
         >
           <small>
-            <span>Download CV </span>
+            <span className='btn-text'>Download CV </span>
             <FontAwesomeIcon icon={faDownload} />
           </small>
         </a>

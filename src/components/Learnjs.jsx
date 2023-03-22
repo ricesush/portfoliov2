@@ -25,6 +25,7 @@ export const Docs = () => {
             description='The legendary todo list where you can add, delete, and mark as done your todos'
             miniApp={<TodoList />}
           />
+          <div className='pt-5'></div>
           <MiniAppSection
             title='Pokemon API'
             description='Pokemon API based mini app, at the moment, try to type a '
