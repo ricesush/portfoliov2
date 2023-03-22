@@ -1,11 +1,15 @@
 export const MiniAppSection = (props) => {
   return (
-    <section className='shadow'>
+    <section className='shadow border'>
       <div className='position-absolute bg-accent text-light fw-bold px-3 py-2 rounded rounded-top-0 rounded-start-0 '>
         {props.title}
       </div>
-      <div>Description: {props.description}</div>
-      {props?.miniApp}
+      <div className='py-5'>
+        <div className='ps-3 mb-5 py-3 border-bottom shadow-sm'>
+          <span className='fw-bold'>Description: </span> {props.description}
+        </div>
+        {props?.miniApp}
+      </div>
     </section>
   );
 };
