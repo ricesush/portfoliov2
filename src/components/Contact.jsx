@@ -18,11 +18,11 @@ const Contact = () => {
         <div className='justify-content-around'>
           <div>
             <FontAwesomeIcon icon={faEnvelope} />
-            <span> Pixelartme@gmail.com</span>
+            <small> Pixelartme@gmail.com</small>
           </div>
           <div>
             <FontAwesomeIcon icon={faSquarePhone} />{' '}
-            <span>+63999-551-4413</span>{' '}
+            <small>+63999-551-4413</small>{' '}
           </div>
         </div>
       </div>

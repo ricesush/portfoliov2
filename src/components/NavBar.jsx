@@ -41,34 +41,34 @@ export const NavBar = () => {
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
-                    <NavLink to='/projects' className='dropdown-item'>
-                      View All
+                    <NavLink to='/projects' className='dropdown-item fw-bold'>
+                      <small>View All</small>
                     </NavLink>
                   </li>
                   <li>
                     <hr className='dropdown-divider' />
                   </li>
                   <li>
-                    <Link to='/projects' className='dropdown-item'>
-                      Dream Fields
+                    <Link to='/projects' className='dropdown-item fw-bold'>
+                      <small>Dream Fields</small>
                     </Link>
                   </li>
                   <li>
                     <a
-                      className='dropdown-item'
+                      className='dropdown-item fw-bold'
                       target='blank'
                       href='https://gg-next-neon.vercel.app/'
                     >
-                      GG-Next
+                      <small>GG-Next</small>
                     </a>
                   </li>
                   <li>
                     <a
-                      className='dropdown-item'
+                      className='dropdown-item fw-bold'
                       href='https://thegreenhouse.vercel.app/'
                       target='blank'
                     >
-                      The Greenhouse
+                      <small>The Greenhouse</small>
                     </a>
                   </li>
                 </ul>
@@ -85,13 +85,13 @@ export const NavBar = () => {
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
-                    <a className='dropdown-item' href='#'>
-                      Pixelartme@gmail.com
+                    <a className='dropdown-item fw-bold' href='#'>
+                      <small>Pixelartme@gmail.com</small>
                     </a>
                   </li>
                   <li>
-                    <a className='dropdown-item' href='#'>
-                      +63999-551-4413
+                    <a className='dropdown-item fw-bold' href='#'>
+                      <small>+63999-551-4413</small>
                     </a>
                   </li>
                 </ul>
