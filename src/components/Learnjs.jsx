@@ -8,8 +8,21 @@ import { SamplePage } from './SamplePage';
 
 export const ContentContext = createContext(null);
 
+const defaultContent = () => {
+  return (
+    <div className='text-center py-5 my-5 fw-bold'>
+      <small>
+        Welcome to my mini playground, this is where I store some of my test
+        apps and mini apps.
+      </small>
+      <br />
+      <small>There is not much yet but feel free to look around!</small>
+    </div>
+  );
+};
+
 export const Docs = () => {
-  const [content, setContent] = useState();
+  const [content, setContent] = useState(defaultContent);
 
   return (
     <div className='container'>
@@ -27,27 +40,8 @@ export const Docs = () => {
             <DocsSideBar onClick={setContent} />
           </ContentContext.Provider>
         </div>
-        <div className='col m-2 my-3'>
-          <MiniAppSection
-            title='Todo-List'
-            description='The legendary todo list where you can add, delete, and mark as done your todos'
-            miniApp={<TodoList />}
-          />
-          <div className='pt-5'></div>
-          <MiniAppSection
-            title='Pokemon API'
-            description='Pokemon API based mini app, at the moment, try to type a '
-            miniApp={<GameApi />}
-          />
-        </div>
+        <div className='col m-2 my-3'>{content}</div>
       </section>
-      <div>
-        <button className='btn border-0' onClick={() => setContent(SamplePage)}>
-          button
-        </button>
-        content shows here
-        {content}
-      </div>
     </div>
   );
 };
