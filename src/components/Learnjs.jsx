@@ -6,6 +6,8 @@ import { MiniAppSection } from './MiniAppSection';
 import TodoList from './TodoList';
 import { SamplePage } from './SamplePage';
 
+export const ContentContext = createContext(null);
+
 export const Docs = () => {
   const [content, setContent] = useState();
 
@@ -21,7 +23,9 @@ export const Docs = () => {
       </header>
       <section className='d-flex'>
         <div className='col-3 border bg-dark'>
-          <DocsSideBar onClick={setContent} />
+          <ContentContext.Provider value={{ setContent }}>
+            <DocsSideBar onClick={setContent} />
+          </ContentContext.Provider>
         </div>
         <div className='col m-2 my-3'>
           <MiniAppSection

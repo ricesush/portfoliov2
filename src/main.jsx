@@ -10,10 +10,6 @@ import { Docs } from './components/Learnjs';
 import './index.css';
 import './App.css';
 
-import { useState, createContext } from 'react';
-
-export const ContentContext = createContext();
-
 const router = createBrowserRouter([
   {
     path: '/',

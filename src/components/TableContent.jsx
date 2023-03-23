@@ -1,5 +1,8 @@
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { SamplePage } from './SamplePage';
+import { GameApi } from './GameApi';
+import { ContentContext } from './Learnjs';
 
 export const TableContent = (props) => {
   return (
@@ -30,10 +33,14 @@ export const TableHead = (props) => {
 };
 
 export const TableContentBtn = (props) => {
+  const { setContent } = useContext(ContentContext);
   return (
     <tr>
       <th scope='row'>
-        <button className='text-light ms-2 fw-bold bg-transparent border-0'>
+        <button
+          className='text-light ms-2 fw-bold bg-transparent border-0'
+          onClick={() => setContent(props.content)}
+        >
           <small>{props.title}</small>
         </button>
       </th>
