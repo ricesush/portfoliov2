@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, createContext } from 'react';
 import { Link } from 'react-router-dom';
 import { DocsSideBar } from './DocsSideBar';
 import { GameApi } from './GameApi';
@@ -21,7 +21,7 @@ export const Docs = () => {
       </header>
       <section className='d-flex'>
         <div className='col-3 border bg-dark'>
-          <DocsSideBar stateFn={setContent} />
+          <DocsSideBar onClick={setContent} />
         </div>
         <div className='col m-2 my-3'>
           <MiniAppSection
