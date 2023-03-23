@@ -4,7 +4,7 @@ import { TableContent, TableHead } from './TableContent';
 export const ResourcesTable = () => {
   return (
     <table className='table table-dark table-hover table-sm table-borderless'>
-      <TableHead title='Resources' />
+      <TableHead title='External Resources' />
       <tbody>
         <TableContent
           href='https://javascript.info/import-export'
