@@ -10,7 +10,8 @@ const TodoList = () => {
     setNewTask(event.target.value);
   };
 
-  const addTask = () => {
+  const addTask = (e) => {
+    e.preventDefault();
     if (newTask) {
       const task = {
         id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
@@ -41,7 +42,7 @@ const TodoList = () => {
 
   return (
     <section className='col-8 mx-auto rounded'>
-      <div className='addTask d-md-flex text-center'>
+      <form className='addTask d-md-flex text-center'>
         <input
           className='form-control rounded-0 rounded-start'
           onChange={handleChange}
@@ -53,7 +54,7 @@ const TodoList = () => {
         >
           Add Task
         </button>
-      </div>
+      </form>
 
       <table className='table list table-sm table-striped table-hover'>
         <thead>
