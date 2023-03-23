@@ -8,9 +8,9 @@ import {
 
 export const Footer = () => {
   const socmeds = [
-    { href: 'https://www.linkedin.com/in/ejsan/', icon: faLinkedin },
-    { href: 'https://github.com/ricesush', icon: faGithub },
-    { href: 'https://www.facebook.com/RiceSush', icon: faFacebook },
+    { href: 'https://www.linkedin.com/in/ejsan/', icon: faLinkedin, id: 1 },
+    { href: 'https://github.com/ricesush', icon: faGithub, id: 2 },
+    { href: 'https://www.facebook.com/RiceSush', icon: faFacebook, id: 3 },
   ];
   return (
     <div className='container'>
@@ -29,7 +29,7 @@ export const Footer = () => {
         <ul className='nav col-md-4 justify-content-end list-unstyled'>
           {socmeds.map((contact) => {
             return (
-              <li className='ps-3 fs-3'>
+              <li className='ps-3 fs-3' key={contact.id}>
                 <a href={contact.href} target='blank'>
                   <FontAwesomeIcon icon={contact.icon} className='socmed ' />
                 </a>

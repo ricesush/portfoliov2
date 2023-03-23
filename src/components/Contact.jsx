@@ -4,8 +4,8 @@ import { ContentHeader } from './ContentHeader';
 
 const Contact = () => {
   const contacts = [
-    { icon: faEnvelope, details: 'Pixelartme@gmail.com' },
-    { icon: faSquarePhone, details: '+63999-551-4413' },
+    { icon: faEnvelope, details: 'Pixelartme@gmail.com', id: 1 },
+    { icon: faSquarePhone, details: '+63999-551-4413', id: 2 },
   ];
   return (
     <section className='col-md-6 rounded-1 border homeSections'>
@@ -14,7 +14,7 @@ const Contact = () => {
         <div className='justify-content-around'>
           {contacts.map((contact) => {
             return (
-              <div>
+              <div key={contact.id}>
                 <FontAwesomeIcon icon={contact.icon} />
                 <small> {contact.details}</small>
               </div>
