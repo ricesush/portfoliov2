@@ -3,7 +3,7 @@ import { ExternalLinksTable } from './ExternalLinksTable';
 import { MiniAppsTable } from './MiniAppTable';
 import { ResourcesTable } from './ResourcesTable';
 
-export const DocsSideBar = (props) => {
+export const DocsSideBar = () => {
   return (
     <div className='p-3'>
       <MiniAppsTable />

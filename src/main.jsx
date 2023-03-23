@@ -22,7 +22,6 @@ const router = createBrowserRouter([
       { path: '/', element: <App /> },
       { path: '/projects', element: <ProjectSection /> },
       { path: '/Docs', element: <Docs /> },
-      { path: '*', element: <App /> },
     ],
   },
 ]);

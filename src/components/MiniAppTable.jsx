@@ -1,7 +1,6 @@
 import { TableContent, TableContentBtn, TableHead } from './TableContent';
 
-export const MiniAppsTable = (props) => {
-  console.log(props.stateFn);
+export const MiniAppsTable = () => {
   return (
     <table className='table table-dark table-hover table-sm table-borderless'>
       <TableHead title='Mini Apps' />
