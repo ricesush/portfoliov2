@@ -9,20 +9,17 @@ export const NavBar = () => {
             E-J ESAN.
           </Link>
           <button
-            className='navbar-toggler'
+            className='navbar-toggler bg-light rounded-1'
             type='button'
             data-bs-toggle='collapse'
-            data-bs-target='#navbarSupportedContent'
-            aria-controls='navbarSupportedContent'
+            data-bs-target='#mainNavBar'
+            aria-controls='mainNavBar'
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          <div
-            className='collapse navbar-collapse '
-            id='navbarSupportedContent'
-          >
+          <div className='collapse navbar-collapse text-center' id='mainNavBar'>
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold '>
               <li className='nav-item'>
                 <NavLink to='/' className='nav-link text-light'>
@@ -83,7 +80,7 @@ export const NavBar = () => {
                 >
                   Contact
                 </a>
-                <ul className='dropdown-menu'>
+                <ul className='dropdown-menu text-center'>
                   <li>
                     <a className='dropdown-item fw-bold' href='#'>
                       <small>Pixelartme@gmail.com</small>
