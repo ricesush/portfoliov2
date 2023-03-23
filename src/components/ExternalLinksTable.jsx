@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { TableContent, TableHead } from './TableContent';
 
 export const ExternalLinksTable = () => {

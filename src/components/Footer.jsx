@@ -7,6 +7,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
+  const socmeds = [
+    { href: 'https://www.linkedin.com/in/ejsan/', icon: faLinkedin },
+    { href: 'https://github.com/ricesush', icon: faGithub },
+    { href: 'https://www.facebook.com/RiceSush', icon: faFacebook },
+  ];
   return (
     <div className='container'>
       <footer className='d-flex flex-wrap justify-content-between align-items-center pt-3 my-4 border-top'>
@@ -21,23 +26,16 @@ export const Footer = () => {
         <div className='mb-3 mb-md-0 text-muted'>
           Created by <small className='fw-bold'>PIXELARTME</small>
         </div>
-
-        <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
-          <li className='fs-3'>
-            <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-              <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
-            </a>
-          </li>
-          <li className='mx-1 fs-3'>
-            <a href='https://github.com/ricesush' target='blank'>
-              <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
-            </a>
-          </li>
-          <li className='fs-3'>
-            <a href='https://www.facebook.com/RiceSush' target='blank'>
-              <FontAwesomeIcon icon={faFacebook} className='socmed' />
-            </a>
-          </li>
+        <ul className='nav col-md-4 justify-content-end list-unstyled'>
+          {socmeds.map((contact) => {
+            return (
+              <li className='ps-3 fs-3'>
+                <a href={contact.href} target='blank'>
+                  <FontAwesomeIcon icon={contact.icon} className='socmed ' />
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </footer>
     </div>
