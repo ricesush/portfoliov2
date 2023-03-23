@@ -6,7 +6,6 @@ import WorkPreference from './WorkPreference';
 
 import { Milestone } from './Milestone';
 import { Cetrification } from './Certificates';
-import Preloader from './Preloader';
 
 export const Home = () => {
   return (
