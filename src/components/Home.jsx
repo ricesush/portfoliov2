@@ -1,4 +1,4 @@
-import HeaderSection from './HeaderSection';
+import HeaderSectionTest from './HeaderSectionTest';
 import AboutSection from './AboutSection';
 import Contact from './Contact';
 import TechStack from './TechStack';
@@ -11,7 +11,7 @@ export const Home = () => {
   return (
     <div>
       <section className='border-bottom py-5 shadow headerSection'>
-        <HeaderSection />
+        <HeaderSectionTest />
       </section>
       <section className='d-lg-flex pt-5 justify-content-around container'>
         <AboutSection />

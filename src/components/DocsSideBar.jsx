@@ -5,10 +5,10 @@ import { ResourcesTable } from './ResourcesTable';
 
 export const DocsSideBar = () => {
   return (
-    <nav class='navbar navbar-expand-lg p-3'>
-      <div class=''>
+    <nav className='navbar navbar-expand-lg p-3'>
+      <div className=''>
         <button
-          class='navbar-toggler bg-light'
+          className='navbar-toggler bg-light'
           type='button'
           data-bs-toggle='collapse'
           data-bs-target='#sidebar'
@@ -16,17 +16,17 @@ export const DocsSideBar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span class='navbar-toggler-icon'></span>
+          <span className='navbar-toggler-icon'></span>
         </button>
-        <div class='collapse navbar-collapse' id='sidebar'>
-          <div class='mb-2 mb-lg-0'>
-            <li class=' nav-item'>
+        <div className='collapse navbar-collapse' id='sidebar'>
+          <div className='mb-2 mb-lg-0'>
+            <li className=' nav-item'>
               <MiniAppsTable />
             </li>
-            <li class='nav-item'>
+            <li className='nav-item'>
               <ExternalLinksTable />
             </li>
-            <li class='nav-item'>
+            <li className='nav-item'>
               <ResourcesTable />
             </li>
           </div>
