@@ -5,7 +5,7 @@ import myImage from '../assets/profilePic.png';
 const AboutSection = () => {
   return (
     <section className='col-lg-6 rounded-1'>
-      <div className='p-5 fw-lighter'>
+      <div className='p-5 pt-0 fw-lighter'>
         <div className='d-md-flex align-items-center justify-content-around'>
           <img src={myImage} className='img-size mx-auto'></img>
           <div className='text-lg-start text-center ps-1'>
