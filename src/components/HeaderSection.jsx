@@ -11,9 +11,9 @@ import {
 
 const HeaderSection = () => {
   return (
-    <div className='d-md-flex my-5 container '>
-      <div className='ms-md-auto p-lg-0 ps-md-5 '>
-        <img src={myImage} className='img-size mx-auto'></img>
+    <div className='d-md-flex my-5 container position-relative '>
+      <div className='ms-md-auto p-lg-0 ps-md-5'>
+        <img src={myImage} className='img-size mx-auto  '></img>
       </div>
       <div className='align-middle my-auto me-auto ps-md-5 text-center text-md-start'>
         <h5 className='fw-bold fs-1 pt-lg-0 pt-sm-3'>Erick-John Santosidad</h5>

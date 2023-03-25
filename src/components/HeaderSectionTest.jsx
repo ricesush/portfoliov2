@@ -25,7 +25,7 @@ const HeaderSectionTest = () => {
       <div className='ms-md-auto p-lg-0 ps-md-5 '>
         <img
           src={coverImg}
-          className='img-size2 mx-auto shadow rounded-3'
+          className='img-size2 mx-auto rounded-3 pt-4 p-2  pt-md-0'
         ></img>
       </div>
       <div className='me-auto ps-md-5 text-center pt-3'>
