@@ -11,12 +11,19 @@ import {
 
 const HeaderSectionTest = () => {
   return (
-    <section className='col-lg-6 homeSections mx-auto'>
-      <header className='fs-5 fw-bold position-absolute px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
-        <h2 className='text-center text-light'>
-          <span className=''>Erick-John Santosidad</span>
+    <section className='col-lg-6 homeSections mx-auto position-relative'>
+      <header className='col-6 fw-bold position-absolute top-0 mt-md-5 start-0 px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
+        <div className='fs-6 text-light mb-5 mt-3'>
+          Hi, my name is Erick,
+          <p>
+            I am an enthusiastic Web Developer with passion for programming and
+            love for work.
+          </p>
+        </div>
+        <h2 className='text-light'>
+          <small className='fs-6 yellowText'>Erick-John Santosidad</small>
           <br />
-          <small className='fs-6 yellowText fw-bold'>
+          <small className='fs-6  fw-bold'>
             <FontAwesomeIcon icon={faLaptopCode} />
             <span> Jr. Full-Stack Developer</span>
           </small>
@@ -29,11 +36,7 @@ const HeaderSectionTest = () => {
         ></img>
       </div>
       <div className='me-auto ps-md-5 text-center pt-3'>
-        <small className=''>
-          An enthusiastic Web Developer with passion for programming and love
-          for work.
-        </small>
-        <div className='d-md-flex justify-content-center align-items-center pt-3'>
+        <div className='d-md-flex justify-content-center align-items-center pt-3 '>
           <a
             type='button'
             className='btn custom-btn me-md-5 '
