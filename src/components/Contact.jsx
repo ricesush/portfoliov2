@@ -11,7 +11,7 @@ const Contact = () => {
     <section className='col-md-6 rounded-1 border homeSections'>
       <ContentHeader title='Contact Details' />
       <div className='pt-4 text-sm-start text-center p-5 mt-5'>
-        <div className='justify-content-around'>
+        <div className='justify-content-around flex-md-column d-flex'>
           {contacts.map((contact) => {
             return (
               <div key={contact.id}>
