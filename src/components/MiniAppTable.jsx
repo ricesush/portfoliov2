@@ -1,7 +1,8 @@
 import { GameApi } from './GameApi';
 import TodoList from './TodoList';
-import { TableContent, TableContentBtn, TableHead } from './TableContent';
+import { TableContentBtn, TableHead } from './TableContent';
 import { MiniAppSection } from './MiniAppSection';
+import { PostsList } from './PostsList';
 
 export const MiniAppsTable = () => {
   return (
@@ -25,6 +26,16 @@ export const MiniAppsTable = () => {
               title='Pokemon API'
               description='Pokemon API based mini app, at the moment, try to type a '
               miniApp={<GameApi />}
+            />
+          }
+        />
+        <TableContentBtn
+          title='Post'
+          content={
+            <MiniAppSection
+              title='Post'
+              description='Mini App/Demo for creating and deleting post'
+              miniApp={<PostsList />}
             />
           }
         />

@@ -36,7 +36,7 @@ const HeaderSectionTest = () => {
         ></img>
       </div>
       <div className='me-auto ps-md-5 text-center pt-3'>
-        <div className='d-md-flex justify-content-center align-items-center pt-3 '>
+        <div className='d-md-flex justify-content-center align-items-center pt-3'>
           <a
             type='button'
             className='btn custom-btn me-md-5 '
