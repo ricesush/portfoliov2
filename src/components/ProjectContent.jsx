@@ -17,7 +17,7 @@ const Project = (props) => {
   };
 
   return (
-    <section className='row-md d-lg-flex justify-content-center rounded-0 m-1'>
+    <section className='row-md d-lg-flex justify-content-center rounded-0'>
       <a
         href={props.href}
         target='blank'
@@ -30,21 +30,15 @@ const Project = (props) => {
           data-aos='fade-right'
         />
       </a>
-      <div className='col-lg-5 col-md-12 d-grid px-5 pt-3'>
-        <section className='my-auto '>
+      <div className='col-lg-5 col-md-12 d-grid px-3 pt-3'>
+        <section className='my-auto'>
           <header className='d-md-flex align-items-center justify-content-between'>
             <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
             <p className='text-secondary'>{props.category}</p>
           </header>
           <h6>{props.shortDescription}</h6>
           <hr />
-          <section className='col-lg-9 col-md-8 text-center text-md-start'>
-            <small className='text-secondary fw-bold'>Tech Used: </small>
-            <div className='col-8 d-flex justify-content-between mt-2 pt-md-0'>
-              {props.children}
-            </div>
-          </section>
-          <div className='d-flex pt-5 align-items-center'>
+          <div className='d-flex align-items-center'>
             <Link
               to={props.href}
               target='blank'
@@ -70,6 +64,12 @@ const Project = (props) => {
             </Link>
             <small className='ms-2 content'>| {content}</small>
           </div>
+          <section className='col-lg-9 col-md-8 text-center text-md-start pt-5'>
+            <small className='text-secondary fw-bold'>Tech Used: </small>
+            <div className='col-8 d-flex justify-content-between mt-2 pt-md-0 mx-md-0 mx-auto'>
+              {props.children}
+            </div>
+          </section>
         </section>
       </div>
     </section>

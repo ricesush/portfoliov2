@@ -1,6 +1,3 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-
 import HeaderSectionTest from '../components/HeaderSectionTest';
 import AboutSection from '../components/AboutSection';
 import Contact from '../components/Contact';
@@ -11,7 +8,6 @@ import { Milestone } from '../components/Milestone';
 import { Cetrification } from '../components/Certificates';
 
 export const Home = () => {
-  AOS.init();
   return (
     <div>
       <section className='border-bottom py-5 shadow headerSection'>
