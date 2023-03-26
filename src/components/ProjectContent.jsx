@@ -14,6 +14,7 @@ const Project = (props) => {
           src={props.imgSrc}
           alt={props.projectTitle}
           className='mt-3 shadow-custom2 img-items'
+          data-aos='fade-right'
         />
       </a>
       <div className='col-lg-5 col-md-12 mt-3 p-4 d-grid '>
