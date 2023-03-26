@@ -11,7 +11,10 @@ import {
 
 const HeaderSectionTest = () => {
   return (
-    <section className='col-lg-6 homeSections mx-auto position-relative'>
+    <section
+      className='col-lg-6 homeSections mx-auto position-relative'
+      data-aos='zoom-in-up'
+    >
       <header className='col-6 fw-bold position-absolute top-0 mt-md-5 start-0 px-3 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
         <div className='fs-6 text-light mb-5 mt-3'>
           Hi, my name is Erick,
