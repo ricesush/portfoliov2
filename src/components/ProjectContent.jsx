@@ -1,8 +1,21 @@
-import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
+import { useState } from 'react';
+
 const Project = (props) => {
+  const [content, setContent] = useState('Quick Links');
+
+  const onMouseEnter = (text) => {
+    setContent(text);
+  };
+
+  const onMouseLeave = () => {
+    setContent('Quick Links');
+  };
+
   return (
     <section className='row-md d-lg-flex justify-content-center rounded-0 m-1'>
       <a
@@ -17,7 +30,7 @@ const Project = (props) => {
           data-aos='fade-right'
         />
       </a>
-      <div className='col-lg-5 col-md-12 d-grid '>
+      <div className='col-lg-5 col-md-12 d-grid px-5 pt-3'>
         <section className='my-auto '>
           <header className='d-md-flex align-items-center justify-content-between'>
             <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
@@ -25,24 +38,37 @@ const Project = (props) => {
           </header>
           <h6>{props.shortDescription}</h6>
           <hr />
-          <Link to={props.href} target='blank' id={props.id}>
-            <small>
-              <span>Go to website </span>
-              <FontAwesomeIcon icon={faArrowRightFromBracket} />
-            </small>
-          </Link>
-          <br />
-          <Link to={props.repository} target='blank' id={props.id}>
-            <small>
-              <span>Check Repository </span>
-              <FontAwesomeIcon icon={faArrowRightFromBracket} />
-            </small>
-          </Link>
-        </section>
-        <section className='col-lg-9 col-md-8 d-lg-flex d-md-flex text-center text-md-start  mt-md-5 mt-3 mb-0 pb-0'>
-          <small className='text-secondary fw-bold'>Tech Used: </small>
-          <div className='col-8 d-flex justify-content-between ps-md-3 mx-auto pt-3 pt-md-0'>
-            {props.children}
+          <section className='col-lg-9 col-md-8 text-center text-md-start'>
+            <small className='text-secondary fw-bold'>Tech Used: </small>
+            <div className='col-8 d-flex justify-content-between mt-2 pt-md-0'>
+              {props.children}
+            </div>
+          </section>
+          <div className='d-flex pt-5 align-items-center'>
+            <Link
+              to={props.href}
+              target='blank'
+              id={props.id}
+              className='text-dark fs-4'
+              onMouseEnter={() => onMouseEnter('Visit Website')}
+              onMouseLeave={onMouseLeave}
+            >
+              <small>
+                <FontAwesomeIcon icon={faWindowMaximize} />
+              </small>
+            </Link>
+            <br />
+            <Link
+              to={props.repository}
+              target='blank'
+              id={props.id}
+              className='text-dark fs-4 ms-2'
+              onMouseEnter={() => onMouseEnter('Check Repository')}
+              onMouseLeave={onMouseLeave}
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </Link>
+            <small className='ms-2 content'>| {content}</small>
           </div>
         </section>
       </div>
