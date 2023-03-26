@@ -19,27 +19,24 @@ export const NavBar = () => {
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          <div
-            className='collapse navbar-collapse text-center bg-accent'
-            id='mainNavBar'
-          >
-            <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold '>
+          <div className='collapse navbar-collapse text-center' id='mainNavBar'>
+            <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold'>
               <li className='nav-item'>
                 <NavLink to='/' className='nav-link text-light'>
-                  Home
+                  <small>Home</small>
                 </NavLink>
               </li>
-              <li className='nav-item dropdown '>
+              <li className='nav-item dropdown ms-md-4'>
                 <a
-                  className='nav-link dropdown-toggle bg-accent text-light '
+                  className='nav-link dropdown-toggle text-light'
                   href='#'
                   role='button'
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  Projects
+                  <small>Projects</small>
                 </a>
-                <ul className='dropdown-menu '>
+                <ul className='dropdown-menu'>
                   <li>
                     <NavLink to='/projects' className='dropdown-item fw-bold'>
                       <small>View All</small>
@@ -73,7 +70,7 @@ export const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item dropdown'>
+              <li className='nav-item dropdown ms-md-4'>
                 <a
                   className='nav-link dropdown-toggle text-light'
                   href='#'
@@ -81,7 +78,7 @@ export const NavBar = () => {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  Contact
+                  <small>Contact</small>
                 </a>
                 <ul className='dropdown-menu text-center'>
                   <li>
@@ -96,9 +93,9 @@ export const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item'>
+              <li className='nav-item ms-md-4'>
                 <NavLink to='/docs' className='nav-link text-light'>
-                  Docs
+                  <small>Docs</small>
                 </NavLink>
               </li>
             </ul>
