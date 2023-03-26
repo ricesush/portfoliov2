@@ -40,7 +40,7 @@ const ProjectSection = () => {
         <FontAwesomeIcon icon={faPhp} title='PHP' className='fs-3' />
         <FontAwesomeIcon icon={faLaravel} title='Laravel' className='fs-3' />
       </Project>
-      <hr className='col-lg-11 mx-5 my-4' />
+      <hr className='yellowText col-lg-11 mx-5 my-3 mb-5' />
       <Project
         projectTitle='GG-Next '
         category='Gaming Web App'
@@ -58,7 +58,7 @@ const ProjectSection = () => {
         />
         <FontAwesomeIcon icon={faJs} title='Javascript' className='fs-3' />
       </Project>
-      <hr className='col-lg-11 mx-5 my-4' />
+      <hr className='yellowText col-lg-11 mx-5 my-3 mb-5' />
       <Project
         projectTitle='The Greenhouse'
         category='Agriculture Content'

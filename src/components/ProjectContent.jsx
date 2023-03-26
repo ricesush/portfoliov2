@@ -17,13 +17,14 @@ const Project = (props) => {
           data-aos='fade-right'
         />
       </a>
-      <div className='col-lg-5 col-md-12 mt-3 p-4 d-grid '>
+      <div className='col-lg-5 col-md-12 d-grid '>
         <section className='my-auto '>
           <header className='d-md-flex align-items-center justify-content-between'>
             <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
             <p className='text-secondary'>{props.category}</p>
           </header>
           <h6>{props.shortDescription}</h6>
+          <hr />
           <Link to={props.href} target='blank' id={props.id}>
             <small>
               <span>Go to website </span>
