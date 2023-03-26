@@ -20,7 +20,7 @@ body {
 /* Button */
 .custom-btn {
   transition: 0.3s all;
-  border-color: #d75f56;
+  border-color: var(--clr-primary-400);
   color: white;
 }
 
@@ -74,6 +74,10 @@ body {
 /* footer */
 
 /* general misc */
+
+.border-yellow {
+  border-color: chocolate !important;
+}
 
 .border-top {
   border-color: var(--clr-primary-400) !important;

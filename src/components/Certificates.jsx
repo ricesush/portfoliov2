@@ -9,7 +9,7 @@ export const Cetrification = () => {
           <span className='yellowText'>Certification</span>
         </h2>
       </header>
-      <div className='p-3 border-start border-3 rounded m-5'>
+      <div className='p-3 border-start border-3 rounded m-5 border-yellow'>
         <div className='fw-bold fs-5'>Full-Stack Web Developer</div>
         <div className='fw-bold opacity-75 d-sm-flex justify-content-between'>
           <div>KodeGo Bootcamp </div>
