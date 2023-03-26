@@ -16,7 +16,7 @@ import {
 
 const ProjectSection = () => {
   return (
-    <section className='container'>
+    <section className='container shadow pb-5'>
       <header className='col-lg-12 '>
         <h2 className='text-center fs-1 py-lg-5 my-3'>
           <span className='yellowText'>Recent</span> Projects

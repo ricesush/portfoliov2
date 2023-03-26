@@ -17,7 +17,7 @@ const Project = (props) => {
   };
 
   return (
-    <section className='row-md d-lg-flex justify-content-center rounded-0'>
+    <section className='row-md d-lg-flex justify-content-center rounded-0 sectionAccent'>
       <a
         href={props.href}
         target='blank'
@@ -31,9 +31,11 @@ const Project = (props) => {
         />
       </a>
       <div className='col-lg-5 col-md-12 d-grid px-3 pt-3'>
-        <section className='my-auto'>
-          <header className='d-md-flex align-items-center justify-content-between'>
-            <h3 className='fs-4 fw-bold title'>{props.projectTitle}</h3>
+        <section className='my-auto '>
+          <header className='d-flex align-items-center justify-content-between '>
+            <h3 className='fs-4 fw-bold title px-3 py-2 rounded rounded-top-0 rounded-start-0 bg-accent-projects text-light'>
+              <small>{props.projectTitle} </small>
+            </h3>
             <p className='text-secondary'>{props.category}</p>
           </header>
           <h6>{props.shortDescription}</h6>
