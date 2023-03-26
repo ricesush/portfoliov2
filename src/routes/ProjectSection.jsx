@@ -2,7 +2,7 @@ import ggNext from '../assets/ggnext.webp';
 import tgh from '../assets/tgh.webp';
 import df from '../assets/DF.webp';
 
-import Project from './ProjectContent';
+import Project from '../components/ProjectContent';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {

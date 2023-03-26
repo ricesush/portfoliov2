@@ -1,5 +1,5 @@
-import { Home } from './components/Home';
-import Preloader from './components/Preloader';
+import { Home } from './Home';
+import Preloader from '../components/Preloader';
 
 function App() {
   return (

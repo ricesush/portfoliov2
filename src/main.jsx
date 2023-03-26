@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import RootLayout from './routes/RootLayout';
-import App from './App';
-import ProjectSection from './components/ProjectSection';
-import { Docs } from './components/Learnjs';
+import ProjectSection from './routes/ProjectSection';
+import { Docs } from './routes/Docs';
+
+import App from './routes/App';
 
 import './index.css';
 import './App.css';

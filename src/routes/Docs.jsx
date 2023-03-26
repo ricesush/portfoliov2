@@ -1,10 +1,5 @@
 import { useState, createContext } from 'react';
-import { Link } from 'react-router-dom';
-import { DocsSideBar } from './DocsSideBar';
-import { GameApi } from './GameApi';
-import { MiniAppSection } from './MiniAppSection';
-import TodoList from './TodoList';
-import { SamplePage } from './SamplePage';
+import { DocsSideBar } from '../components/DocsSideBar';
 
 export const ContentContext = createContext(null);
 

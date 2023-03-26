@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { SamplePage } from './SamplePage';
 import { GameApi } from './GameApi';
-import { ContentContext } from './Learnjs';
+import { ContentContext } from '../routes/Docs';
 
 export const TableContent = (props) => {
   return (

@@ -5,18 +5,22 @@ import { Link } from 'react-router-dom';
 export const Task = (props) => {
   return (
     <tr>
-      <th className='text-center pt-2'>
-        <input
-          className='form-check-input '
-          type='checkbox'
+      <th className='text-center'>
+        <button
+          className='btn'
+          type='button'
           value=''
           id={props.id + props.taskName}
-          onChange={() => {
+          onClick={() => {
             props.completedTask(props.id);
           }}
-        />
+        >
+          Done
+        </button>
       </th>
-      <td>{props.taskName}</td>
+      <td className=''>
+        <p>{props.taskName}</p>
+      </td>
       <td className='text-center'>
         <button
           type='button'

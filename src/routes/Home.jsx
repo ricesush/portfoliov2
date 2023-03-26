@@ -1,11 +1,11 @@
-import HeaderSectionTest from './HeaderSectionTest';
-import AboutSection from './AboutSection';
-import Contact from './Contact';
-import TechStack from './TechStack';
-import WorkPreference from './WorkPreference';
+import HeaderSectionTest from '../components/HeaderSectionTest';
+import AboutSection from '../components/AboutSection';
+import Contact from '../components/Contact';
+import TechStack from '../components/TechStack';
+import WorkPreference from '../components/WorkPreference';
 
-import { Milestone } from './Milestone';
-import { Cetrification } from './Certificates';
+import { Milestone } from '../components/Milestone';
+import { Cetrification } from '../components/Certificates';
 
 export const Home = () => {
   return (

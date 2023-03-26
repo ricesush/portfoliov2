@@ -14,13 +14,13 @@ const TodoList = () => {
     e.preventDefault();
     if (newTask) {
       const task = {
-        id: todoList.length === 0 ? 1 : todoList[todoList.length - 1].id + 1,
+        id: todoList.length + 1,
         taskName: newTask,
         completed: false,
       };
-      setTodoList([...todoList, task]);
+      setTodoList((existingTodoLost) => [task, ...existingTodoLost]); //'existing' prefix keyword is a builtin keyword = this line is same as setTodoLost([task, ...todoList])
     } else {
-      return;
+      return null;
     }
   };
 
@@ -30,7 +30,7 @@ const TodoList = () => {
 
   const completedTask = (id) => {
     todoList.map((task) => {
-      if (task.id === id && task.completed === false) {
+      if (task.id === id) {
         task.completed = true;
         setTodoList([...todoList]);
       } else {
@@ -72,7 +72,7 @@ const TodoList = () => {
         </thead>
         <tbody>
           {todoList.map((task) => {
-            keys++;
+            keys = keys + 1;
             return (
               <Task
                 key={keys}
