@@ -2,6 +2,9 @@ import { ExternalLinksTable } from './ExternalLinksTable';
 import { MiniAppsTable } from './MiniAppTable';
 import { ResourcesTable } from './ResourcesTable';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
+
 export const DocsSideBar = () => {
   return (
     <nav className='navbar navbar-expand-lg p-3'>
@@ -15,9 +18,11 @@ export const DocsSideBar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <span className='navbar-toggler-icon'></span>
+          <span>
+            <FontAwesomeIcon icon={faEllipsisVertical} />
+          </span>
         </button>
-        <div className='collapse navbar-collapse' id='sidebar'>
+        <div className='collapse navbar-collapse bg-accent' id='sidebar'>
           <div className='mb-2 mb-lg-0'>
             <li className=' nav-item'>
               <MiniAppsTable />

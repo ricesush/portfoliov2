@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 export const NavBar = () => {
   return (
     <>
-      <nav className='navbar navbar-expand-lg bg-dark '>
+      <nav className='navbar navbar-expand-lg bg-accent'>
         <div className='container'>
           <Link to='/' className='navbar-brand fw-bold text-light'>
             E-J ESAN.
@@ -19,7 +19,10 @@ export const NavBar = () => {
           >
             <span className='navbar-toggler-icon'></span>
           </button>
-          <div className='collapse navbar-collapse text-center' id='mainNavBar'>
+          <div
+            className='collapse navbar-collapse text-center bg-accent'
+            id='mainNavBar'
+          >
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold '>
               <li className='nav-item'>
                 <NavLink to='/' className='nav-link text-light'>
@@ -28,7 +31,7 @@ export const NavBar = () => {
               </li>
               <li className='nav-item dropdown '>
                 <a
-                  className='nav-link dropdown-toggle text-light'
+                  className='nav-link dropdown-toggle bg-accent text-light '
                   href='#'
                   role='button'
                   data-bs-toggle='dropdown'
@@ -36,7 +39,7 @@ export const NavBar = () => {
                 >
                   Projects
                 </a>
-                <ul className='dropdown-menu'>
+                <ul className='dropdown-menu '>
                   <li>
                     <NavLink to='/projects' className='dropdown-item fw-bold'>
                       <small>View All</small>
