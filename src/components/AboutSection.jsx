@@ -22,7 +22,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        <div className='pt-3 pt-md-5'>
+        <div className='pt-3'>
           Proficient in an assortment of technologies, including
           <span className='yellowText fw-bold'> HTML5</span>,
           <span className='yellowText fw-bold'> CSS3</span>,

@@ -3,7 +3,7 @@ import { MiniAppsTable } from './MiniAppTable';
 import { ResourcesTable } from './ResourcesTable';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
 export const DocsSideBar = () => {
   return (
@@ -19,7 +19,7 @@ export const DocsSideBar = () => {
           aria-label='Toggle navigation'
         >
           <span>
-            <FontAwesomeIcon icon={faEllipsisVertical} />
+            <FontAwesomeIcon icon={faEllipsis} />
           </span>
         </button>
         <div className='collapse navbar-collapse bg-accent' id='sidebar'>
