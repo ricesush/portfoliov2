@@ -1,6 +1,6 @@
 import { Home } from './Home';
 import Preloader from '../components/Preloader';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
