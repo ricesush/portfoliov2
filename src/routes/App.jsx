@@ -1,15 +1,17 @@
 import { Home } from './Home';
 import Preloader from '../components/Preloader';
+import { useState } from 'react';
 
 function App() {
-  return (
-    <>
-      <Preloader />
-      <div hidden id='hidden'>
-        <Home />
-      </div>
-    </>
-  );
+  const [isLoading, setIsLoading] = useState(true);
+
+  const preloaderTimeout = setTimeout(loader, 1500);
+
+  function loader() {
+    setIsLoading(false);
+  }
+
+  return <>{isLoading ? <Preloader /> : <Home />}</>;
 }
 
 export default App;

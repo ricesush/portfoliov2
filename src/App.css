@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 :root {
-  --clr-primary-400: #d75f56;
+  --clr-primary-400: chocolate;
   --clr-neutral-400: #000000;
   --clr-accent-400: #212529;
   font-size: 16px;
