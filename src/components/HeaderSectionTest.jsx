@@ -51,15 +51,21 @@ const HeaderSectionTest = () => {
               <FontAwesomeIcon icon={faDownload} />
             </small>
           </a>
-          <div className='fs-2 d-flex align-items-center'>
-            <small className='fs-6 fw-bold text-light pe-3'>Find me at: </small>
+          <div className='fs-2 d-md-flex align-items-center pt-md-0 pt-3'>
+            <div className='fs-6 fw-bold text-light pe-3 ms-sm-auto'>
+              Find me at:
+            </div>
             <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
               <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
             </a>
             <a href='https://github.com/ricesush' target='blank'>
               <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
             </a>
-            <a href='https://www.facebook.com/RiceSush' target='blank'>
+            <a
+              href='https://www.facebook.com/RiceSush'
+              target='blank'
+              className='me-sm-auto'
+            >
               <FontAwesomeIcon icon={faFacebook} className='socmed' />
             </a>
           </div>
