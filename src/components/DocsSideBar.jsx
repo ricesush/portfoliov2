@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { ExternalLinksTable } from './ExternalLinksTable';
 import { MiniAppsTable } from './MiniAppTable';
 import { ResourcesTable } from './ResourcesTable';

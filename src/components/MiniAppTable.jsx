@@ -16,7 +16,7 @@ export const MiniAppsTable = () => {
               title='Todo-List'
               description='The legendary todo list where you can add, delete, and mark as done your todos'
               miniApp={<TodoList />}
-              status='Work in progress'
+              isDone={false}
             />
           }
         />
@@ -27,7 +27,7 @@ export const MiniAppsTable = () => {
               title='Pokemon API'
               description='Pokemon API based mini app, at the moment, try to type a '
               miniApp={<GameApi />}
-              status='Work in progress'
+              isDone={false}
             />
           }
         />
@@ -38,7 +38,7 @@ export const MiniAppsTable = () => {
               title='Post'
               description='Mini App/Demo for creating and deleting post'
               miniApp={<PostsList />}
-              status='Work in progress'
+              isDone={false}
             />
           }
         />

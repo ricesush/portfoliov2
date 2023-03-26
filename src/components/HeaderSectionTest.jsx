@@ -48,7 +48,8 @@ const HeaderSectionTest = () => {
               <FontAwesomeIcon icon={faDownload} />
             </small>
           </a>
-          <div className='fs-2 '>
+          <div className='fs-2 d-flex align-items-center'>
+            <small className='fs-6 fw-bold text-light pe-3'>Find me at: </small>
             <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
               <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
             </a>

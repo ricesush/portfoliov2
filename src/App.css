@@ -21,6 +21,7 @@ body {
 .custom-btn {
   transition: 0.3s all;
   border-color: #d75f56;
+  color: white;
 }
 
 /* General Hover */
@@ -44,7 +45,7 @@ body {
 
 .socmed {
   transition: 0.3s all;
-  color: var(--clr-neutral-400);
+  color: white;
 }
 
 /* HOME */
@@ -84,12 +85,11 @@ body {
 
 .headerSection {
   background: linear-gradient(
-    to bottom right,
-    #212529 0%,
-    #212529 31%,
+    to bottom,
+    #21252900 0%,
     #21252900 31%,
-    #21252900 85%,
-    #212529 85%,
+    #21252900 50%,
+    #212529 50%,
     #212529 100%
   ) !important;
 }
