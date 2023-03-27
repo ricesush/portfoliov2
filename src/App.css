@@ -5,7 +5,7 @@
   --clr-neutral-400: #000000;
   --clr-accent-400: #212529;
   font-size: 16px;
-  transition: 0.5s all ease-in-out !important;
+  transition: 0.3s all !important;
 }
 
 * {
