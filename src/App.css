@@ -74,6 +74,9 @@ body {
 /* footer */
 
 /* general misc */
+.h85 {
+  height: 87vh;
+}
 
 .border-yellow {
   border-color: chocolate !important;
@@ -88,7 +91,6 @@ body {
 }
 
 .headerSection {
-  height: 85%;
   background: linear-gradient(
     to bottom,
     #21252900 0%,
