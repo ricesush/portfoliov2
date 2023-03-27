@@ -33,18 +33,16 @@ const TechStack = () => {
         </h2>
       </header>
       <div className='my-5'>
-        <div className='fs-1 d-flex justify-content-around pt-4 ps-0 pe-0'>
+        <div className=' d-flex justify-content-around pt-4 ps-0 pe-0'>
           {techStackList1.map((tech) => {
             return (
               <div className='d-grid ' key={tech.id}>
                 <FontAwesomeIcon
                   icon={tech.icon}
                   title={tech.title}
-                  className='mx-auto'
+                  className='mx-auto fs-1'
                 />
-                <label htmlFor='' className='fs-6 text-center'>
-                  {tech.title}
-                </label>
+                <small className='text-center'>{tech.title}</small>
               </div>
             );
           })}

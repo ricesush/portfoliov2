@@ -36,8 +36,8 @@ const HeaderSection = () => {
             <FontAwesomeIcon icon={faDownload} />
           </small>
         </a>
-        <div className='fs-2 pt-sm-0 mt-5'>
-          <small className='fs-6 fw-bold'>Find me at:</small>
+        <div className='pt-sm-0 mt-5'>
+          <small className=' fw-bold'>Find me at:</small>
           <br />
           <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
             <FontAwesomeIcon icon={faLinkedin} className='socmed ' />

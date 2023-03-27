@@ -120,8 +120,8 @@ body {
   transition: 0.3s all !important;
 }
 
-.homeSections:hover > header > h2 > .yellowText,
-.homeSections:hover > header > h2 > .fw-bold {
+.homeSections:hover > header > div > .yellowText,
+.homeSections:hover > header > div > .fw-bold {
   color: var(--clr-accent-400);
   transition: 0.3s all !important;
 }

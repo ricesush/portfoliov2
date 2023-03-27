@@ -31,14 +31,14 @@ const HeaderSectionTest = () => {
             love for work.
           </p>
         </div>
-        <h2 className='text-light'>
-          <small className='fs-6 yellowText'>Erick-John Santosidad</small>
+        <div className='text-light'>
+          <small className='fw-bold yellowText'>Erick-John Santosidad</small>
           <br />
-          <small className='fs-6  fw-bold'>
+          <small className='fw-bold'>
             <FontAwesomeIcon icon={faLaptopCode} className='pe-1' /> Jr.
             Full-Stack Developer
           </small>
-        </h2>
+        </div>
       </header>
       <div className='ms-md-auto p-lg-0 ps-md-5 '>
         <img
@@ -59,8 +59,8 @@ const HeaderSectionTest = () => {
               <FontAwesomeIcon icon={faDownload} />
             </small>
           </a>
-          <div className='fs-2 d-md-flex align-items-center pt-md-0 pt-3'>
-            <div className='fs-6 fw-bold text-light pe-3 ms-sm-auto'>
+          <div className=' d-md-flex align-items-center pt-md-0 pt-3'>
+            <div className='fw-bold text-light pe-3 ms-sm-auto'>
               Find me at:
             </div>
             {socmeds.map((socmed) => {
@@ -68,7 +68,7 @@ const HeaderSectionTest = () => {
                 <a href={socmed.href} target='blank' key={socmed.id}>
                   <FontAwesomeIcon
                     icon={socmed.icon}
-                    className='socmed text-light px-2'
+                    className='socmed text-light px-2 fs-3'
                   />
                 </a>
               );
