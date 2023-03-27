@@ -30,15 +30,18 @@ body {
 .socmed:hover,
 .nav-link:hover {
   color: var(--clr-primary-400) !important;
+  transition: 0.3s all !important;
 }
 
 .custom-btn:hover {
   color: white;
   background-color: var(--clr-primary-400);
+  transition: 0.3s all !important;
 }
 
 .custom-btn:hover > small > .btn-text {
   padding-right: 0.3rem;
+  transition: 0.3s all !important;
 }
 
 /* navbar */
@@ -108,11 +111,13 @@ body {
 .homeSections:hover > .bg-accent,
 .sectionAccent:hover > div > section header > h3 {
   background-color: var(--clr-primary-400);
+  transition: 0.3s all !important;
 }
 
 .homeSections:hover > header > h2 > .yellowText,
 .homeSections:hover > header > h2 > .fw-bold {
   color: var(--clr-accent-400);
+  transition: 0.3s all !important;
 }
 
 /* glassmorphism */
