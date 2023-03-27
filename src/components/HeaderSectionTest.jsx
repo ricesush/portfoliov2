@@ -27,8 +27,8 @@ const HeaderSectionTest = () => {
           <small className='fs-6 yellowText'>Erick-John Santosidad</small>
           <br />
           <small className='fs-6  fw-bold'>
-            <FontAwesomeIcon icon={faLaptopCode} />
-            <span> Jr. Full-Stack Developer</span>
+            <FontAwesomeIcon icon={faLaptopCode} className='pe-1' /> Jr.
+            Full-Stack Developer
           </small>
         </h2>
       </header>
