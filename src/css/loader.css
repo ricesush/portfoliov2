@@ -1,11 +1,19 @@
 .containerHeight {
-  height: 100vh;
+  height: 85vh;
+  background: linear-gradient(
+    to bottom,
+    #21252900 0%,
+    #21252900 31%,
+    #21252900 50%,
+    #212529 50%,
+    #212529 100%
+  );
 }
 
 .loader {
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   left: 0;

@@ -92,6 +92,7 @@ body {
 }
 
 .headerSection {
+  height: 85vh;
   background: linear-gradient(
     to bottom,
     #21252900 0%,
