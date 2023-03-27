@@ -5,43 +5,52 @@ import { MiniAppSection } from './MiniAppSection';
 import { PostsList } from './PostsList';
 
 export const MiniAppsTable = () => {
+  const tableOfContent = [
+    {
+      title: 'To-do List',
+      description:
+        'The legendary todo list where you can add, delete, and mark as done your todos',
+      miniApp: <TodoList />,
+      isDone: false,
+      id: 1,
+    },
+    {
+      title: 'Pokemon API',
+      description:
+        'Pokemon API based mini app, you can type the pokemon name on the search bar',
+      miniApp: <GameApi />,
+      isDone: false,
+      id: 2,
+    },
+    {
+      title: 'Post',
+      description: 'Mini App/Demo for creating and deleting post',
+      miniApp: <PostsList />,
+      isDone: false,
+      id: 3,
+    },
+  ];
+
   return (
     <table className='table table-dark table-hover table-sm table-borderless'>
       <TableHead title='Mini Apps' />
       <tbody>
-        <TableContentBtn
-          title='To-do List'
-          content={
-            <MiniAppSection
-              title='Todo-List'
-              description='The legendary todo list where you can add, delete, and mark as done your todos'
-              miniApp={<TodoList />}
-              isDone={false}
+        {tableOfContent.map((content) => {
+          return (
+            <TableContentBtn
+              key={content.id}
+              title={content.title}
+              content={
+                <MiniAppSection
+                  title={content.title}
+                  description={content.description}
+                  miniApp={content.miniApp}
+                  isDone={false}
+                />
+              }
             />
-          }
-        />
-        <TableContentBtn
-          title='Pokemon API'
-          content={
-            <MiniAppSection
-              title='Pokemon API'
-              description='Pokemon API based mini app, at the moment, try to type a '
-              miniApp={<GameApi />}
-              isDone={false}
-            />
-          }
-        />
-        <TableContentBtn
-          title='Post'
-          content={
-            <MiniAppSection
-              title='Post'
-              description='Mini App/Demo for creating and deleting post'
-              miniApp={<PostsList />}
-              isDone={false}
-            />
-          }
-        />
+          );
+        })}
       </tbody>
     </table>
   );

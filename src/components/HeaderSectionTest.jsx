@@ -10,6 +10,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 const HeaderSectionTest = () => {
+  const socmeds = [
+    { href: 'https://www.linkedin.com/in/ejsan/', icon: faLinkedin, id: 1 },
+    { href: 'https://github.com/ricesush', icon: faGithub, id: 2 },
+    { href: 'https://www.facebook.com/RiceSush', icon: faFacebook, id: 3 },
+  ];
   return (
     <section
       className='col-lg-6 homeSections mx-auto position-relative'
@@ -55,19 +60,16 @@ const HeaderSectionTest = () => {
             <div className='fs-6 fw-bold text-light pe-3 ms-sm-auto'>
               Find me at:
             </div>
-            <a href='https://www.linkedin.com/in/ejsan/' target='blank'>
-              <FontAwesomeIcon icon={faLinkedin} className='socmed ' />
-            </a>
-            <a href='https://github.com/ricesush' target='blank'>
-              <FontAwesomeIcon icon={faGithub} className='socmed mx-3' />
-            </a>
-            <a
-              href='https://www.facebook.com/RiceSush'
-              target='blank'
-              className='me-sm-auto'
-            >
-              <FontAwesomeIcon icon={faFacebook} className='socmed' />
-            </a>
+            {socmeds.map((socmed) => {
+              return (
+                <a href={socmed.href} target='blank' key={socmed.id}>
+                  <FontAwesomeIcon
+                    icon={socmed.icon}
+                    className='socmed text-light pe-3'
+                  />
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>

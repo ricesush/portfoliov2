@@ -23,14 +23,17 @@ export const Footer = () => {
           </a>
         </div>
         <div className='mb-3 mb-md-0 text-muted'>
-          Created by <small className='fw-bold'>PIXELARTME</small>
+          Created by <small className='fw-bold yellowText'>PIXELARTME</small>
         </div>
         <ul className='nav col-md-4 justify-content-end list-unstyled'>
           {socmeds.map((contact) => {
             return (
               <li className='ps-3 fs-3' key={contact.id}>
                 <a href={contact.href} target='blank'>
-                  <FontAwesomeIcon icon={contact.icon} className='socmed ' />
+                  <FontAwesomeIcon
+                    icon={contact.icon}
+                    className='socmed text-dark'
+                  />
                 </a>
               </li>
             );

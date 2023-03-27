@@ -17,9 +17,7 @@ export const GameApi = () => {
   const fetchPokemonDetails = () => {
     if (pokemonUrl != null) {
       Axios.get(pokemonUrl).then((res) => {
-        console.log(pokemonUrl);
         setPokemonUrl(res.data.results);
-        console.log(pokemonUrl);
       });
     }
   };
