@@ -110,7 +110,8 @@ body {
   background-color: var(--clr-primary-400);
 }
 
-.homeSections:hover > header > h2 > small {
+.homeSections:hover > header > h2 > .yellowText,
+.homeSections:hover > header > h2 > .fw-bold {
   color: var(--clr-accent-400);
 }
 
