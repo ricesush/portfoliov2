@@ -31,7 +31,7 @@ body {
 /* General Hover */
 .socmed:hover,
 .nav-link:hover {
-  transition: 0.3s all ease-in-out !important;
+  transition: 0.3s all !important;
   color: var(--clr-primary-400) !important;
 }
 

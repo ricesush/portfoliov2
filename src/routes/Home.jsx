@@ -9,7 +9,7 @@ import { Cetrification } from '../components/Certificates';
 
 export const Home = () => {
   return (
-    <div>
+    <div className=''>
       <section className='border-bottom py-5 shadow headerSection'>
         <HeaderSectionTest />
       </section>
