@@ -114,6 +114,7 @@ body {
 }
 
 .homeSections:hover > .bg-accent,
+.homeSections:hover > .bg-accent-glass,
 .sectionAccent:hover > div > section header > h3 {
   background-color: var(--clr-primary-400);
   transition: 0.3s all !important;
@@ -126,6 +127,21 @@ body {
 }
 
 /* glassmorphism */
+
+.bg-accent-glass {
+  background: #212529d1;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.3s all !important;
+}
+
+.homeSections:hover > .bg-accent-glass {
+  background-color: rgba(210, 105, 30, 0.866);
+  transition: 0.3s all !important;
+}
 
 .bg-glass {
   /* From https://css.glass */
