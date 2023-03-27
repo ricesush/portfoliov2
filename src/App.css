@@ -9,7 +9,7 @@
 }
 
 * {
-  transition: 0.3s all ease-in-out !important;
+  transition: 0.3s all !important;
 }
 
 .yellowText {
@@ -23,7 +23,6 @@ body {
 
 /* Button */
 .custom-btn {
-  transition: 0.3s all;
   border-color: var(--clr-primary-400);
   color: white;
 }
@@ -31,7 +30,6 @@ body {
 /* General Hover */
 .socmed:hover,
 .nav-link:hover {
-  transition: 0.3s all !important;
   color: var(--clr-primary-400) !important;
 }
 
@@ -41,14 +39,12 @@ body {
 }
 
 .custom-btn:hover > small > .btn-text {
-  transition: 0.3s all;
   padding-right: 0.3rem;
 }
 
 /* navbar */
 
 .socmed {
-  transition: 0.3s all;
   color: white;
 }
 
@@ -92,7 +88,7 @@ body {
 }
 
 .headerSection {
-  height: 85vh;
+  height: 85%;
   background: linear-gradient(
     to bottom,
     #21252900 0%,
@@ -106,13 +102,11 @@ body {
 .bg-accent,
 .bg-accent-projects {
   background-color: var(--clr-accent-400);
-  transition: 0.3s all;
 }
 
 .homeSections:hover > .bg-accent,
 .sectionAccent:hover > div > section header > h3 {
   background-color: var(--clr-primary-400);
-  transition: 0.3s all;
 }
 
 .homeSections:hover > header > h2 > small {
