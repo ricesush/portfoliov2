@@ -46,8 +46,13 @@ body {
 
 /* navbar */
 
+.nav-link {
+  transition: 0.3s all !important;
+}
+
 .socmed {
   color: white;
+  transition: 0.3s all !important;
 }
 
 /* HOME */
@@ -90,6 +95,7 @@ body {
 
 .bg-accent {
   background-color: var(--clr-primary-400);
+  transition: 0.3s all !important;
 }
 
 .headerSection {
