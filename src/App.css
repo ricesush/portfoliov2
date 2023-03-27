@@ -5,9 +5,9 @@
   --clr-neutral-400: #000000;
   --clr-accent-400: #212529;
   font-size: 16px;
+  transition: 0.3s all !important;
 }
-
-* {
+.navbar-collapse {
   transition: 0.3s all !important;
 }
 
