@@ -1,10 +1,17 @@
+import html from '../assets/HTML5.svg.png';
+import css from '../assets/CSS3.svg.png';
+import bs5 from '../assets/Bootstrap.svg.png';
+import js from '../assets/JavaScript.png';
+import react from '../assets/React.svg.png';
+import vite from '../assets/Vitejs.svg.png';
+import php from '../assets/PHP.svg.png';
+import laravel from '../assets/Laravel.svg.png';
+
+import figma from '../assets/Figma.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faBootstrap,
-  faCss3,
   faFigma,
-  faHtml5,
-  faJs,
   faLaravel,
   faPhp,
   faReact,
@@ -12,17 +19,17 @@ import {
 
 const TechStack = () => {
   const techStackList1 = [
-    { icon: faHtml5, title: 'HTML5', id: 1 },
-    { icon: faCss3, title: 'CSS3', id: 2 },
-    { icon: faBootstrap, title: 'Bootstrap', id: 3 },
-    { icon: faJs, title: 'Javascript', id: 4 },
+    { src: html, title: 'HTML5', id: 1 },
+    { src: css, title: 'CSS3', id: 2 },
+    { src: bs5, title: 'Bootstrap', id: 3 },
+    { src: js, title: 'JavaScript', id: 4 },
   ];
 
   const techStackList2 = [
-    { icon: faReact, title: 'React', id: 5 },
-    { icon: faFigma, title: 'Figma', id: 6 },
-    { icon: faPhp, title: 'PHP', id: 7 },
-    { icon: faLaravel, title: 'Laravel', id: 8 },
+    { src: react, title: 'React', id: 1 },
+    { src: vite, title: 'Vite', id: 2 },
+    { src: php, title: 'PHP', id: 3 },
+    { src: laravel, title: 'Laravel', id: 4 },
   ];
 
   return (
@@ -32,33 +39,35 @@ const TechStack = () => {
           <span className=''>Tech</span> Stack
         </h2>
       </header>
-      <div className='my-5'>
-        <div className=' d-flex justify-content-around pt-4 ps-0 pe-0'>
+      <div className=''>
+        <div className='d-flex my-auto pt-4 mt-5'>
           {techStackList1.map((tech) => {
             return (
-              <div className='d-grid ' key={tech.id}>
-                <FontAwesomeIcon
-                  icon={tech.icon}
+              <div className='d-grid p-2 mx-auto' key={tech.id}>
+                <img
+                  src={tech.src}
                   title={tech.title}
-                  className='mx-auto fs-1'
+                  alt={tech.title}
+                  width={55}
+                  className='mx-auto'
                 />
-                <small className='text-center'>{tech.title}</small>
+                <small className='text-center mt-auto'>{tech.title}</small>
               </div>
             );
           })}
         </div>
-        <div className='fs-1 d-flex justify-content-around mt-4 ps-0 pe-0'>
+        <div className='d-flex my-auto pt-4'>
           {techStackList2.map((tech) => {
             return (
-              <div className='d-grid ' key={tech.id}>
-                <FontAwesomeIcon
-                  icon={tech.icon}
+              <div className='d-grid p-2 mx-auto' key={tech.id}>
+                <img
+                  src={tech.src}
                   title={tech.title}
+                  alt={tech.title}
+                  width={55}
                   className='mx-auto'
                 />
-                <label htmlFor='' className='fs-6 text-center'>
-                  {tech.title}
-                </label>
+                <small className='text-center mt-auto'>{tech.title}</small>
               </div>
             );
           })}
