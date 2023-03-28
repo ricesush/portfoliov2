@@ -11,13 +11,20 @@ export const Cetrification = () => {
       </header>
       <div className='p-3 border-start border-3 rounded m-5 border-yellow'>
         <div className='fw-bold fs-5'>Full-Stack Web Developer</div>
-        <div className='fw-bold opacity-75 d-sm-flex justify-content-between'>
+        <div className='fw-bold opacity-75 d-sm-flex justify-content-between border-bottom border-2 pb-2'>
           <div>KodeGo Bootcamp </div>
           <div>
             <FontAwesomeIcon icon={faCalendarDays} className='yellowText' />
             <span> January, 2023</span>
           </div>
         </div>
+        <a
+          target={'_blank'}
+          href='https://assets.kodego.ph/public/isa/zVJU27vDkXhM3rKqIdEKe3hvLXOlqXNYptlICNiR.pdf'
+          className='btn btn-sm custom-btn-accent rounded-5 border-1 mt-2'
+        >
+          <span> view certificate</span>
+        </a>
       </div>
     </section>
   );

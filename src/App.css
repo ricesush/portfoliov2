@@ -27,6 +27,7 @@ body {
 }
 
 /* General Hover */
+
 .socmed:hover,
 .nav-link:hover {
   color: var(--clr-primary-400) !important;
@@ -41,6 +42,18 @@ body {
 
 .custom-btn:hover > small > .btn-text {
   padding-right: 0.3rem;
+  transition: 0.3s all !important;
+}
+
+.custom-btn-accent {
+  color: white;
+  background: var(--clr-accent-400);
+  transition: 0.3s all !important;
+}
+
+.custom-btn-accent:hover {
+  color: white;
+  background: #3e454c;
   transition: 0.3s all !important;
 }
 
