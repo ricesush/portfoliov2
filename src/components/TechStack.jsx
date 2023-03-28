@@ -9,14 +9,6 @@ import laravel from '../assets/Laravel.svg.png';
 
 import figma from '../assets/Figma.png';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFigma,
-  faLaravel,
-  faPhp,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons';
-
 const TechStack = () => {
   const techStackList1 = [
     { src: html, title: 'HTML5', id: 1 },
@@ -40,7 +32,7 @@ const TechStack = () => {
         </h2>
       </header>
       <div className=''>
-        <div className='d-flex my-auto pt-4 mt-5'>
+        <div className='d-sm-flex my-auto pt-4 mt-5'>
           {techStackList1.map((tech) => {
             return (
               <div className='d-grid p-2 mx-auto' key={tech.id}>
@@ -56,7 +48,7 @@ const TechStack = () => {
             );
           })}
         </div>
-        <div className='d-flex my-auto pt-4'>
+        <div className='d-sm-flex my-auto pt-4'>
           {techStackList2.map((tech) => {
             return (
               <div className='d-grid p-2 mx-auto' key={tech.id}>
