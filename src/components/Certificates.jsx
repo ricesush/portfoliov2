@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Cetrification = () => {
   return (
-    <section className='col-lg-6 py-4'>
-      <header className='fs-5 fw-bold'>
+    <section className='col-lg-6 py-4 mt-3'>
+      <header className='fs-5 fw-bold '>
         <h2 className='text-center'>
           <span className='yellowText'>Certification</span>
         </h2>
       </header>
-      <div className='p-3 border-start border-3 rounded m-5 border-yellow'>
+      <div className='p-3 border-start border-3 rounded m-5 mt-0 border-yellow shadow'>
         <div className='fw-bold fs-5'>Full-Stack Web Developer</div>
         <div className='fw-bold opacity-75 d-sm-flex justify-content-between border-bottom border-2 pb-2'>
           <div>KodeGo Bootcamp </div>
@@ -23,7 +23,7 @@ export const Cetrification = () => {
           href='https://assets.kodego.ph/public/isa/zVJU27vDkXhM3rKqIdEKe3hvLXOlqXNYptlICNiR.pdf'
           className='btn btn-sm custom-btn-accent rounded-5 border-1 mt-2'
         >
-          <span> view certificate</span>
+          <span>View Certificate</span>
         </a>
       </div>
     </section>
