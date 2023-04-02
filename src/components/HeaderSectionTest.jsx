@@ -1,4 +1,4 @@
-import coverImg from '../assets/cover_edit.png';
+import coverImg from '../assets/cover_edit.webp';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
