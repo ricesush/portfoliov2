@@ -9,17 +9,15 @@ function RootLayout() {
   const [isLoading, setIsLoading] = useState(true);
   const preloaderTimeout = setTimeout(loader, 1000);
   function loader() {
+    onload;
     setIsLoading(false);
   }
-
-  useEffect(() => {
-    <Outlet />;
-  });
 
   return (
     <>
       <NavBar />
       {isLoading ? <Preloader /> : <Outlet />}
+      {isLoading && <Outlet />}
       <Footer />
     </>
   );
