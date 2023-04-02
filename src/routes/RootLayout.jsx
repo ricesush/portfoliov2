@@ -3,7 +3,7 @@ import { Footer } from '../components/Footer';
 import { NavBar } from '../components/NavBar';
 
 import Preloader from '../components/Preloader';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function RootLayout() {
   const [isLoading, setIsLoading] = useState(true);

@@ -93,8 +93,3 @@
     width: 100%;
   }
 }
-
-.d-none {
-  visibility: hidden !important;
-  transform: scale(0) !important;
-}
