@@ -12,7 +12,7 @@ const WorkPreference = () => {
   ];
 
   return (
-    <section className='col-md-6 rounded-1 mt-lg-0 border homeSections'>
+    <section className='col-md-6 rounded-1 mt-lg-0 border homeSections bg-glass'>
       <ContentHeader title='Work Preference' />
       <div className='fs-6 pt-3 p-5 mt-5'>
         {workPreferences.map((preference) => {

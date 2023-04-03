@@ -13,7 +13,9 @@ export const Home = () => {
   return (
     <div>
       <section
-        className={`border-bottom py-5  headerSection${isLoading ? 'h85' : ''}`}
+        className={`border-bottom py-5 shadow headerSection${
+          isLoading ? 'h85' : ''
+        }`}
         onLoad={() => setIsLoading(false)}
       >
         <HeaderSectionTest />

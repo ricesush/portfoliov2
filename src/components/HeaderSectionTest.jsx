@@ -20,8 +20,8 @@ const HeaderSectionTest = () => {
       className='col-lg-6 homeSections mx-auto position-relative'
       data-aos='zoom-in-up'
     >
-      <header className='col-6 position-absolute top-0 mt-md-5 start-0 px-3 py-2 rounded-5 rounded-top-0 rounded-start-0 bg-accent shadow'>
-        <div className='text-light mb-5 mt-3'>
+      <header className='col-6 position-absolute top-0 mt-md-5 start-0 px-3 py-2 rounded-5 rounded-top-0 rounded-start-0 bg-accent shadow-lg border'>
+        <div className='text-light mb-4 mt-3 '>
           <div className='fs-2 fw-bold'>
             Hi, my
             <br /> name is Erick,
@@ -31,7 +31,8 @@ const HeaderSectionTest = () => {
             love for work.
           </p>
         </div>
-        <div className='text-light'>
+        <hr className='text-light' />
+        <div className='text-light my-2'>
           <small className='fw-bold yellowText'>Erick-John Santosidad</small>
           <br />
           <small className='fw-bold'>

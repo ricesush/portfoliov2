@@ -8,7 +8,7 @@ const Contact = () => {
     { icon: faSquarePhone, details: '+63999-551-4413', id: 2 },
   ];
   return (
-    <section className='col-md-6 rounded-1 border homeSections'>
+    <section className='col-md-6 rounded-1 border homeSections bg-glass'>
       <ContentHeader title='Contact Details' />
       <div className='pt-4 text-sm-start text-center p-5 mt-5'>
         <div className='justify-content-around flex-md-column d-flex'>

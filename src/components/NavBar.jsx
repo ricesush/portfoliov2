@@ -3,10 +3,11 @@ import { Link, NavLink } from 'react-router-dom';
 export const NavBar = () => {
   return (
     <>
-      <nav className='navbar navbar-expand-lg bg-accent'>
+      <nav className='navbar navbar-expand-lg bg-accent border-bottom'>
         <div className='container'>
           <Link to='/' className='navbar-brand fw-bold text-light'>
-            E-J ESAN.
+            e<span className='yellowText'>-</span>jesan
+            <span className='yellowText'>.</span>
           </Link>
           <button
             className='navbar-toggler bg-light rounded-1'
@@ -23,7 +24,7 @@ export const NavBar = () => {
             <ul className='navbar-nav ms-auto mb-2 mb-lg-0 fw-bold'>
               <li className='nav-item'>
                 <NavLink to='/' className='nav-link text-light'>
-                  <small>Home</small>
+                  <small>HOME</small>
                 </NavLink>
               </li>
               <li className='nav-item dropdown ms-md-4'>
@@ -34,7 +35,7 @@ export const NavBar = () => {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  <small>Projects</small>
+                  <small>PROJECTS</small>
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
@@ -78,7 +79,7 @@ export const NavBar = () => {
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
                 >
-                  <small>Contact</small>
+                  <small>CONTACT</small>
                 </a>
                 <ul className='dropdown-menu text-center'>
                   <li>
@@ -95,7 +96,7 @@ export const NavBar = () => {
               </li>
               <li className='nav-item ms-md-4'>
                 <NavLink to='/docs' className='nav-link text-light'>
-                  <small>Docs</small>
+                  <small>LAB</small>
                 </NavLink>
               </li>
             </ul>
