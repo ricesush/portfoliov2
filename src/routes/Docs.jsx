@@ -35,7 +35,7 @@ export const Docs = () => {
             <DocsSideBar onClick={setContent} />
           </ContentContext.Provider>
         </div>
-        <div className='col m-2 my-3'>{content}</div>
+        <div className='col m-2 my-3 bg-glass rounded-0'>{content}</div>
       </section>
     </div>
   );

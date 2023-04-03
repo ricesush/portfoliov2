@@ -40,7 +40,7 @@ const Project = (props) => {
           </header>
           <h6>{props.shortDescription}</h6>
           <hr />
-          <div className='d-md-flex align-items-center text-center'>
+          <div className='d-lg-flex align-items-center text-center'>
             <div
               className='btn-group btn-group-sm'
               role='group'
@@ -70,9 +70,9 @@ const Project = (props) => {
             <br />
             <small className='ms-2 content'>| {content}</small>
           </div>
-          <section className='text-center text-md-start pt-5'>
+          <section className='text-center text-lg-start pt-5'>
             <small className='text-secondary fw-bold'>Tech Used: </small>
-            <div className='d-flex justify-content-sm-center justify-content-md-start mt-2 pt-md-0 mx-md-0 mx-auto'>
+            <div className='d-flex justify-content-center justify-content-lg-start mt-2 pt-md-0 mx-md-0 mx-auto'>
               {props.children}
             </div>
           </section>
