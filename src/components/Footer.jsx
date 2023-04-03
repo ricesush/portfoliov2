@@ -12,8 +12,8 @@ export const Footer = () => {
     { href: 'https://www.facebook.com/RiceSush', icon: faFacebook, id: 3 },
   ];
   return (
-    <div className='container'>
-      <footer className='d-flex flex-wrap justify-content-between align-items-center pt-3 my-4 border-top'>
+    <div className='bg-glass border-0 border-top rounded-0'>
+      <footer className='container d-flex flex-wrap justify-content-between align-items-center py-3 '>
         <div className='col-md-4 d-flex align-items-center'>
           <a
             to='/'
@@ -23,7 +23,8 @@ export const Footer = () => {
           </a>
         </div>
         <div className='mb-3 mb-md-0 text-muted'>
-          Created by <small className='fw-bold yellowText'>PIXELARTME</small>
+          <small>Created by </small>
+          <small className='fw-bold yellowText'>PIXELARTME</small>
         </div>
         <ul className='nav col-md-4 justify-content-end list-unstyled'>
           {socmeds.map((contact) => {

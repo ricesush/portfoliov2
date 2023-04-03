@@ -32,7 +32,7 @@ const Project = (props) => {
       </a>
       <div className='col-lg-5 col-md-12 d-grid px-3 pt-3'>
         <section className='my-auto '>
-          <header className='d-flex align-items-center justify-content-between '>
+          <header className='d-md-flex align-items-center justify-content-between '>
             <h3 className='fs-4 fw-bold title px-3 py-2 rounded rounded-top-0 rounded-start-0 bg-accent-projects text-light'>
               <small>{props.projectTitle} </small>
             </h3>
@@ -40,35 +40,39 @@ const Project = (props) => {
           </header>
           <h6>{props.shortDescription}</h6>
           <hr />
-          <div className='d-flex align-items-center'>
-            <Link
-              to={props.href}
-              target='blank'
-              id={props.id}
-              className='text-dark fs-4'
-              onMouseEnter={() => onMouseEnter('Visit Website')}
-              onMouseLeave={onMouseLeave}
+          <div className='d-md-flex align-items-center text-center'>
+            <div
+              className='btn-group btn-group-sm'
+              role='group'
+              aria-label='Small button group'
             >
-              <small>
-                <FontAwesomeIcon icon={faWindowMaximize} />
-              </small>
-            </Link>
+              <Link
+                to={props.href}
+                target='blank'
+                id={props.id}
+                className='btn btn-outline-success'
+                onMouseEnter={() => onMouseEnter('Visit Website')}
+                onMouseLeave={onMouseLeave}
+              >
+                Website
+              </Link>
+              <Link
+                to={props.repository}
+                target='blank'
+                id={props.id}
+                className='btn btn-outline-success'
+                onMouseEnter={() => onMouseEnter('Check Repository')}
+                onMouseLeave={onMouseLeave}
+              >
+                Repository
+              </Link>
+            </div>
             <br />
-            <Link
-              to={props.repository}
-              target='blank'
-              id={props.id}
-              className='text-dark fs-4 ms-2'
-              onMouseEnter={() => onMouseEnter('Check Repository')}
-              onMouseLeave={onMouseLeave}
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </Link>
             <small className='ms-2 content'>| {content}</small>
           </div>
-          <section className='col-lg-9 col-md-8 text-center text-md-start pt-5'>
+          <section className='text-center text-md-start pt-5'>
             <small className='text-secondary fw-bold'>Tech Used: </small>
-            <div className='col-8 d-flex justify-content-between mt-2 pt-md-0 mx-md-0 mx-auto'>
+            <div className='d-flex justify-content-sm-center justify-content-md-start mt-2 pt-md-0 mx-md-0 mx-auto'>
               {props.children}
             </div>
           </section>
