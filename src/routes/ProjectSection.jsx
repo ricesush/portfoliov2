@@ -13,16 +13,6 @@ import vite from '../assets/Vitejs.svg.png';
 import php from '../assets/PHP.svg.png';
 import laravel from '../assets/Laravel.svg.png';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBootstrap,
-  faCss3,
-  faHtml5,
-  faJs,
-  faLaravel,
-  faPhp,
-} from '@fortawesome/free-brands-svg-icons';
-
 const ProjectSection = () => {
   const techStacks = [
     { src: html, title: 'HTML5', id: 1 },
