@@ -25,7 +25,7 @@ const TechStack = () => {
   ];
 
   return (
-    <section className='col-lg-6 border homeSections shadow pb-4'>
+    <section className='col-lg-6 border homeSections shadow pb-4 bg-glass'>
       <header className=' fw-bold position-absolute px-5 py-2 rounded-2 rounded-top-0 rounded-start-0 bg-accent shadow'>
         <small className='text-center text-light'>
           <span className=''>Tech</span> Stack
