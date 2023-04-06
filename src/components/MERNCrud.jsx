@@ -10,14 +10,39 @@ export function MernCrud() {
 
   return (
     <section className='px-4'>
-      <h5>Starting the Serverside</h5>
-      <div>Server Side Dependecies:</div>
+      <div className='fw-bold'>Server Side Dependecies:</div>
       <ul>
         {dependecies.map((dependency) => {
           return <li key={dependency.id}>{dependency.tech}</li>;
         })}
       </ul>
-      <p></p>
+      <div className='fw-bold'>Setting up the Server</div>
+      <table className='table'>
+        <thead>
+          <tr>
+            <th scope='col'>Steps</th>
+            <th scope='col'>Command</th>
+            <th scope='col'>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope='row'>1</th>
+            <td>mkdir server</td>
+            <td>creating 'server' directory/folder name</td>
+          </tr>
+          <tr>
+            <th scope='row'>2</th>
+            <td>cd server</td>
+            <td>accessing the server folder</td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td>npm init</td>
+            <td>creating package.json file</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   );
 }
