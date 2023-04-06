@@ -3,6 +3,7 @@ import TodoList from './TodoList';
 import { TableContentBtn, TableHead } from './TableContent';
 import { MiniAppSection } from './MiniAppSection';
 import { PostsList } from './PostsList';
+import { MernCrud } from './MERNCrud';
 
 export const MiniAppsTable = () => {
   const tableOfContent = [
@@ -28,6 +29,13 @@ export const MiniAppsTable = () => {
       miniApp: <PostsList />,
       isDone: false,
       id: 3,
+    },
+    {
+      title: 'MERN CRUD',
+      description: 'Guide on creating CRUD using MERN stack',
+      miniApp: <MernCrud />,
+      isDone: false,
+      id: 4,
     },
   ];
 
