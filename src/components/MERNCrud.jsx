@@ -41,6 +41,55 @@ export function MernCrud() {
             <td>npm init</td>
             <td>creating package.json file</td>
           </tr>
+          <tr>
+            <th scope='row'>4</th>
+            <td>
+              npm i{' '}
+              <small className='text-secondary fst-italic'>
+                **dependecies**
+              </small>
+            </td>
+            <td>installing dependecies</td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td></td>
+            <td>
+              under package.json, define "scripts" object and add "dev":
+              "nodemon server.js" / "start": "nodemon server.js"
+            </td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td>echo >> server.js </td>
+            <td>create server.js as your entrypointe</td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td>echo >> .env </td>
+            <td>create .env file</td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td>touch .gitignore</td>
+            <td>create .ignore file</td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td></td>
+            <td>
+              under .env file, define the PORT and the String
+              Connection/DB_DATABASE
+            </td>
+          </tr>
+          <tr>
+            <th scope='row'>3</th>
+            <td></td>
+            <td>
+              under .gitignore file, add the .env file to be ignored when
+              pushing to repository
+            </td>
+          </tr>
         </tbody>
       </table>
     </section>
