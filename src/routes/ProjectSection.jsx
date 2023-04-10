@@ -44,6 +44,7 @@ const ProjectSection = () => {
           if (tech.id < 4 || tech.id > 6) {
             return (
               <img
+                key={tech.id}
                 src={tech.src}
                 title={tech.title}
                 alt={tech.title}
@@ -67,6 +68,7 @@ const ProjectSection = () => {
           if (tech.id < 5) {
             return (
               <img
+                key={tech.id}
                 src={tech.src}
                 title={tech.title}
                 alt={tech.title}
@@ -90,6 +92,7 @@ const ProjectSection = () => {
           if (tech.id < 5) {
             return (
               <img
+                key={tech.id}
                 src={tech.src}
                 title={tech.title}
                 alt={tech.title}

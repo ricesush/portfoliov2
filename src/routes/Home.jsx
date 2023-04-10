@@ -5,7 +5,7 @@ import TechStack from '../components/TechStack';
 import WorkPreference from '../components/WorkPreference';
 import { useState } from 'react';
 import { Milestone } from '../components/Milestone';
-import { Cetrification } from '../components/Certificates';
+import { Certification } from '../components/Certificates';
 
 export const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +32,7 @@ export const Home = () => {
       </section>
       <section className='d-lg-flex container pt-5 pt-lg-0' data-aos='fade-up'>
         <TechStack />
-        <Cetrification />
+        <Certification />
       </section>
       <section className='d-lg-flex'>
         <Milestone />
