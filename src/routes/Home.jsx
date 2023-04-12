@@ -1,4 +1,4 @@
-import HeaderSectionTest from '../components/HeaderSectionTest';
+import HeaderSection from '../components/HeaderSection';
 import AboutSection from '../components/AboutSection';
 import Contact from '../components/Contact';
 import TechStack from '../components/TechStack';
@@ -18,7 +18,7 @@ export const Home = () => {
         }`}
         onLoad={() => setIsLoading(false)}
       >
-        <HeaderSectionTest />
+        <HeaderSection />
       </section>
       <section
         className='d-lg-flex pt-5 justify-content-around container'
