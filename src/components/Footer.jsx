@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 import {
   faFacebook,
   faGithub,
@@ -13,14 +14,12 @@ export const Footer = () => {
   ];
   return (
     <div className='bg-glass border-0 border-top rounded-0'>
-      <footer className='container d-flex flex-wrap justify-content-between align-items-center py-3 '>
+      <footer className='container d-sm-flex text-center flex-wrap justify-content-between align-items-center py-3 '>
         <div className='col-md-4 d-flex align-items-center'>
-          <a
-            to='/'
-            className='mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 fw-bold'
-          >
-            E-J ESAN.
-          </a>
+          <Link to='/' className='navbar-brand fw-bold'>
+            e<span className='yellowText'>-</span>jesan
+            <span className='yellowText'>.</span>
+          </Link>
         </div>
         <div className='mb-3 mb-md-0 text-muted'>
           <small>Created by </small>

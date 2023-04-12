@@ -10,15 +10,15 @@ export function MernCrud() {
 
   return (
     <section className='px-4'>
-      <div className='fw-bold'>Server Side Dependecies:</div>
+      <div className='fw-bold fs-4'>Server Side Dependecies:</div>
       <ul>
         {dependecies.map((dependency) => {
           return <li key={dependency.id}>{dependency.tech}</li>;
         })}
       </ul>
-      <div className='fw-bold'>Setting up the Server</div>
-      <table className='table'>
-        <thead>
+      <div className='fw-bold fs-4'>Setting up the Server:</div>
+      <table className='table table-sm table-striped table-bordered'>
+        <thead className='fw-bold'>
           <tr>
             <th scope='col'>Steps</th>
             <th scope='col'>Command</th>
@@ -27,22 +27,30 @@ export function MernCrud() {
         </thead>
         <tbody>
           <tr>
-            <th scope='row'>1</th>
+            <th scope='row' className='text-center'>
+              1
+            </th>
             <td>mkdir server</td>
             <td>creating 'server' directory/folder name</td>
           </tr>
           <tr>
-            <th scope='row'>2</th>
+            <th scope='row' className='text-center'>
+              2
+            </th>
             <td>cd server</td>
             <td>accessing the server folder</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              3
+            </th>
             <td>npm init</td>
             <td>creating package.json file</td>
           </tr>
           <tr>
-            <th scope='row'>4</th>
+            <th scope='row' className='text-center'>
+              4
+            </th>
             <td>
               npm i{' '}
               <small className='text-secondary fst-italic'>
@@ -52,7 +60,9 @@ export function MernCrud() {
             <td>installing dependecies</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              5
+            </th>
             <td></td>
             <td>
               under package.json, define "scripts" object and add "dev":
@@ -60,22 +70,30 @@ export function MernCrud() {
             </td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              6
+            </th>
             <td>echo >> server.js </td>
             <td>create server.js as your entrypointe</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              7
+            </th>
             <td>echo >> .env </td>
             <td>create .env file</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              8
+            </th>
             <td>touch .gitignore</td>
             <td>create .ignore file</td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              9
+            </th>
             <td></td>
             <td>
               under .env file, define the PORT and the String
@@ -83,7 +101,9 @@ export function MernCrud() {
             </td>
           </tr>
           <tr>
-            <th scope='row'>3</th>
+            <th scope='row' className='text-center'>
+              10
+            </th>
             <td></td>
             <td>
               under .gitignore file, add the .env file to be ignored when

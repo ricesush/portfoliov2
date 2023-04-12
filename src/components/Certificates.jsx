@@ -1,7 +1,7 @@
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export const Cetrification = () => {
+export const Certification = () => {
   return (
     <section className='col-lg-6 py-4 mt-3 '>
       <header className='fs-5 fw-bold '>
