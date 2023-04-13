@@ -118,14 +118,15 @@ body {
 }
 
 .headerSection {
-  background: linear-gradient(
-    to bottom,
-    #21252900 0%,
+  /* background: linear-gradient(
+    to bottom right,
+    #212529da 0%,
+    #212529da 31%,
     #21252900 31%,
-    #21252900 55%,
-    #212529 55%,
-    #212529 99%
-  ) !important;
+    #21252900 70%,
+    #212529da 70%,
+    #212529da 100%
+  ) !important; */
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
