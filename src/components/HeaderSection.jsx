@@ -1,4 +1,4 @@
-import coverImg from '../assets/cover_edit.webp';
+import coverImg from '../assets/Coverv5.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 import DF from '../assets/DF.webp';
@@ -20,13 +20,10 @@ const HeaderSection = () => {
   ];
   return (
     <div className='d-lg-flex my-5 g-0 container bg-transparent rounded-1 '>
-      <div
-        className='card d-flex-md bg-transparent border-0'
-        style={{ maxWidth: '45rem' }}
-      >
-        <img src={coverImg} className='card-img-top ' alt='...' />
-        <div className='card-img-overlay text-light col-4'>
-          <h5 className='card-title bg-accent rounded-0 rounded-end rounded-bottom p-3'>
+      <div className='card bg-transparent border-0 col-lg-5 px-1 mx-3'>
+        <img src={coverImg} className='card-img-top' alt='...' />
+        <div className='card-img-overlay text-accent  col-6 h-25 '>
+          <h5 className='card-title bg-glass rounded-0 rounded-start-5 rounded-top-5 p-3 shadow'>
             Hello, <br /> my name is
             <span className='fs-3 yellowText ps-2'>Erick</span>{' '}
           </h5>
