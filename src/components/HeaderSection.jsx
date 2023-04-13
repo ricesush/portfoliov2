@@ -20,9 +20,9 @@ const HeaderSection = () => {
   ];
   return (
     <div className='d-lg-flex my-5 g-0 container bg-transparent rounded-1 '>
-      <div className='card bg-transparent border-0 col-lg-5 px-1 mx-3'>
+      <div className='card bg-transparent border-0 col-lg-4 px-lg-0 mx-lg-0 px-1 mx-3'>
         <img src={coverImg} className='card-img-top' alt='...' />
-        <div className='card-img-overlay text-accent  col-6 h-25 '>
+        <div className='card-img-overlay text-accent col-6 h-25 '>
           <h5 className='card-title bg-glass rounded-0 rounded-start-5 rounded-top-5 p-3 shadow'>
             Hello, <br /> my name is
             <span className='fs-3 yellowText ps-2'>Erick</span>{' '}
@@ -30,7 +30,7 @@ const HeaderSection = () => {
         </div>
       </div>
 
-      <header className='mt-auto bg-accent'>
+      <header className='mt-auto bg-accent col'>
         <header className='col-lg-12'>
           <h2 className='text-center text-light fs-2 py-lg-2 my-3'>
             <span className='yellowText'>Recent</span> Projects
@@ -42,7 +42,6 @@ const HeaderSection = () => {
             id='carouselExampleInterval'
             className='carousel slide'
             data-bs-ride='carousel'
-            style={{ maxWidth: '45rem' }}
           >
             <div className='carousel-inner'>
               <div className='carousel-item active' data-bs-interval='5000'>
