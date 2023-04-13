@@ -21,12 +21,12 @@ const HeaderSection = () => {
   return (
     <div className='d-lg-flex my-5 g-0 container bg-transparent rounded-1 '>
       <div
-        class='card d-flex-md bg-transparent border-0'
+        className='card d-flex-md bg-transparent border-0'
         style={{ maxWidth: '45rem' }}
       >
-        <img src={coverImg} class='card-img-top ' alt='...' />
-        <div class='card-img-overlay text-light col-4'>
-          <h5 class='card-title bg-accent rounded-0 rounded-end rounded-bottom p-3'>
+        <img src={coverImg} className='card-img-top ' alt='...' />
+        <div className='card-img-overlay text-light col-4'>
+          <h5 className='card-title bg-accent rounded-0 rounded-end rounded-bottom p-3'>
             Hello, <br /> my name is
             <span className='fs-3 yellowText ps-2'>Erick</span>{' '}
           </h5>
@@ -43,50 +43,50 @@ const HeaderSection = () => {
         <div className='text-light m-3'>
           <div
             id='carouselExampleInterval'
-            class='carousel slide'
+            className='carousel slide'
             data-bs-ride='carousel'
             style={{ maxWidth: '45rem' }}
           >
-            <div class='carousel-inner'>
-              <div class='carousel-item active' data-bs-interval='10000'>
+            <div className='carousel-inner'>
+              <div className='carousel-item active' data-bs-interval='10000'>
                 <Link to='/projects'>
-                  <img src={DF} class='d-block w-100' alt='...' />
+                  <img src={DF} className='d-block w-100' alt='...' />
                 </Link>
               </div>
-              <div class='carousel-item' data-bs-interval='2000'>
+              <div className='carousel-item' data-bs-interval='2000'>
                 <Link to='/projects'>
-                  <img src={tgh} class='d-block w-100' alt='...' />
+                  <img src={tgh} className='d-block w-100' alt='...' />
                 </Link>
               </div>
-              <div class='carousel-item'>
+              <div className='carousel-item'>
                 <Link to='/projects'>
-                  <img src={GG} class='d-block w-100' alt='...' />
+                  <img src={GG} className='d-block w-100' alt='...' />
                 </Link>
               </div>
             </div>
             <button
-              class='carousel-control-prev'
+              className='carousel-control-prev'
               type='button'
               data-bs-target='#carouselExampleInterval'
               data-bs-slide='prev'
             >
               <span
-                class='carousel-control-prev-icon'
+                className='carousel-control-prev-icon'
                 aria-hidden='true'
               ></span>
-              <span class='visually-hidden'>Previous</span>
+              <span className='visually-hidden'>Previous</span>
             </button>
             <button
-              class='carousel-control-next'
+              className='carousel-control-next'
               type='button'
               data-bs-target='#carouselExampleInterval'
               data-bs-slide='next'
             >
               <span
-                class='carousel-control-next-icon'
+                className='carousel-control-next-icon'
                 aria-hidden='true'
               ></span>
-              <span class='visually-hidden'>Next</span>
+              <span className='visually-hidden'>Next</span>
             </button>
           </div>
           <section className='pt-3'>
