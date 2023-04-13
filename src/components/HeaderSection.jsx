@@ -48,17 +48,17 @@ const HeaderSection = () => {
             style={{ maxWidth: '45rem' }}
           >
             <div className='carousel-inner'>
-              <div className='carousel-item active' data-bs-interval='10000'>
+              <div className='carousel-item active' data-bs-interval='5000'>
                 <Link to='/projects'>
                   <img src={DF} className='d-block w-100' alt='...' />
                 </Link>
               </div>
-              <div className='carousel-item' data-bs-interval='2000'>
+              <div className='carousel-item' data-bs-interval='3000'>
                 <Link to='/projects'>
                   <img src={tgh} className='d-block w-100' alt='...' />
                 </Link>
               </div>
-              <div className='carousel-item'>
+              <div className='carousel-item' data-bs-interval='3000'>
                 <Link to='/projects'>
                   <img src={GG} className='d-block w-100' alt='...' />
                 </Link>
