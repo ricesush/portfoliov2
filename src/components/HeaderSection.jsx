@@ -85,7 +85,7 @@ const HeaderSection = () => {
               <span className='visually-hidden'>Next</span>
             </button>
           </div>
-          <section className='pt-3 d-flex'>
+          <section className='pt-3 d-sm-flex '>
             <div>
               <small className='fw-bold yellowText '>
                 Erick-John Santosidad
@@ -96,9 +96,8 @@ const HeaderSection = () => {
                 Full-Stack Developer
               </small>
             </div>
-            <div className='d-flex align-items-center ms-auto'>
-              <div className='d-md-flex align-items-center'>
-                <div className='pe-3'>Find me at: </div>
+            <div className='d-flex align-items-center ms-auto pt-sm-0 pt-4'>
+              <div className='d-md-flex d-sm-block d-flex align-items-center'>
                 {socmeds.map((socmed) => {
                   return (
                     <a href={socmed.href} target='blank' key={socmed.id}>
