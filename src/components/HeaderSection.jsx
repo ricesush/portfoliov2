@@ -85,41 +85,48 @@ const HeaderSection = () => {
               <span className='visually-hidden'>Next</span>
             </button>
           </div>
-          <section className='pt-3'>
-            <small className='fw-bold yellowText '>Erick-John Santosidad</small>
-            <br />
-            <small className='fw-bold'>
-              <FontAwesomeIcon icon={faLaptopCode} className='pe-1' /> Jr.
-              Full-Stack Developer
-            </small>
+          <section className='pt-3 d-flex'>
+            <div>
+              <small className='fw-bold yellowText '>
+                Erick-John Santosidad
+              </small>
+              <br />
+              <small className='fw-bold'>
+                <FontAwesomeIcon icon={faLaptopCode} className='pe-1' /> Jr.
+                Full-Stack Developer
+              </small>
+            </div>
+            <div className='d-flex align-items-center ms-auto'>
+              <div className='d-md-flex align-items-center'>
+                <div className='pe-3'>Find me at: </div>
+                {socmeds.map((socmed) => {
+                  return (
+                    <a href={socmed.href} target='blank' key={socmed.id}>
+                      <FontAwesomeIcon
+                        icon={socmed.icon}
+                        className='socmed text-light pe-2 fs-3'
+                      />
+                    </a>
+                  );
+                })}
+              </div>
+              <div className=''>
+                <a
+                  type='button'
+                  className='btn custom-btn'
+                  target='_blank'
+                  href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
+                >
+                  <small>
+                    <span className='btn-text'>Download CV </span>
+                    <FontAwesomeIcon icon={faDownload} />
+                  </small>
+                </a>
+              </div>
+            </div>
           </section>
           <hr className='text-light' />
-          <div className='d-sm-flex text-center justify-content-between align-items-center mt-4 pb-lg-0 pb-3'>
-            <a
-              type='button'
-              className='btn custom-btn'
-              target='_blank'
-              href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
-            >
-              <small>
-                <span className='btn-text'>Download CV </span>
-                <FontAwesomeIcon icon={faDownload} />
-              </small>
-            </a>
-            <div className='d-md-flex align-items-center'>
-              <div className='pe-3'>Find me at: </div>
-              {socmeds.map((socmed) => {
-                return (
-                  <a href={socmed.href} target='blank' key={socmed.id}>
-                    <FontAwesomeIcon
-                      icon={socmed.icon}
-                      className='socmed text-light pe-2 fs-3'
-                    />
-                  </a>
-                );
-              })}
-            </div>
-          </div>
+          <div className='d-sm-flex text-center justify-content-between align-items-center mt-4 pb-lg-0 pb-3'></div>
         </div>
       </header>
     </div>
