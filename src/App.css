@@ -48,7 +48,6 @@ body {
 }
 
 .custom-btn:hover > small > .btn-text {
-  padding-right: 0.3rem;
   transition: 0.3s all !important;
 }
 
