@@ -17,7 +17,7 @@ const WorkPreference = () => {
       <div className='fs-6 pt-3 p-5 mt-5'>
         {workPreferences.map((preference) => {
           return (
-            <div key={preference.id}>
+            <div key={preference.id} className='mt-3'>
               <FontAwesomeIcon icon={faCheck} className='yellowText pe-2' />{' '}
               {preference.stack}
               <br />

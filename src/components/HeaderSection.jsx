@@ -19,8 +19,8 @@ const HeaderSection = () => {
     { href: 'https://www.facebook.com/RiceSush', icon: faFacebook, id: 3 },
   ];
   return (
-    <div className='d-lg-flex my-5 g-0 container bg-transparent rounded-1 '>
-      <div className='card bg-transparent border-0 col-lg-4 px-lg-0 mx-lg-0 px-1 mx-3'>
+    <div className='d-lg-flex  g-0 container bg-transparent rounded-1 '>
+      {/* <div className='card bg-transparent border-0 col-lg-4 px-lg-0 mx-lg-0 px-1 mx-3'>
         <img src={coverImg} className='card-img-top' alt='...' />
         <div className='card-img-overlay text-accent col-6 h-25 '>
           <h5 className='card-title bg-glass rounded-0 rounded-start-5 rounded-top-5 p-3 shadow'>
@@ -28,7 +28,7 @@ const HeaderSection = () => {
             <span className='fs-3 yellowText ps-2'>Erick</span>{' '}
           </h5>
         </div>
-      </div>
+      </div> */}
 
       <header className='mt-auto bg-accent col'>
         <header className='col-lg-12'>
@@ -86,7 +86,7 @@ const HeaderSection = () => {
             </button>
           </div>
           <section className='pt-3 d-sm-flex '>
-            <div>
+            {/* <div>
               <small className='fw-bold yellowText '>
                 Erick-John Santosidad
               </small>
@@ -95,37 +95,10 @@ const HeaderSection = () => {
                 <FontAwesomeIcon icon={faLaptopCode} className='pe-1' /> Jr.
                 Full-Stack Developer
               </small>
-            </div>
-            <div className='d-flex align-items-center ms-auto pt-sm-0 pt-4'>
-              <div className='d-md-flex d-sm-block d-flex align-items-center'>
-                {socmeds.map((socmed) => {
-                  return (
-                    <a href={socmed.href} target='blank' key={socmed.id}>
-                      <FontAwesomeIcon
-                        icon={socmed.icon}
-                        className='socmed text-light pe-2 fs-3'
-                      />
-                    </a>
-                  );
-                })}
-              </div>
-              <div className=''>
-                <a
-                  type='button'
-                  className='btn custom-btn'
-                  target='_blank'
-                  href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
-                >
-                  <small>
-                    <span className='btn-text'>Download CV </span>
-                    <FontAwesomeIcon icon={faDownload} />
-                  </small>
-                </a>
-              </div>
-            </div>
+            </div> */}
+            
           </section>
-          <hr className='text-light' />
-          <div className='d-sm-flex text-center justify-content-between align-items-center mt-4 pb-lg-0 pb-3'></div>
+          
         </div>
       </header>
     </div>

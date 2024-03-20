@@ -94,11 +94,11 @@ export const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <li className='nav-item ms-md-4'>
+              {/* <li className='nav-item ms-md-4'>
                 <NavLink to='/docs' className='nav-link text-light'>
                   <small>LAB</small>
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

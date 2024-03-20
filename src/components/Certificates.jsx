@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Certification = () => {
   return (
-    <section className='col-lg-6 py-4 mt-3 '>
+    <section className='col-lg-6 py-4 mt-3 mx-auto'>
       <header className='fs-5 fw-bold '>
         <h2 className='text-center'>
-          <span className='yellowText'>Certification</span>
+          <span className='textAccent fs-1'>Certification</span>
         </h2>
       </header>
       <div className='p-3 border-start border-3 rounded m-5 mt-0 border-yellow shadow bg-light'>

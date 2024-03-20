@@ -12,29 +12,32 @@ export const Home = () => {
 
   return (
     <div>
+      
       <section
-        className={`border-bottom py-5 shadow headerSection${
+        className='d-lg-flex pt-5 justify-content-around container'
+        data-aos='fade-up'
+      >
+        <AboutSection />
+        <div className='d-md-flex col-lg-6'>
+          <Contact />
+          <WorkPreference />
+        </div>
+      </section>
+
+      <section
+        className={`border-bottom py-4 my-5 shadow headerSection${
           isLoading ? 'h85' : ''
         }`}
         onLoad={() => setIsLoading(false)}
       >
         <HeaderSection />
       </section>
-      <section
-        className='d-lg-flex pt-5 justify-content-around container'
-        data-aos='fade-up'
-      >
-        <AboutSection />
-        <div className='d-md-flex col-lg-6 shadow'>
-          <Contact />
-          <WorkPreference />
-        </div>
-      </section>
-      <section className='d-lg-flex container pt-5 pt-lg-0' data-aos='fade-up'>
+
+      <section className='container ' data-aos='fade-up'>
         <TechStack />
-        <Certification />
       </section>
-      <section className='d-lg-flex'>
+      <section className=''>
+        <Certification />
         <Milestone />
       </section>
     </div>
