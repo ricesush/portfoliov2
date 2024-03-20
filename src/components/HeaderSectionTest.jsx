@@ -53,7 +53,7 @@ const HeaderSectionTest = () => {
             type='button'
             className='btn custom-btn me-md-5 '
             target='_blank'
-            href='https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link'
+            href='https://drive.google.com/file/d/1mRETGAxo9mnojqoCtW15nujiToHjYRmw/view?usp=sharing'
           >
             <small>
               <span className='btn-text'>Download CV </span>
