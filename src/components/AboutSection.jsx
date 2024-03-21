@@ -58,7 +58,7 @@ const AboutSection = () => {
             type="button"
             className="btn btn-sm custom-btn"
             target="_blank"
-            href="https://drive.google.com/file/d/17XOk7XZZzX3RKqRqboJVWuuDHR_jnZ-X/view?usp=share_link"
+            href="https://drive.google.com/file/d/1mRETGAxo9mnojqoCtW15nujiToHjYRmw/view?usp=sharing"
           >
             <small>
               <span className="btn-text ">Download CV </span>
