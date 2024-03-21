@@ -4,6 +4,7 @@ import { ResourcesTable } from './ResourcesTable';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
+// import { PersonalProjects } from './PersonalProjects';
 
 export const DocsSideBar = () => {
   return (
