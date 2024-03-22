@@ -7,11 +7,17 @@ import { useState } from 'react';
 import { Milestone } from '../components/Milestone';
 import { Certification } from '../components/Certificates';
 
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
+
 export const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
     <div>
+      <Analytics/>
+      <SpeedInsights/>
       
       <section
         className='d-lg-flex pt-5 justify-content-around container'
